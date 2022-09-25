@@ -89,10 +89,10 @@ class getData:
     self.outdir='data/'
     self.google_news = GNews(language='en', 
         country='US', 
-        period='7d', 
+        period='30d', 
         start_date=None, 
         end_date=None, 
-        max_results=30, exclude_websites=['yahoo.com', 'cnn.com'])
+        max_results=50, exclude_websites=['yahoo.com', 'cnn.com'])
 
     
   def download_data(self,mode='en_US',outdir='data/'):
@@ -136,15 +136,15 @@ class getData:
 
   def download_mling(self,mode='LANG_COUN',outdir='data/'):
 
-    COUN_LANG={'BD': 'bn'}
+    # COUN_LANG={'BD': 'bn'}
     self.outdir = outdir
     outpath=Path("{}/{}".format(self.outdir,mode)) 
     print(outpath)
     outpath.mkdir(parents=True, exist_ok=True)   
     count=0
     for orig, lang in COUN_LANG.items():
-      outpath=Path("{}/{}/".format(self.outdir,mode,orig)) 
-      print(outpath)
+      outpath=Path("{}/{}/{}".format(self.outdir,mode,orig)) 
+      print(outpath,"---")
       outpath.mkdir(parents=True, exist_ok=True) 
 
       self.google_news.language=lang
@@ -157,7 +157,7 @@ class getData:
         print(coun,code)
         coun=str.strip(coun)
         coun=coun.replace(' ','_')
-        json_resp = self.google_news.get_news_by_location(coun)
+        json_resp = self.google_news.get_news(coun)
         all_news={}
         for art in json_resp:
             article = self.google_news.get_full_article(
@@ -166,9 +166,10 @@ class getData:
                 all_news[article.title]=article.text
             else:
                 print(coun, art)
-        outfile=os.path.join(outpath,'{}_{}_{}.json'.format(orig,lang,code))
-        with open(outfile,'w', encoding='utf-8') as f:
-            json.dump(all_news, f, ensure_ascii=False, indent=4)
+        if len(all_news)!=0:
+          outfile=os.path.join(outpath,'{}_{}_{}.json'.format(orig,lang,code))
+          with open(outfile,'w', encoding='utf-8') as f:
+              json.dump(all_news, f, ensure_ascii=False, indent=4)
 
   def download_single(self,mode,language='en',coun='US',outdir='data/'):
     self.outdir = outdir
