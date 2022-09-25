@@ -164,9 +164,9 @@ if __name__ == '__main__':
     count=0
     for f in os.listdir(ROOT_DIR):
         if 'DS_Store' not in str(f):
-            count+=1
-            if count>4:
-                break
+            # count+=1
+            # if count>4:
+            #     break
             all_country.append(str(f))
     cpairs=[pair for pair in itertools.combinations(all_country,2)]
     for pair in itertools.combinations(all_country,2):
@@ -174,6 +174,7 @@ if __name__ == '__main__':
         p1=coco.convert(pair[0].replace('_',' '), to='ISO3')
         p2=coco.convert(pair[1].replace('_',' '), to='ISO3')
         all_similarity.append([p1,p2,jaccard,cos_s])
+        print(pair)
     df = pd.DataFrame(all_similarity, columns=['c1','c2','jac','cos'])
     df=df.sort_values(by="jac", ascending=False).groupby('c1').head(1)
     if not os.path.exists(DATA_DIR):
