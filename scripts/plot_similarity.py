@@ -116,7 +116,7 @@ class PLOT:
         if not os.path.exists(IMAGE_DIR):
             os.mkdir(IMAGE_DIR)
         print(fname)
-        self.fig.write_image(fname)
+        self.fig.write_image(os.path.join(IMAGE_DIR,fname))
 
 def get_similarity(cpair):
     df1 = pd.read_csv(os.path.join(ROOT_DIR,cpair[0],"expertise","expertise.csv"))
@@ -164,9 +164,9 @@ if __name__ == '__main__':
     count=0
     for f in os.listdir(ROOT_DIR):
         if 'DS_Store' not in str(f):
-            # count+=1
-            # if count>4:
-            #     break
+            count+=1
+            if count>4:
+                break
             all_country.append(str(f))
     cpairs=[pair for pair in itertools.combinations(all_country,2)]
     for pair in itertools.combinations(all_country,2):
@@ -178,8 +178,8 @@ if __name__ == '__main__':
     df=df.sort_values(by="jac", ascending=False).groupby('c1').head(1)
     if not os.path.exists(DATA_DIR):
             os.mkdir(DATA_DIR)
-    df.to_csv(os.path.join(DATA_DIR,"similarty_df.csv"))
-    df = pd.read_csv(os.path.join(DATA_DIR,"similarty_df.csv"),index_col=[0])
+    df.to_csv(os.path.join(DATA_DIR,model_name+"-similarty_df.csv"))
+    df = pd.read_csv(os.path.join(DATA_DIR,model_name+"-similarty_df.csv"),index_col=[0])
     # print(df)
 
     plot=PLOT()
@@ -189,7 +189,7 @@ if __name__ == '__main__':
     plot.set_node_trace()
     plot.set_edge_trace()
     plot.draw_graph()
-    plot.save_graph("gpt2_country_similarity.pdf")
+    plot.save_graph(model_name+"-country_similarity.pdf")
 
 
 # python scripts/plot_similarity.py
