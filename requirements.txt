@@ -13,3 +13,4 @@ geopy
 countryinfo
 country-converter
 wbgapi
+kaleido

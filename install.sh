@@ -22,12 +22,12 @@ fi
 
 
 if [[ "${INSTALL}" == "yes" ]] ;then
-    python -m venv vnv/geo_vnv
+    # python -m venv vnv/geo_vnv
     source vnv/geo_vnv/bin/activate
-    pip install -r requirements.txt
-    python -m pip install --upgrade pip
-    git clone https://github.com/ranahaani/GNews.git
-    git clone https://github.com/ffaisal93/newspaper.git
+    # pip install -r requirements.txt
+    # python -m pip install --upgrade pip
+    # git clone https://github.com/ranahaani/GNews.git
+    # git clone https://github.com/ffaisal93/newspaper.git
     cd newspaper
     pip install -r requirements.txt
     cd ..

@@ -318,7 +318,6 @@ if __name__ == '__main__':
   if download_data=='ALL' and mode!='TOPIC':
     dataget.download_data(mode)
   if download_data=='MULTILING' and 'LANG_COUN' in str(mode):
-    print(mode)
     dataget.download_mling(mode)
   if download_data=='SINGLE':
     dataget.download_single(mode,args.lang, args.coun)
