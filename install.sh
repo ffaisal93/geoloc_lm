@@ -24,12 +24,21 @@ fi
 if [[ "${INSTALL}" == "yes" ]] ;then
     # python -m venv vnv/geo_vnv
     source vnv/geo_vnv/bin/activate
+<<<<<<< HEAD
+    pip install -r requirements.txt
+    python -m spacy download en_core_web_sm
+    python -m pip install --upgrade pip
+    git clone https://github.com/ranahaani/GNews.git
+    git clone https://github.com/ffaisal93/newspaper.git
+=======
     # pip install -r requirements.txt
     # python -m pip install --upgrade pip
     # git clone https://github.com/ranahaani/GNews.git
     # git clone https://github.com/ffaisal93/newspaper.git
+>>>>>>> 8c4e960765179b84790f42b69c608bd7904ae412
     cd newspaper
     pip install -r requirements.txt
+    python3 setup.py install
     cd ..
     mkdir data
     deactivate
@@ -71,6 +80,6 @@ fi
 
 if [[ "${DOWNLOAD}" == "MULTILING" ]] ;then
     source vnv/geo_vnv/bin/activate
-    python scripts/getData.py -download_data
+    python scripts/getData.py -download_data 'MULTILING' -mode 'LANG_COUN1'
     deactivate
 fi
