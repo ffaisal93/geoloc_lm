@@ -77,10 +77,28 @@ if [[ "${DOWNLOAD}" == "MULTILING" ]] ;then
     deactivate
 fi
 
-if [[ "${DOWNLOAD}" == "PLOT" ]] ;then
+if [[ "${DOWNLOAD}" == "PLOT_GPT2" ]] ;then
     source vnv/geo_vnv/bin/activate
-    pip install networkx
-    pip install plotly
-    python scripts/plot_similarity.py
+    python scripts/plot_similarity.py --expert_dir ../ml-selfcond/all_response_h/dataset-en_COUN-TOPIC-100\
+    --data_dir data\
+    --model gpt2
+
+    deactivate
+fi
+
+if [[ "${DOWNLOAD}" == "PLOT_BLOOM" ]] ;then
+    source vnv/geo_vnv/bin/activate
+    python scripts/plot_similarity.py --expert_dir ../ml-selfcond/all_response_h/dataset-en_COUN-TOPIC-100\
+    --data_dir data\
+    --model bloom
+    deactivate
+fi
+
+if [[ "${DOWNLOAD}" == "PLOT_MGPT" ]] ;then
+    source vnv/geo_vnv/bin/activate
+
+    python scripts/plot_similarity.py --expert_dir ../ml-selfcond/all_response_h/dataset-en_COUN-TOPIC-100\
+    --data_dir data\
+    --model mgpt
     deactivate
 fi

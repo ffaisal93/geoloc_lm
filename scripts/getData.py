@@ -8,7 +8,13 @@ import pandas as pd
 import math
 from nltk import tokenize
 import spacy
+import shutil
+import string
 nlp = spacy.load('en_core_web_sm')
+
+
+
+
 
 PACKAGE_gnews=str(Path(__file__).parent.parent)+'/GNews'
 ROOT_DIR =str(Path(__file__).parent.parent)
@@ -290,6 +296,123 @@ class getData:
       senses=['sense']*len(coun_list)
       concept_list = pd.DataFrame({'group':senses, 'concept':coun_list})
       concept_list.to_csv(os.path.join(outpath,'concept_list.csv'),index=False)
+
+  def mask_genlpator(self,size=4, chars=string.ascii_uppercase + string.digits):
+    return '['+''.join(random.choice(chars) for _ in range(size))+']'
+
+
+  def mask_dataset(self,tag='masked'):
+    DATADIR={
+        "root":"/Users/faisal/a/scratch/ml-selfcond/data/dataset-en_COUN-TOPIC-100",
+        "group":"sense",
+        "concept":"concept_list.csv"
+    }
+
+    NEW_DATADIR=Path("{}-{}/{}".format(DATADIR['root'],tag,DATADIR['group']))
+    NEW_DATADIR.mkdir(parents=True, exist_ok=True)
+
+    types=['PERSON','ORG','GPE','FAC']
+    count=0
+    for f in os.listdir(os.path.join(DATADIR['root'],DATADIR['group'])):
+        if 'DS_Store' not in str(f):
+            count+=1
+#             if count>1:
+#                 break
+    #         print(f)
+            pos_sent=[]
+            neg_sent=[]
+            with open(os.path.join(DATADIR['root'],DATADIR['group'],f)) as json_file:
+                concept = json.load(json_file)
+            for line in concept['sentences']['positive']:
+                text1=nlp(line)
+                text=line
+                ls = line.split(' ')
+                masks=[ls[random.randint(0, len(ls)-1)]]
+                for word in text1.ents:
+                    if word.label_ in types and concept['concept'][:4].lower() not in word.text.lower():
+                        i=random.randint(0, len(masks))
+                        text=text.replace(word.text,masks[i-1])
+                    elif concept['concept'][:4].lower() not in word.text.lower():
+                        masks.append(word.text.lower())
+                pos_sent.append(text)
+            for line in concept['sentences']['negative']:
+                text1=nlp(line)
+                text=line
+                ls = line.split(' ')
+                masks=[ls[random.randint(0, len(ls)-1)]]
+                if concept['concept'][:4].lower() in masks[0]:
+                    masks=['mask']
+                for word in text1.ents:
+                    if word.label_ in types:
+                        i=random.randint(0, len(masks))
+                        text=text.replace(word.text,masks[i-1]) 
+                    elif concept['concept'][:4].lower() not in word.text.lower():
+                        masks.append(word.text.lower())
+                neg_sent.append(text)
+
+            concept_new = {'concept': concept['concept'],
+                             'group': 'sense',
+                             'source': 'gnews',
+                             'sentences': {'positive':pos_sent,
+                                           'negative':neg_sent}}
+
+            with open('{}/{}'.format(str(NEW_DATADIR),str(f)),'w', encoding='utf-8') as f_out:
+                json.dump(concept_new, f_out, ensure_ascii=False, indent=4)
+    shutil.copy('{}/concept_list.csv'.format(DATADIR['root']),NEW_DATADIR.parent)
+
+  def random_dataset(self,tag='random'):
+    DATADIR={
+        "root":"/Users/faisal/a/scratch/ml-selfcond/data/dataset-en_COUN-TOPIC-100",
+        "group":"sense",
+        "concept":"concept_list.csv"
+    }
+
+    NEW_DATADIR=Path("{}-{}/{}".format(DATADIR['root'],tag,DATADIR['group']))
+    NEW_DATADIR.mkdir(parents=True, exist_ok=True)
+
+
+    count=0
+    for f in os.listdir(os.path.join(DATADIR['root'],DATADIR['group'])):
+        if 'DS_Store' not in str(f):
+            count+=1
+#             if count>1:
+#                 break
+    #         print(f)
+            pos_sent=[]
+            neg_sent=[]
+            with open(os.path.join(DATADIR['root'],DATADIR['group'],f)) as json_file:
+                concept = json.load(json_file)
+            for line in concept['sentences']['positive']:
+                text=line.split(' ')
+                textn=[]
+                for t in text:
+                    k = random.randint(0, 1)
+                    if k==0:
+                        tx=concept['concept']
+                    else:
+                        tx=mask_genlpator(random.randint(2, 6))
+                    textn.append(tx)
+                textn=' '.join(textn)
+                pos_sent.append(textn)
+            for line in concept['sentences']['positive']:
+                text=line.split(' ')
+                textn=[]
+                for t in text:
+                    k = random.randint(0, 1)
+                    tx=mask_genlpator(random.randint(2, 6))
+                    textn.append(tx)
+                textn=' '.join(textn)
+                neg_sent.append(textn)
+
+            concept_new = {'concept': concept['concept'],
+                             'group': 'sense',
+                             'source': 'gnews',
+                             'sentences': {'positive':pos_sent,
+                                           'negative':neg_sent}}
+
+            with open('{}/{}'.format(str(NEW_DATADIR),str(f)),'w', encoding='utf-8') as f_out:
+                json.dump(concept_new, f_out, ensure_ascii=False, indent=4)
+    shutil.copy('{}/concept_list.csv'.format(DATADIR['root']),NEW_DATADIR.parent)
 
 
 def get_arguments():
