@@ -13,3 +13,5 @@ countryinfo
 country-converter
 wbgapi
 kaleido
+networkx
+plotly
