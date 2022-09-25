@@ -297,8 +297,8 @@ class getData:
       concept_list = pd.DataFrame({'group':senses, 'concept':coun_list})
       concept_list.to_csv(os.path.join(outpath,'concept_list.csv'),index=False)
 
-  def mask_genlpator(self,size=4, chars=string.ascii_uppercase + string.digits):
-    return '['+''.join(random.choice(chars) for _ in range(size))+']'
+  def mask_generator(size=4, chars=string.ascii_uppercase ):
+      return ''.join(random.choice(chars) for _ in range(size))
 
 
   def mask_dataset(self,tag='masked'):
@@ -390,17 +390,21 @@ class getData:
                     if k==0:
                         tx=concept['concept']
                     else:
-                        tx=mask_genlpator(random.randint(2, 6))
+                        tx=t
                     textn.append(tx)
                 textn=' '.join(textn)
                 pos_sent.append(textn)
-            for line in concept['sentences']['positive']:
+            for line in concept['sentences']['negative']:
                 text=line.split(' ')
                 textn=[]
                 for t in text:
                     k = random.randint(0, 1)
-                    tx=mask_genlpator(random.randint(2, 6))
-                    textn.append(tx)
+#                     tx=mask_generator(random.randint(0, 1))
+                    if k==0:
+                        textn.append(t)
+                    else:
+                        ind=random.randint(0, len(text)-1)
+                        textn.append(text[ind])
                 textn=' '.join(textn)
                 neg_sent.append(textn)
 
