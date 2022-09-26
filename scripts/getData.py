@@ -28,9 +28,9 @@ from gnews.gnews import GNews
 DISCARD=['.DS_Store']
 COUN_LANG={'US': 'en',
  'ID': 'id',
- 'CZ': 'cs',
+ 'IN':'hi',
  'DE': 'de',
- 'MX': 'es-419',
+ 'MX': 'es',
  'FR': 'fr',
  'IT': 'it',
  'LV': 'lv',
@@ -39,8 +39,8 @@ COUN_LANG={'US': 'en',
  'NL': 'nl',
  'NO': 'no',
  'PL': 'pl',
- 'BR': 'pt-419',
- 'PT': 'pt-150',
+ 'BR': 'pt',
+ 'PT': 'pt',
  'RO': 'ro',
  'SK': 'sk',
  'SI': 'sl',
@@ -57,11 +57,12 @@ COUN_LANG={'US': 'en',
  'IN': 'hi',
  'BD': 'bn',
  'TH': 'th',
- 'CN': 'zh-Hans',
- 'HK': 'zh-Hant',
+ 'CN': 'zh',
+ 'HK': 'zh',
  'JP': 'ja',
  'KR': 'ko'}
 
+LEFT_LANG = {'CN': 'zh', 'HK':'zh','BR': 'pt', 'PT': 'pt', 'IN':'hi'}
 
 # COUN_LANG={'US': 'en',
 #  'GR': 'el',
@@ -142,7 +143,7 @@ class getData:
 
   def download_mling(self,mode='LANG_COUN',outdir='data/'):
 
-    # COUN_LANG={'BD': 'bn'}
+    COUN_LANG=LEFT_LANG
     self.outdir = outdir
     outpath=Path("{}/{}".format(self.outdir,mode)) 
     print(outpath)
