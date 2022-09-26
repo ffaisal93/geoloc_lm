@@ -4,6 +4,7 @@ IF_HOPPER=${IF_HOPPER:-"no"}
 INSTALL=${INSTALL:-"no"}
 DELETE=${DELETE:-"no"}
 DOWNLOAD=${DOWNLOAD:-"no"}
+IT=${IT:-1}
 
 while [ $# -gt 0 ]; do
 
@@ -73,7 +74,7 @@ fi
 
 if [[ "${DOWNLOAD}" == "MULTILING" ]] ;then
     source vnv/geo_vnv/bin/activate
-    python scripts/getData.py -download_data 'MULTILING' -mode 'LANG_COUN1'
+    python scripts/getData.py -download_data 'MULTILING' -mode 'LANG_COUN1' -it ${IT}
     deactivate
 fi
 

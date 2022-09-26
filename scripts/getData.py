@@ -9,6 +9,7 @@ import math
 from nltk import tokenize
 import spacy
 import shutil
+import country_converter as coco
 import string
 nlp = spacy.load('en_core_web_sm')
 
@@ -26,6 +27,8 @@ from gnews.gnews import GNews
 
 
 DISCARD=['.DS_Store']
+COUNTRY_DATABASE = "{}/IP2LOCATION-COUNTRY-MULTILINGUAL/IP2LOCATION-COUNTRY-MULTILINGUAL.CSV".format(ROOT_DIR)
+
 COUN_LANG={'US': 'en',
  'ID': 'id',
  'IN':'hi',
@@ -60,7 +63,13 @@ COUN_LANG={'US': 'en',
  'CN': 'zh',
  'HK': 'zh',
  'JP': 'ja',
- 'KR': 'ko'}
+ 'KR': 'ko',
+ 'TZ':'en',
+ 'AU':'en',
+ 'GB':'en',
+ 'CU':'es',
+ 'ET':'en',
+ 'PE':'es'}
 
 LEFT_LANG = {'CN': 'zh', 'HK':'zh','BR': 'pt', 'PT': 'pt', 'IN':'hi'}
 
@@ -100,6 +109,18 @@ class getData:
         start_date=None, 
         end_date=None, 
         max_results=50, exclude_websites=['yahoo.com', 'cnn.com'])
+    self.cdb = pd.read_csv(COUNTRY_DATABASE)
+
+
+  def translate_cname(self,lang):
+    langi=lang.upper()
+    if langi=='ZH':
+      langi='ZH-CN'
+    c_dict2 = dict(zip(self.cdb.loc[self.cdb['LANG']==langi]['COUNTRY_ALPHA2_CODE'],
+    self.cdb.loc[self.cdb['LANG']==langi]['COUNTRY_NAME']))
+    c_dict3 = dict(zip(self.cdb.loc[self.cdb['LANG']==langi]['COUNTRY_ALPHA3_CODE'],
+    self.cdb.loc[self.cdb['LANG']==langi]['COUNTRY_NAME']))
+    return c_dict2, c_dict3
 
     
   def download_data(self,mode='en_US',outdir='data/'):
@@ -141,9 +162,10 @@ class getData:
       with open(outfile,'w', encoding='utf-8') as f:
           json.dump(all_news, f, ensure_ascii=False, indent=4)
 
-  def download_mling(self,mode='LANG_COUN',outdir='data/'):
+  def download_mling(self,cval_dict,mode='LANG_COUN',outdir='data/'):
 
-    COUN_LANG=LEFT_LANG
+    # LEFT_LANG = {'CN': 'zh'}
+    COUN_LANG=cval_dict
     self.outdir = outdir
     outpath=Path("{}/{}".format(self.outdir,mode)) 
     print(outpath)
@@ -157,11 +179,24 @@ class getData:
       self.google_news.language=lang
       self.google_news.country=orig
 
+      c_dict2, c_dict3 = self.translate_cname(lang)
+
       for coun, code in AVAILABLE_COUNTRIES.items():
         count+=1
         # if count>7:
         #     break
         print(coun,code)
+        ccode2 = coco.convert(coun.replace('_',' '), to='ISO2')
+        ccode3 = coco.convert(coun.replace('_',' '), to='ISO3')
+        try:
+            coun = c_dict2[ccode2]
+        except KeyError:
+            try:
+                coun = c_dict3[ccode3]
+            except KeyError:
+                coun = coun
+
+        print(coun)
         coun=str.strip(coun)
         coun=coun.replace(' ','_')
         json_resp = self.google_news.get_news(coun)
@@ -170,7 +205,10 @@ class getData:
             article = self.google_news.get_full_article(
                 art['url'])
             if article!=None:
+              try:
                 all_news[article.title]=article.text
+              except AttributeError:
+                pass
             else:
                 print(coun, art)
         if len(all_news)!=0:
@@ -436,6 +474,7 @@ def get_arguments():
                         required=False)
     parser.add_argument('-lang', '--lang', default='en',type=str, help='language.', required=False)
     parser.add_argument('-coun', '--coun', default='US',type=str, help='country.', required=False)
+    parser.add_argument('-it', '--it', default=1,type=int, help='iteration.', required=False)
     args=parser.parse_args()
     return args
 
@@ -443,11 +482,17 @@ if __name__ == '__main__':
   args= get_arguments()
   download_data=args.download_data
   mode=args.mode
+  it=args.it
   dataget= getData()
   if download_data=='ALL' and mode!='TOPIC':
     dataget.download_data(mode)
   if download_data=='MULTILING' and 'LANG_COUN' in str(mode):
-    dataget.download_mling(mode)
+    cval = list(COUN_LANG.keys())[it]
+    cval_dict = {
+      cval:COUN_LANG[cval]
+    }
+    print(it,cval_dict)
+    dataget.download_mling(cval_dict,mode)
   if download_data=='SINGLE':
     dataget.download_single(mode,args.lang, args.coun)
   if download_data=='TOPIC' and mode=='en_US':
