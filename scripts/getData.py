@@ -73,6 +73,22 @@ COUN_LANG={'US': 'en',
 
 LEFT_LANG = {'CN': 'zh', 'HK':'zh','BR': 'pt', 'PT': 'pt', 'IN':'hi'}
 
+MLING_NEEDED ={
+    'SA': 'ar',
+    'RU': 'ru',
+    'VN': 'vi',
+    'FR': 'fr',
+    'NO': 'no',
+    'GR': 'el',
+    'CN': 'zh',
+    'MX': 'es',
+    'KR': 'ko',
+    'IL': 'he',
+    'IN': 'hi',
+    'BN': 'bd',
+    'JP': 'ja'    
+}
+
 # COUN_LANG={'US': 'en',
 #  'GR': 'el',
 #  'BD': 'bn',
@@ -121,6 +137,9 @@ class getData:
     c_dict3 = dict(zip(self.cdb.loc[self.cdb['LANG']==langi]['COUNTRY_ALPHA3_CODE'],
     self.cdb.loc[self.cdb['LANG']==langi]['COUNTRY_NAME']))
     return c_dict2, c_dict3
+
+  def split_text(self,sents):
+    return re.split('؟ |\n\n |! |। |; |, |\*|\n', sents)
 
     
   def download_data(self,mode='en_US',outdir='data/'):
@@ -298,6 +317,104 @@ class getData:
       and coun.lower()[:5] not in str(line).lower()]   
     random.shuffle(l)
     return l[:neg_count]
+
+
+  def construct_mling_dataset(self,CN,pos_count=100, outdir='data'):
+      outpath=Path(outdir,'CONSTRUCT_MLING',CN,'sense')
+      print(outpath)
+      outpath.mkdir(parents=True, exist_ok=True) 
+      count=0
+      src_dir=Path(outdir,'LANG_COUN1',CN)
+      all_countries=[]
+      for f in os.listdir(src_dir):
+          if not str(f).startswith('.') and str(f).endswith('json'):
+              with open(os.path.join(src_dir,f),'r') as f1:
+                  data=json.load(f1)
+                  if len(data)!=0:
+                      all_countries.append(str(f).split('_')[-1].replace('.json',''))
+      coun_list=[]
+      for f in os.listdir(src_dir):
+          if not str(f).startswith('.') and str(f).endswith('json'):
+              coun_list.append(str(f).split('.json')[0])
+              count+=1
+  #             if count>2:
+  #                 break
+              all_text=[]
+              with open(os.path.join(src_dir,f),'r') as f1:
+                  data=json.load(f1)
+                  
+              pos_2_code=str(f).split('_')[-1].replace('.json','')
+              lang=str(f).split('_')[1]
+              c_dict2, c_dict3 = self.translate_cname(lang)
+              ccode2 = pos_2_code
+              coun = coco.convert(ccode2, to='name_short')
+              ccode3 = coco.convert(coun.replace('_',' '), to='ISO3')
+              try:
+                  coun = c_dict2[ccode2]
+              except KeyError:
+                  try:
+                      coun = c_dict3[ccode3]
+                  except KeyError:
+                      coun = coun
+
+              print(coun, ccode2, ccode3, lang)
+              all_o_text=[]
+              for title,text in data.items():
+                  texts = self.split_text(text)
+                  for t in texts:
+                      all_o_text.append(t)
+                      if coun.lower()[:5] in t:
+                          if len(t.split(' '))>10:
+                              
+                              all_text.append(t)
+              random.shuffle(all_text)
+              if len(all_text)>pos_count:
+                  pos_ex=all_text[:pos_count]
+              else:
+                  print('total', len(all_text),coun)
+                  if len(all_text)==0:
+                      all_text=all_o_text
+                  needed=math.ceil((pos_count-len(all_text))/len(all_text))+1
+                  pos_ex=(all_text.copy()*needed)[:pos_count]
+                  print(len(pos_ex))
+              
+              k =random.randint(0,len(all_countries)-1)
+              neg_cnts = all_countries.copy()
+              neg_cnts.remove(pos_2_code)
+              random.shuffle(neg_cnts)
+              all_text=[]
+              for nc in neg_cnts:
+                  nfname = list(str(f))
+                  nfname[6:8] = nc
+                  nfname = ''.join(nfname)
+                  print(str(f),pos_2_code,'---')
+                  print(pos_2_code,nfname)
+                  with open(os.path.join(src_dir,nfname),'r') as f12:
+                      data=json.load(f12)
+                      for title,text in data.items():
+                          texts = self.split_text(text)
+                          for t in texts:
+                              if len(t.split(' '))>5:
+                                  all_text.append(t)
+                      random.shuffle(all_text)
+                      if len(all_text)>pos_count*3:
+                          neg_ex=all_text[:pos_count*3].copy()
+                          break
+              print(len(pos_ex),len(neg_ex))
+              concept_new = {'concept': str(f).split('.json')[0],
+                        'group': 'sense',
+                        'source': 'gnews',
+                        'sentences': {'positive':pos_ex,'negative':neg_ex}}
+              with open(os.path.join(outpath,'{}.json'.format(str(f).split('.json')[0])),'w', 
+                        encoding='utf-8') as ff:
+                      json.dump(concept_new, ff, ensure_ascii=False, indent=4)
+      senses=['sense']*len(coun_list)
+      concept_list = pd.DataFrame({'group':senses, 'concept':coun_list})
+      concept_list.to_csv(os.path.join(outpath.parent,'concept_list.csv'),index=False)
+      # print(concept_list)
+  #             print(pos_ex,neg_ex)
+                  
+      return src_dir
 
 
   def constract_dataset(self,pos_count=100,posdir='data/en_COUN',negdir='data/TOPIC',outdir='data/dataset-en_COUN-TOPIC'):
@@ -500,6 +617,10 @@ if __name__ == '__main__':
   if download_data=='NONE' and mode=='CONSTRACT':
     print(mode)
     dataget.constract_dataset()
+  if download_data=='NONE' and mode=='CONSTRACT_MLING':
+    print(mode)
+    for cn,ll in MLING_NEEDED.items():
+      dataget.construct_mling_dataset(cn)
     
 
 
