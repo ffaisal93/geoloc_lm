@@ -77,9 +77,9 @@ if __name__ == '__main__':
                 GENDIR['root'],MDIR[model],c,c,pr.replace(" ", "_")),pr1)
     
     dataset='dataset-en_COUN-TOPIC-100'        
-    outpath_data=Path("{}/{}/data".format(OUTDIR['root'],dataset))
-    outpath_key=Path("{}/{}/key".format(OUTDIR['root'],dataset))
-    outpath_entity=Path("{}/{}/entity".format(OUTDIR['root'],dataset))
+    outpath_data=Path("{}/{}/{}/data".format(OUTDIR['root'],dataset,model))
+    outpath_key=Path("{}/{}/{}/key".format(OUTDIR['root'],dataset,model))
+    outpath_entity=Path("{}/{}/{}/entity".format(OUTDIR['root'],dataset,model))
     print(outpath_data)
     outpath_data.mkdir(parents=True, exist_ok=True)
     print(outpath_key)
