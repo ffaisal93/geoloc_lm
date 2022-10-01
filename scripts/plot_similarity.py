@@ -105,6 +105,11 @@ class PLOT:
                         xaxis=dict(showgrid=False, zeroline=False,
                                 showticklabels=False, mirror=True),
                         yaxis=dict(showgrid=False, zeroline=False, showticklabels=False, mirror=True)))
+
+        self.fig.update_layout({
+            'plot_bgcolor': 'rgba(0,0,0,0)',
+            'paper_bgcolor': 'rgba(0,0,0,0)'
+        })
         
     
     def show_graph(self):
@@ -119,15 +124,20 @@ class PLOT:
         self.fig.write_image(os.path.join(IMAGE_DIR,fname))
 
 def get_similarity(cpair):
-    df1 = pd.read_csv(os.path.join(ROOT_DIR,cpair[0],"expertise","expertise.csv"))
-    df2 = pd.read_csv(os.path.join(ROOT_DIR,cpair[1],"expertise","expertise.csv"))
-    set1=set(df1.sort_values(by="ap", ascending=False).groupby('layer').head(10)['uuid'])
-    set2=set(df2.sort_values(by="ap", ascending=False).groupby('layer').head(10)['uuid'])
-    set_union=set1.union(set2)
-    set_inter=set1.intersection(set2)
-    jaccard= len(set_inter)/len(set_union)
-    cos_s=1-cosine(df1[df1.uuid.isin(set_union)]['ap'], df2[df2.uuid.isin(set_union)]['ap'])
-    return jaccard, cos_s
+    try:
+        print(os.path.join(ROOT_DIR,cpair[0],"expertise","expertise.csv"))
+        print(os.path.join(ROOT_DIR,cpair[1],"expertise","expertise.csv"))
+        df1 = pd.read_csv(os.path.join(ROOT_DIR,cpair[0],"expertise","expertise.csv"))
+        df2 = pd.read_csv(os.path.join(ROOT_DIR,cpair[1],"expertise","expertise.csv"))
+        set1=set(df1.sort_values(by="ap", ascending=False).groupby('layer').head(10)['uuid'])
+        set2=set(df2.sort_values(by="ap", ascending=False).groupby('layer').head(10)['uuid'])
+        set_union=set1.union(set2)
+        set_inter=set1.intersection(set2)
+        jaccard= len(set_inter)/len(set_union)
+        cos_s=1-cosine(df1[df1.uuid.isin(set_union)]['ap'], df2[df2.uuid.isin(set_union)]['ap'])
+        return jaccard, cos_s
+    except FileNotFoundError:
+        return 0,0
 
 def get_arguments():
     parser = argparse.ArgumentParser()
@@ -149,6 +159,12 @@ def get_arguments():
                         type=str, 
                         help='model name.', 
                         required=False)
+    parser.add_argument('-base', 
+                        '--base', 
+                        default='dataset-en_COUN-TOPIC-100-random',
+                        type=str, 
+                        help='base dir portion.', 
+                        required=False)
     args=parser.parse_args()
     return args
 
@@ -157,30 +173,53 @@ if __name__ == '__main__':
     BASE_DIR=args.expert_dir
     DATA_DIR=args.data_dir
     model_name=args.model
+    base_name = args.base
     ROOT_DIR=os.path.join(BASE_DIR,DIRS[model_name],'sense')
 
     all_country=[]
     all_similarity=[]
     count=0
+
+    print("args:{}".format(args))
+    print("ROOT_DIR:{}".format(ROOT_DIR))
+
     for f in os.listdir(ROOT_DIR):
-        if 'DS_Store' not in str(f):
+        if 'DS_Store' not in str(f) and not str(f).startswith('.'):
             # count+=1
             # if count>4:
             #     break
+            # if len(base_name)==2:
+                #coco.convert(str(f).split('_')[-1], to='name_short')
+            #     all_country.append()
+            # else:    
             all_country.append(str(f))
+    print(all_country)
     cpairs=[pair for pair in itertools.combinations(all_country,2)]
+    count=0
     for pair in itertools.combinations(all_country,2):
+        # if count>3:
+        #     break
+        # count+=1
         jaccard, cos_s = get_similarity(pair)
-        p1=coco.convert(pair[0].replace('_',' '), to='ISO3')
-        p2=coco.convert(pair[1].replace('_',' '), to='ISO3')
+        if len(base_name)==2:
+            p1=coco.convert(pair[0].split('_')[-1], to='ISO3')
+            p2=coco.convert(pair[1].split('_')[-1], to='ISO3')
+        else:
+            p1=coco.convert(pair[0].replace('_',' '), to='ISO3')
+            p2=coco.convert(pair[1].replace('_',' '), to='ISO3')
         all_similarity.append([p1,p2,jaccard,cos_s])
-        print(pair)
-    df = pd.DataFrame(all_similarity, columns=['c1','c2','jac','cos'])
-    df=df.sort_values(by="jac", ascending=False).groupby('c1').head(1)
+        print(pair,p1,p2,jaccard,cos_s)
     if not os.path.exists(DATA_DIR):
-            os.mkdir(DATA_DIR)
-    df.to_csv(os.path.join(DATA_DIR,model_name+"-similarty_df.csv"))
-    df = pd.read_csv(os.path.join(DATA_DIR,model_name+"-similarty_df.csv"),index_col=[0])
+        os.mkdir(DATA_DIR)
+    df = pd.DataFrame(all_similarity, columns=['c1','c2','jac','cos'])
+    save_df_file=os.path.join(DATA_DIR,"{}-{}-csim-all.csv".format(base_name,model_name))
+    df.to_csv(save_df_file)
+    df=df.sort_values(by="jac", ascending=False).groupby('c1').head(1)
+    save_df_file=os.path.join(DATA_DIR,"{}-{}-csim.csv".format(base_name,model_name))
+    print(save_df_file)
+    df.to_csv(save_df_file)
+    save_df_file=os.path.join(DATA_DIR,"{}-{}-csim.csv".format(base_name,model_name))
+    df = pd.read_csv(save_df_file,index_col=[0])
     # print(df)
 
     plot=PLOT()
@@ -189,8 +228,10 @@ if __name__ == '__main__':
     plot.set_nodesizes()
     plot.set_node_trace()
     plot.set_edge_trace()
-    plot.draw_graph()
-    plot.save_graph(model_name+"-country_similarity.pdf")
+    plot.draw_graph("{}-{}".format(base_name,model_name))
+    save_image_file="{}-{}-csim.pdf".format(base_name,model_name)
+    print(save_image_file)
+    plot.save_graph(save_image_file)
 
 
 # python scripts/plot_similarity.py

@@ -23,7 +23,7 @@ GENDIR={
 
 OUTDIR={
     #/projects/antonis/fahim/ner_linking/data
-    "root":"/Users/faisal/a/projects/ner_linking/data"
+    "root":"/Users/faisal/a/projects/ner_linking/data/geoloc"
 }
 
 MDIR={

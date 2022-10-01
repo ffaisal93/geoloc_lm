@@ -85,8 +85,18 @@ MLING_NEEDED ={
     'KR': 'ko',
     'IL': 'he',
     'IN': 'hi',
-    'BN': 'bd',
+    'BD': 'bd',
     'JP': 'ja'    
+}
+
+MLING_COMPARISON={
+  'ET':'en',
+  'PE':'es',
+  'TZ':'en',
+ 'AU':'en',
+ 'GB':'en',
+ 'CU':'es',
+ 'HK': 'zh'
 }
 
 # COUN_LANG={'US': 'en',
@@ -319,8 +329,8 @@ class getData:
     return l[:neg_count]
 
 
-  def construct_mling_dataset(self,CN,pos_count=100, outdir='data'):
-      outpath=Path(outdir,'CONSTRUCT_MLING',CN,'sense')
+  def construct_mling_dataset(self,CN,ll,pos_count=100, outdir='data'):
+      outpath=Path(outdir,'CONSTRUCT_MLING',,CN+'-'+ll,'sense')
       print(outpath)
       outpath.mkdir(parents=True, exist_ok=True) 
       count=0
@@ -373,7 +383,9 @@ class getData:
               else:
                   print('total', len(all_text),coun)
                   if len(all_text)==0:
-                      all_text=all_o_text
+                    for t in all_o_text:
+                        tx = "{} : {}".format(coun,t)
+                        all_text.append(tx)
                   needed=math.ceil((pos_count-len(all_text))/len(all_text))+1
                   pos_ex=(all_text.copy()*needed)[:pos_count]
                   print(len(pos_ex))
@@ -620,7 +632,7 @@ if __name__ == '__main__':
   if download_data=='NONE' and mode=='CONSTRACT_MLING':
     print(mode)
     for cn,ll in MLING_NEEDED.items():
-      dataget.construct_mling_dataset(cn)
+      dataget.construct_mling_dataset(cn,ll)
     
 
 

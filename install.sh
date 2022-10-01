@@ -4,7 +4,9 @@ IF_HOPPER=${IF_HOPPER:-"no"}
 INSTALL=${INSTALL:-"no"}
 DELETE=${DELETE:-"no"}
 DOWNLOAD=${DOWNLOAD:-"no"}
+PLOT=${PLOT:-"no"}
 IT=${IT:-1}
+
 
 while [ $# -gt 0 ]; do
 
@@ -78,28 +80,12 @@ if [[ "${DOWNLOAD}" == "MULTILING" ]] ;then
     deactivate
 fi
 
-if [[ "${DOWNLOAD}" == "PLOT_GPT2" ]] ;then
+if [[ "${PLOT}" == "yes" ]] ;then
     source vnv/geo_vnv/bin/activate
     python scripts/plot_similarity.py --expert_dir ../ml-selfcond/all_response_h/dataset-en_COUN-TOPIC-100\
-    --data_dir data\
-    --model gpt2
+    --data_dir data \
+    --model gpt2 \
+    --base dataset-en_COUN-TOPIC-100-random
 
-    deactivate
-fi
-
-if [[ "${DOWNLOAD}" == "PLOT_BLOOM" ]] ;then
-    source vnv/geo_vnv/bin/activate
-    python scripts/plot_similarity.py --expert_dir ../ml-selfcond/all_response_h/dataset-en_COUN-TOPIC-100\
-    --data_dir data\
-    --model bloom
-    deactivate
-fi
-
-if [[ "${DOWNLOAD}" == "PLOT_MGPT" ]] ;then
-    source vnv/geo_vnv/bin/activate
-
-    python scripts/plot_similarity.py --expert_dir ../ml-selfcond/all_response_h/dataset-en_COUN-TOPIC-100\
-    --data_dir data\
-    --model mgpt
     deactivate
 fi
