@@ -27,13 +27,13 @@ fi
 if [[ "${INSTALL}" == "yes" ]] ;then
     # python -m venv vnv/geo_vnv
     source vnv/geo_vnv/bin/activate
-    pip install -r requirements.txt
-    python -m spacy download en_core_web_sm
-    python -m pip install --upgrade pip
+    python3 -m pip install -r requirements.txt
+    python3 -m spacy download en_core_web_sm
+    python3 -m pip install --upgrade pip
     git clone https://github.com/ranahaani/GNews.git
     git clone https://github.com/ffaisal93/newspaper.git
     cd newspaper
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
     python3 setup.py install
     cd ..
     mkdir data
