@@ -1,0 +1,129 @@
+Device cuda (2)
+Model to cuda
+              ap  off_mean    on_p50    on_p90  ...  unit    uuid  concept  group
+5164    0.955292  0.164077  2.298176  3.626096  ...  1068    5164  ukraine  sense
+213777  0.953545  1.843872  1.934880  1.971019  ...  1809  213777  ukraine  sense
+115392  0.939406  0.994590  1.562609  1.712649  ...   704  115392  ukraine  sense
+133126  0.936133  0.794535  1.099139  1.208749  ...     6  133126  ukraine  sense
+220588  0.931871  3.133572  3.514872  3.663582  ...   428  220588  ukraine  sense
+6502    0.924555  0.389660  2.372936  2.646398  ...  2406    6502  ukraine  sense
+4464    0.918679  0.389570  2.182778  2.606405  ...   368    4464  ukraine  sense
+155022  0.915409 -0.366778  2.866940  3.904792  ...  3470  155022  ukraine  sense
+50985   0.910209  0.057427  2.760629  3.269720  ...   809   50985  ukraine  sense
+164166  0.908621  0.609991  1.248944  1.348599  ...  3398  164166  ukraine  sense
+118253  0.906560  0.592338  0.936838  1.032416  ...  3565  118253  ukraine  sense
+6436    0.903608  0.004481  2.083397  3.273506  ...  2340    6436  ukraine  sense
+198296  0.898044 -0.111995  1.981714  2.675433  ...   664  198296  ukraine  sense
+154796  0.897455 -0.645403  2.066361  2.897325  ...  3244  154796  ukraine  sense
+1046    0.896490  0.635433  0.927875  0.963496  ...  1046    1046  ukraine  sense
+338     0.895293  1.277260  1.781338  1.939192  ...   338     338  ukraine  sense
+20909   0.892721  2.178450  3.567515  4.188973  ...  2477   20909  ukraine  sense
+7192    0.886739  0.087203  1.946426  2.550391  ...  3096    7192  ukraine  sense
+146380  0.885575  0.380446  2.981023  3.636620  ...  4044  146380  ukraine  sense
+153594  0.879720 -0.044405  1.609240  2.731102  ...  2042  153594  ukraine  sense
+89607   0.879284 -0.069539  2.940465  3.979799  ...  2567   89607  ukraine  sense
+62364   0.874813  0.989058  3.165151  3.482185  ...  2972   62364  ukraine  sense
+110751  0.871587  0.888995  1.869585  2.232912  ...   159  110751  ukraine  sense
+4751    0.870431  0.128394  1.471619  2.091218  ...   655    4751  ukraine  sense
+5839    0.869128  0.569550  2.106450  2.367453  ...  1743    5839  ukraine  sense
+90036   0.868566  0.287199  1.439293  1.982139  ...  2996   90036  ukraine  sense
+217676  0.868415  3.701247  4.013775  4.170035  ...  1612  217676  ukraine  sense
+1032    0.867529  0.598430  1.070035  1.082552  ...  1032    1032  ukraine  sense
+12026   0.867300  1.731581  2.512594  2.652113  ...  2810   12026  ukraine  sense
+1110    0.866886  0.952293  1.236550  1.261496  ...  1110    1110  ukraine  sense
+100     0.866866  0.933840  1.388843  1.416016  ...   100     100  ukraine  sense
+43529   0.865577  0.918194  3.343738  3.709939  ...  2569   43529  ukraine  sense
+7441    0.865359  2.177958  4.517638  4.645754  ...  3345    7441  ukraine  sense
+159131  0.864671  0.783302  0.909582  0.937374  ...  2459  159131  ukraine  sense
+135633  0.864370  0.096109  1.445873  2.017847  ...  2513  135633  ukraine  sense
+129598  0.863383  1.241636  2.887801  3.718044  ...   574  129598  ukraine  sense
+126220  0.862558  0.237766  2.119154  3.026248  ...  2316  126220  ukraine  sense
+210317  0.860940  1.143169  1.320928  1.433174  ...  3469  210317  ukraine  sense
+112550  0.860544  1.557614  2.111352  2.437753  ...  1958  112550  ukraine  sense
+122774  0.860391  1.460344  3.123280  4.053971  ...  2966  122774  ukraine  sense
+4845    0.860310  0.047230  2.526918  3.841098  ...   749    4845  ukraine  sense
+143078  0.856353  0.122089  1.668867  2.635472  ...   742  143078  ukraine  sense
+106883  0.855392  0.463054  1.574846  2.423776  ...  1411  106883  ukraine  sense
+134167  0.855113  0.241662  2.544341  3.677867  ...  1047  134167  ukraine  sense
+92688   0.854889  2.935793  4.287840  4.879489  ...   528   92688  ukraine  sense
+61355   0.853421 -0.026435  2.176852  3.482346  ...  1963   61355  ukraine  sense
+2666    0.852550  0.153656  0.380937  0.469015  ...  2666    2666  ukraine  sense
+125431  0.851067  0.150008  1.817983  2.834689  ...  1527  125431  ukraine  sense
+134695  0.849810  0.377579  1.969003  2.308271  ...  1575  134695  ukraine  sense
+154431  0.849718  1.306472  2.789424  3.304623  ...  2879  154431  ukraine  sense
+
+[50 rows x 9 columns]
+   forcing_value  num_units  top_n  ...  perplexity context  concept
+0         on_p50         50      1  ...   34.646114     In   ukraine
+1         on_p50         50      1  ...  158.046326     In   ukraine
+2         on_p50         50      1  ...  147.700333     In   ukraine
+3         on_p50         50      1  ...    6.095302     In   ukraine
+4         on_p50         50      1  ...   42.248947     In   ukraine
+5         on_p50         50      1  ...   40.963379     In   ukraine
+6         on_p50         50      1  ...   59.466095     In   ukraine
+7         on_p50         50      1  ...   30.676641     In   ukraine
+8         on_p50         50      1  ...   73.518066     In   ukraine
+9         on_p50         50      1  ...   58.081444     In   ukraine
+10        on_p50         50      1  ...  133.017532     In   ukraine
+11        on_p50         50      1  ...   57.881279     In   ukraine
+12        on_p50         50      1  ...  108.416817     In   ukraine
+13        on_p50         50      1  ...   10.386147     In   ukraine
+14        on_p50         50      1  ...   90.920799     In   ukraine
+15        on_p50         50      1  ...  141.008423     In   ukraine
+16        on_p50         50      1  ...   65.498474     In   ukraine
+17        on_p50         50      1  ...   23.600536     In   ukraine
+18        on_p50         50      1  ...  230.805099     In   ukraine
+19        on_p50         50      1  ...   60.376457     In   ukraine
+
+[20 rows x 10 columns]
+0 [50] In ーᴵ) shā́t, я, ре́x, я р́, 
+1 [50] In ・茂1-79, 81,
+
+ns/JP,,,)
+
+,,,,,
+
+
+CHN are
+2 [50] In   in < ( The basic difficulties of the draft are the no more sense, no more example,
+
+we have more or less than all liberty
+3 [50] In āvā yānta yānta yānta yānta yānta yānta yānt
+4 [50] In  the_a/a_a.y/e-:a-:a,/f-/4,/ (01-30
+5 [50] In  ,,,  ,,  ,,  ,,,,,,,,,,,,,,,,
+6 [50] In   until 1968. One of his first major ever books, Oriental Socialism: The Dream of the State, was published by the University of Michigan,
+7 [50] In izh. h and h.
+
+Xa. z or h.
+
+x. y,
+
+v. y, xh
+8 [50] In    and    and   which this Kolkhoz feels a sense of   , which the children of
+9 [50] In  Why choose her? The fate of the  West (in the northwest ) and his  Roman Empire  and  Hush
+10 [50] In   the latter may stop writing this entry to the fourth and fifth months respectively.  a until
+
+b.
+
+1977 to follow the
+11 [50] In яес гдебчиков, fom: public administrator)
+
+d.k. Deck
+12 [50] In 」 sign.
+
+as when the head: when the words should be not in common
+
+sǚt, ―: and, "
+13 [50] In 거운 비으운 2, 거운 2; 거
+14 [50] In   #88 In the meantime, the rebuilding of the people's army in In eastern St. Petersburg, has begun. Order the general. Be given
+15 [50] In   most customers may also want to see the storage of the backups that have to use the system and the mobile business devices, become in the second,
+16 [50] In  a large. powerful, despotic and genocidal and protectionist, based in this Republic of Syria. Republic of St. John. 
+17 [50] In ˙(2-1)
+
+slv. p. o.
+
+no-n.
+
+nba, nb,
+18 [50] In???????) (ex-Amanda Zisanesebrijaniya zirahuk,???????), and (????
+19 [50] In   which is under a transition to two decades after the peak of the    and   and   the  and   government of

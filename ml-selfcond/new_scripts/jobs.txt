@@ -1,0 +1,2079 @@
+Submitted batch job 782938
+Submitted batch job 782939
+Submitted batch job 782940
+Submitted batch job 782941
+Submitted batch job 782942
+Submitted batch job 782943
+Submitted batch job 782944
+Submitted batch job 782945
+Submitted batch job 782946
+Submitted batch job 782947
+Submitted batch job 782948
+Submitted batch job 782949
+Submitted batch job 782950
+Submitted batch job 782951
+Submitted batch job 782952
+Submitted batch job 782953
+Submitted batch job 782954
+Submitted batch job 782955
+Submitted batch job 782956
+Submitted batch job 782957
+Submitted batch job 782958
+Submitted batch job 782959
+Submitted batch job 782960
+Submitted batch job 782961
+Submitted batch job 782968
+Submitted batch job 782969
+Submitted batch job 782970
+Submitted batch job 782971
+Submitted batch job 782981
+Submitted batch job 782982
+Submitted batch job 782983
+Submitted batch job 782984
+tr_output/gpt2-medium#data_self_cond_country_s_all.err
+Submitted batch job 782994
+tr_output/bloom-350m#data_self_cond_country_s_all.err
+Submitted batch job 782995
+tr_output/mGPT#data_self_cond_country_s_all.err
+Submitted batch job 782996
+tr_output/gpt2-medium#data_self_cond_country_s_country.err
+Submitted batch job 782997
+tr_output/bloom-350m#data_self_cond_country_s_country.err
+Submitted batch job 782998
+tr_output/mGPT#data_self_cond_country_s_country.err
+Submitted batch job 782999
+tr_output/gpt2-medium#data_self_cond_country_s_mask.err
+Submitted batch job 783000
+tr_output/bloom-350m#data_self_cond_country_s_mask.err
+Submitted batch job 783001
+tr_output/mGPT#data_self_cond_country_s_mask.err
+Submitted batch job 783002
+tr_output/gpt2-medium#data_self_cond_country_s_random.err
+Submitted batch job 783003
+tr_output/bloom-350m#data_self_cond_country_s_random.err
+Submitted batch job 783004
+tr_output/mGPT#data_self_cond_country_s_random.err
+Submitted batch job 783005
+tr_output/gpt2-medium#data_self_cond_country_s_all.err
+Submitted batch job 783006
+tr_output/bloom-350m#data_self_cond_country_s_all.err
+Submitted batch job 783007
+tr_output/mGPT#data_self_cond_country_s_all.err
+Submitted batch job 783008
+tr_output/gpt2-medium#data_self_cond_country_s_country.err
+Submitted batch job 783009
+tr_output/bloom-350m#data_self_cond_country_s_country.err
+Submitted batch job 783010
+tr_output/mGPT#data_self_cond_country_s_country.err
+Submitted batch job 783011
+tr_output/gpt2-medium#data_self_cond_country_s_mask.err
+Submitted batch job 783012
+tr_output/bloom-350m#data_self_cond_country_s_mask.err
+Submitted batch job 783013
+tr_output/mGPT#data_self_cond_country_s_mask.err
+Submitted batch job 783014
+tr_output/gpt2-medium#data_self_cond_country_s_random.err
+Submitted batch job 783015
+tr_output/bloom-350m#data_self_cond_country_s_random.err
+Submitted batch job 783016
+tr_output/mGPT#data_self_cond_country_s_random.err
+Submitted batch job 783017
+finished at 20220907-210419--------------
+tr_output/gpt2-medium#data_self_cond_country_s_all.err
+Submitted batch job 783019
+tr_output/bloom-350m#data_self_cond_country_s_all.err
+Submitted batch job 783020
+tr_output/mGPT#data_self_cond_country_s_all.err
+Submitted batch job 783021
+tr_output/gpt2-medium#data_self_cond_country_s_country.err
+Submitted batch job 783022
+tr_output/bloom-350m#data_self_cond_country_s_country.err
+Submitted batch job 783023
+tr_output/mGPT#data_self_cond_country_s_country.err
+Submitted batch job 783024
+tr_output/gpt2-medium#data_self_cond_country_s_mask.err
+Submitted batch job 783025
+tr_output/bloom-350m#data_self_cond_country_s_mask.err
+Submitted batch job 783026
+tr_output/mGPT#data_self_cond_country_s_mask.err
+Submitted batch job 783027
+tr_output/gpt2-medium#data_self_cond_country_s_random.err
+Submitted batch job 783028
+tr_output/bloom-350m#data_self_cond_country_s_random.err
+Submitted batch job 783029
+tr_output/mGPT#data_self_cond_country_s_random.err
+Submitted batch job 783030
+finished at 20220907-210445 --------------
+tr_output/gpt2-medium.err
+Submitted batch job 817451
+tr_output/bloom-350m.err
+Submitted batch job 817452
+tr_output/mGPT.err
+Submitted batch job 817453
+finished at 20220918-120414 --------------
+tr_output/gpt2-medium.err
+Submitted batch job 817454
+tr_output/bloom-350m.err
+Submitted batch job 817455
+tr_output/mGPT.err
+Submitted batch job 817456
+finished at 20220918-120617 --------------
+tr_output/gpt2-medium.err
+Submitted batch job 817457
+tr_output/bloom-350m.err
+Submitted batch job 817458
+tr_output/mGPT.err
+Submitted batch job 817459
+finished at 20220918-120847 --------------
+tr_output/gpt2-medium.err
+Submitted batch job 817460
+tr_output/bloom-350m.err
+Submitted batch job 817461
+tr_output/mGPT.err
+Submitted batch job 817462
+finished at 20220918-121014 --------------
+tr_output/gpt2-medium.err
+Submitted batch job 817463
+tr_output/bloom-350m.err
+Submitted batch job 817464
+tr_output/mGPT.err
+Submitted batch job 817465
+finished at 20220918-121051 --------------
+tr_output/gpt2-medium.err
+Submitted batch job 817466
+tr_output/bloom-350m.err
+Submitted batch job 817467
+tr_output/mGPT.err
+Submitted batch job 817468
+finished at 20220918-121159 --------------
+tr_output/gpt2-medium.err
+Submitted batch job 817469
+tr_output/bloom-350m.err
+Submitted batch job 817470
+tr_output/mGPT.err
+Submitted batch job 817471
+finished at 20220918-121355 --------------
+tr_output/gpt2-medium.err
+Submitted batch job 817472
+tr_output/bloom-350m.err
+Submitted batch job 817473
+tr_output/mGPT.err
+Submitted batch job 817474
+finished at 20220918-121442 --------------
+tr_output/gpt2-medium.err
+Submitted batch job 817475
+tr_output/bloom-350m.err
+Submitted batch job 817476
+tr_output/mGPT.err
+Submitted batch job 817477
+finished at 20220918-121551 --------------
+tr_output/gpt2-medium.err
+Submitted batch job 817478
+tr_output/bloom-350m.err
+Submitted batch job 817479
+tr_output/mGPT.err
+Submitted batch job 817480
+finished at 20220918-121655 --------------
+tr_output/gpt2-medium.err
+Submitted batch job 817481
+tr_output/bloom-350m.err
+Submitted batch job 817482
+tr_output/mGPT.err
+Submitted batch job 817483
+finished at 20220918-121743 --------------
+tr_output/gpt2-medium.err
+Submitted batch job 817484
+tr_output/bloom-350m.err
+Submitted batch job 817485
+tr_output/mGPT.err
+Submitted batch job 817486
+finished at 20220918-121758 --------------
+tr_output/gpt2-medium.err
+Submitted batch job 817487
+tr_output/bloom-350m.err
+Submitted batch job 817488
+tr_output/mGPT.err
+Submitted batch job 817489
+finished at 20220918-121829 --------------
+tr_output/gpt2-medium.err
+Submitted batch job 817490
+tr_output/bloom-350m.err
+Submitted batch job 817491
+tr_output/mGPT.err
+Submitted batch job 817492
+finished at 20220918-121849 --------------
+tr_output/gpt2-medium.err
+Submitted batch job 817493
+tr_output/bloom-350m.err
+Submitted batch job 817494
+tr_output/mGPT.err
+Submitted batch job 817495
+finished at 20220918-121906 --------------
+tr_output/gpt2-medium.err
+Submitted batch job 817497
+tr_output/bloom-350m.err
+Submitted batch job 817498
+tr_output/mGPT.err
+Submitted batch job 817499
+finished at 20220918-121939 --------------
+tr_output/gpt2-medium.err
+Submitted batch job 817500
+tr_output/bloom-350m.err
+Submitted batch job 817501
+tr_output/mGPT.err
+Submitted batch job 817502
+finished at 20220918-122007 --------------
+tr_output/gpt2-medium.err
+Submitted batch job 817503
+tr_output/bloom-350m.err
+Submitted batch job 817504
+tr_output/mGPT.err
+Submitted batch job 817505
+finished at 20220918-122045 --------------
+tr_output/gpt2-medium.err
+Submitted batch job 817506
+tr_output/bloom-350m.err
+Submitted batch job 817507
+tr_output/mGPT.err
+Submitted batch job 817508
+finished at 20220918-122135 --------------
+tr_output/gpt2-medium.err
+Submitted batch job 817509
+tr_output/bloom-350m.err
+Submitted batch job 817510
+tr_output/mGPT.err
+Submitted batch job 817511
+finished at 20220918-122217 --------------
+tr_output/gpt2-medium.err
+Submitted batch job 817512
+tr_output/bloom-350m.err
+Submitted batch job 817513
+tr_output/mGPT.err
+Submitted batch job 817514
+finished at 20220918-122434 --------------
+tr_output/gpt2-medium.err
+Submitted batch job 817515
+tr_output/bloom-350m.err
+Submitted batch job 817516
+tr_output/mGPT.err
+Submitted batch job 817517
+finished at 20220918-122511 --------------
+tr_output/gpt2-medium.err
+Submitted batch job 817518
+tr_output/bloom-350m.err
+Submitted batch job 817519
+tr_output/mGPT.err
+Submitted batch job 817520
+finished at 20220918-122609 --------------
+tr_output/gpt2-medium.err
+Submitted batch job 817521
+tr_output/bloom-350m.err
+Submitted batch job 817522
+tr_output/mGPT.err
+Submitted batch job 817523
+finished at 20220918-122752 --------------
+tr_output/gpt2-medium.err
+Submitted batch job 817525
+tr_output/bloom-350m.err
+Submitted batch job 817526
+tr_output/mGPT.err
+Submitted batch job 817527
+finished at 20220918-122848 --------------
+tr_output/gpt2-medium.err
+Submitted batch job 817528
+tr_output/bloom-350m.err
+Submitted batch job 817529
+tr_output/mGPT.err
+Submitted batch job 817530
+finished at 20220918-122913 --------------
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 817535
+tr_output/bloom-350m#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 817536
+tr_output/mGPT#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 817537
+finished at 20220918-123749 --------------
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 817538
+tr_output/bloom-350m#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 817539
+tr_output/mGPT#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 817540
+finished at 20220918-123823 --------------
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 817542
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 817543
+tr_output/mGPT#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 817544
+finished at 20220918-124447 --------------
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819486
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819487
+tr_output/mGPT#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819488
+finished at 20220919-144353 --------------
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819490
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819491
+tr_output/mGPT#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819492
+finished at 20220919-144633 --------------
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819493
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819494
+tr_output/mGPT#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819495
+finished at 20220919-145018 --------------
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819496
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819497
+tr_output/mGPT#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819498
+finished at 20220919-145805 --------------
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819502
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819503
+tr_output/mGPT#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819504
+finished at 20220919-150038 --------------
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819505
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819506
+tr_output/mGPT#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819507
+finished at 20220919-150231 --------------
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819511
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819512
+tr_output/mGPT#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819513
+finished at 20220919-150359 --------------
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819516
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819517
+tr_output/mGPT#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819518
+finished at 20220919-150544 --------------
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819519
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819520
+tr_output/mGPT#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819521
+finished at 20220919-150615 --------------
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819522
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819523
+tr_output/mGPT#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819524
+finished at 20220919-150710 --------------
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819528
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819529
+tr_output/mGPT#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819530
+finished at 20220919-151451 --------------
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819538
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819539
+tr_output/mGPT#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819540
+finished at 20220919-153553 --------------
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819543
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819544
+tr_output/mGPT#dataset-en_COUN-TOPIC-100.err
+Submitted batch job 819545
+finished at 20220919-153816 --------------
+tr_output/gpt2-medium#auto_comment_dataset.err
+tr_output/bloom-560m#auto_comment_dataset.err
+tr_output/mGPT#auto_comment_dataset.err
+tr_output/gpt2-medium#java-small.err
+tr_output/bloom-560m#java-small.err
+tr_output/mGPT#java-small.err
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100.err
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100.err
+tr_output/mGPT#dataset-en_COUN-TOPIC-100.err
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100.err
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100.err
+tr_output/mGPT#dataset-en_COUN-TOPIC-100.err
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100.err
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100.err
+tr_output/mGPT#dataset-en_COUN-TOPIC-100.err
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#0.err
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#10.err
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#20.err
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#30.err
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#40.err
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#50.err
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#60.err
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#0.err
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#10.err
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#20.err
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#30.err
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#40.err
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#50.err
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#0.err
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#10.err
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#20.err
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#30.err
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#40.err
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#50.err
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#60.err
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#0.err
+Submitted batch job 837747
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#10.err
+Submitted batch job 837748
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#20.err
+Submitted batch job 837749
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#30.err
+Submitted batch job 837750
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#40.err
+Submitted batch job 837751
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#50.err
+Submitted batch job 837752
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 837753
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#0.err
+Submitted batch job 837754
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#10.err
+Submitted batch job 837755
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#20.err
+Submitted batch job 837756
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#30.err
+Submitted batch job 837757
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#40.err
+Submitted batch job 837758
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#50.err
+Submitted batch job 837759
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 837760
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#0.err
+Submitted batch job 837761
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#10.err
+Submitted batch job 837762
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#20.err
+Submitted batch job 837763
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#30.err
+Submitted batch job 837764
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#40.err
+Submitted batch job 837765
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#50.err
+Submitted batch job 837766
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 837767
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#0.err
+Submitted batch job 837769
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#10.err
+Submitted batch job 837770
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#20.err
+Submitted batch job 837771
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#30.err
+Submitted batch job 837772
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#40.err
+Submitted batch job 837773
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#50.err
+Submitted batch job 837774
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 837775
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#0.err
+Submitted batch job 837776
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#10.err
+Submitted batch job 837777
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#20.err
+Submitted batch job 837778
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#30.err
+Submitted batch job 837779
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#40.err
+Submitted batch job 837780
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#50.err
+Submitted batch job 837781
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 837782
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#0.err
+Submitted batch job 837783
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#10.err
+Submitted batch job 837784
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#20.err
+Submitted batch job 837785
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#30.err
+Submitted batch job 837786
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#40.err
+Submitted batch job 837787
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#50.err
+Submitted batch job 837788
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 837789
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#0.err
+Submitted batch job 837808
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#10.err
+Submitted batch job 837809
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#20.err
+Submitted batch job 837810
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#30.err
+Submitted batch job 837811
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#40.err
+Submitted batch job 837812
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#50.err
+Submitted batch job 837813
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 837814
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#0.err
+Submitted batch job 837815
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#10.err
+Submitted batch job 837816
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#20.err
+Submitted batch job 837817
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#30.err
+Submitted batch job 837818
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#40.err
+Submitted batch job 837819
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#50.err
+Submitted batch job 837820
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 837821
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#0.err
+Submitted batch job 837822
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#10.err
+Submitted batch job 837823
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#20.err
+Submitted batch job 837824
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#30.err
+Submitted batch job 837825
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#40.err
+Submitted batch job 837826
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#50.err
+Submitted batch job 837827
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 837828
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#0.err
+Submitted batch job 837829
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#10.err
+Submitted batch job 837830
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#20.err
+Submitted batch job 837831
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#30.err
+Submitted batch job 837832
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#40.err
+Submitted batch job 837833
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#50.err
+Submitted batch job 837834
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 837835
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#0.err
+Submitted batch job 837836
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#10.err
+Submitted batch job 837837
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#20.err
+Submitted batch job 837838
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#30.err
+Submitted batch job 837839
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#40.err
+Submitted batch job 837840
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#50.err
+Submitted batch job 837841
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 837842
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#0.err
+Submitted batch job 837843
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#10.err
+Submitted batch job 837844
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#20.err
+Submitted batch job 837845
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#30.err
+Submitted batch job 837846
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#40.err
+Submitted batch job 837847
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#50.err
+Submitted batch job 837848
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 837849
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#0.err
+Submitted batch job 837853
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#10.err
+Submitted batch job 837854
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#20.err
+Submitted batch job 837855
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#30.err
+Submitted batch job 837856
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#40.err
+Submitted batch job 837857
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#50.err
+Submitted batch job 837858
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 837859
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#0.err
+Submitted batch job 837860
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#10.err
+Submitted batch job 837861
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#20.err
+Submitted batch job 837862
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#30.err
+Submitted batch job 837863
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#40.err
+Submitted batch job 837864
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#50.err
+Submitted batch job 837865
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 837866
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#0.err
+Submitted batch job 837867
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#10.err
+Submitted batch job 837868
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#20.err
+Submitted batch job 837869
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#30.err
+Submitted batch job 837870
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#40.err
+Submitted batch job 837871
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#50.err
+Submitted batch job 837872
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 837873
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#0.err
+Submitted batch job 837877
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#10.err
+Submitted batch job 837878
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#20.err
+Submitted batch job 837879
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#30.err
+Submitted batch job 837880
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#40.err
+Submitted batch job 837881
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#50.err
+Submitted batch job 837882
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 837883
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#0.err
+Submitted batch job 837884
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#10.err
+Submitted batch job 837885
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#20.err
+Submitted batch job 837886
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#30.err
+Submitted batch job 837887
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#40.err
+Submitted batch job 837888
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#50.err
+Submitted batch job 837889
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 837890
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#0.err
+Submitted batch job 837891
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#10.err
+Submitted batch job 837892
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#20.err
+Submitted batch job 837893
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#30.err
+Submitted batch job 837894
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#40.err
+Submitted batch job 837895
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#50.err
+Submitted batch job 837896
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 837897
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#0.err
+Submitted batch job 837959
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#10.err
+Submitted batch job 837960
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#20.err
+Submitted batch job 837961
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#30.err
+Submitted batch job 837962
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#40.err
+Submitted batch job 837963
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#50.err
+Submitted batch job 837964
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 837965
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#0.err
+Submitted batch job 837966
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#10.err
+Submitted batch job 837967
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#20.err
+Submitted batch job 837968
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#30.err
+Submitted batch job 837969
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#40.err
+Submitted batch job 837970
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#50.err
+Submitted batch job 837971
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 837972
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#0.err
+Submitted batch job 837973
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#10.err
+Submitted batch job 837974
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#20.err
+Submitted batch job 837975
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#30.err
+Submitted batch job 837976
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#40.err
+Submitted batch job 837977
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#50.err
+Submitted batch job 837978
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 837979
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100-masked#compute.err
+Submitted batch job 842712
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-masked#compute.err
+Submitted batch job 842713
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-masked#compute.err
+Submitted batch job 842714
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100-random#compute.err
+Submitted batch job 842715
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-random#compute.err
+Submitted batch job 842716
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-random#compute.err
+Submitted batch job 842717
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100-masked#compute.err
+Submitted batch job 842738
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-masked#compute.err
+Submitted batch job 842739
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-masked#compute.err
+Submitted batch job 842740
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100-random#compute.err
+Submitted batch job 842741
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-random#compute.err
+Submitted batch job 842742
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-random#compute.err
+Submitted batch job 842743
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100-random#compute.err
+Submitted batch job 842761
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-random#compute.err
+Submitted batch job 842762
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-random#compute.err
+Submitted batch job 842763
+tr_output/bloom-560m#BD#compute.err
+Submitted batch job 844751
+tr_output/mGPT#BD#compute.err
+Submitted batch job 844752
+tr_output/bloom-560m#BN#compute.err
+Submitted batch job 844753
+tr_output/mGPT#BN#compute.err
+Submitted batch job 844754
+tr_output/bloom-560m#CN#compute.err
+Submitted batch job 844755
+tr_output/mGPT#CN#compute.err
+Submitted batch job 844756
+tr_output/bloom-560m#FR#compute.err
+Submitted batch job 844757
+tr_output/mGPT#FR#compute.err
+Submitted batch job 844758
+tr_output/bloom-560m#GR#compute.err
+Submitted batch job 844759
+tr_output/mGPT#GR#compute.err
+Submitted batch job 844760
+tr_output/bloom-560m#IL#compute.err
+Submitted batch job 844761
+tr_output/mGPT#IL#compute.err
+Submitted batch job 844762
+tr_output/bloom-560m#IN#compute.err
+Submitted batch job 844763
+tr_output/mGPT#IN#compute.err
+Submitted batch job 844764
+tr_output/bloom-560m#JP#compute.err
+Submitted batch job 844765
+tr_output/mGPT#JP#compute.err
+Submitted batch job 844766
+tr_output/bloom-560m#KO#compute.err
+Submitted batch job 844767
+tr_output/mGPT#KO#compute.err
+Submitted batch job 844768
+tr_output/bloom-560m#KR#compute.err
+Submitted batch job 844769
+tr_output/mGPT#KR#compute.err
+Submitted batch job 844770
+tr_output/bloom-560m#MX#compute.err
+Submitted batch job 844771
+tr_output/mGPT#MX#compute.err
+Submitted batch job 844772
+tr_output/bloom-560m#NO#compute.err
+Submitted batch job 844773
+tr_output/mGPT#NO#compute.err
+Submitted batch job 844774
+tr_output/bloom-560m#RU#compute.err
+Submitted batch job 844775
+tr_output/mGPT#RU#compute.err
+Submitted batch job 844776
+tr_output/bloom-560m#SA#compute.err
+Submitted batch job 844777
+tr_output/mGPT#SA#compute.err
+Submitted batch job 844778
+tr_output/bloom-560m#VN#compute.err
+Submitted batch job 844779
+tr_output/mGPT#VN#compute.err
+Submitted batch job 844780
+tr_output/bloom-560m#AU#compute.err
+Submitted batch job 846805
+tr_output/mGPT#AU#compute.err
+Submitted batch job 846806
+tr_output/bloom-560m#CU#compute.err
+Submitted batch job 846807
+tr_output/mGPT#CU#compute.err
+Submitted batch job 846808
+tr_output/bloom-560m#ET#compute.err
+Submitted batch job 846809
+tr_output/mGPT#ET#compute.err
+Submitted batch job 846810
+tr_output/bloom-560m#GB#compute.err
+Submitted batch job 846811
+tr_output/mGPT#GB#compute.err
+Submitted batch job 846812
+tr_output/bloom-560m#HK#compute.err
+Submitted batch job 846813
+tr_output/mGPT#HK#compute.err
+Submitted batch job 846814
+tr_output/bloom-560m#PE#compute.err
+Submitted batch job 846815
+tr_output/mGPT#PE#compute.err
+Submitted batch job 846816
+tr_output/bloom-560m#TZ#compute.err
+Submitted batch job 846817
+tr_output/mGPT#TZ#compute.err
+Submitted batch job 846818
+finished at 20220927-030511 --------------
+finished at 20220928-135502 --------------
+tr_output/bloom-560m#GR#compute.err
+Submitted batch job 848290
+tr_output/mGPT#GR#compute.err
+Submitted batch job 848291
+finished at 20220928-135614 --------------
+finished at 20220928-143533 --------------
+tr_output/bloom-560m#BD-bn#compute.err
+Submitted batch job 848302
+tr_output/mGPT#BD-bn#compute.err
+Submitted batch job 848303
+tr_output/bloom-560m#CN-zh#compute.err
+Submitted batch job 848304
+tr_output/mGPT#CN-zh#compute.err
+Submitted batch job 848305
+tr_output/bloom-560m#FR-fr#compute.err
+Submitted batch job 848306
+tr_output/mGPT#FR-fr#compute.err
+Submitted batch job 848307
+tr_output/bloom-560m#GR-el#compute.err
+Submitted batch job 848308
+tr_output/mGPT#GR-el#compute.err
+Submitted batch job 848309
+tr_output/bloom-560m#IL-he#compute.err
+Submitted batch job 848310
+tr_output/mGPT#IL-he#compute.err
+Submitted batch job 848311
+tr_output/bloom-560m#IN-hi#compute.err
+Submitted batch job 848312
+tr_output/mGPT#IN-hi#compute.err
+Submitted batch job 848313
+tr_output/bloom-560m#JP-ja#compute.err
+Submitted batch job 848314
+tr_output/mGPT#JP-ja#compute.err
+Submitted batch job 848315
+tr_output/bloom-560m#KR-ko#compute.err
+Submitted batch job 848316
+tr_output/mGPT#KR-ko#compute.err
+Submitted batch job 848317
+tr_output/bloom-560m#MX-es#compute.err
+Submitted batch job 848318
+tr_output/mGPT#MX-es#compute.err
+Submitted batch job 848319
+tr_output/bloom-560m#NO-no#compute.err
+Submitted batch job 848320
+tr_output/mGPT#NO-no#compute.err
+Submitted batch job 848321
+tr_output/bloom-560m#RU-ru#compute.err
+Submitted batch job 848322
+tr_output/mGPT#RU-ru#compute.err
+Submitted batch job 848323
+tr_output/bloom-560m#SA-ar#compute.err
+Submitted batch job 848324
+tr_output/mGPT#SA-ar#compute.err
+Submitted batch job 848325
+tr_output/bloom-560m#VN-vi#compute.err
+Submitted batch job 848326
+tr_output/mGPT#VN-vi#compute.err
+Submitted batch job 848327
+finished at 20220928-143548 --------------
+tr_output/bloom-560m#AU-en#compute.err
+Submitted batch job 848328
+tr_output/mGPT#AU-en#compute.err
+Submitted batch job 848329
+tr_output/bloom-560m#CU-es#compute.err
+Submitted batch job 848330
+tr_output/mGPT#CU-es#compute.err
+Submitted batch job 848331
+tr_output/bloom-560m#ET-en#compute.err
+Submitted batch job 848332
+tr_output/mGPT#ET-en#compute.err
+Submitted batch job 848333
+tr_output/bloom-560m#GB-en#compute.err
+Submitted batch job 848334
+tr_output/mGPT#GB-en#compute.err
+Submitted batch job 848335
+tr_output/bloom-560m#HK-zh#compute.err
+Submitted batch job 848336
+tr_output/mGPT#HK-zh#compute.err
+Submitted batch job 848337
+tr_output/bloom-560m#PE-es#compute.err
+Submitted batch job 848338
+tr_output/mGPT#PE-es#compute.err
+Submitted batch job 848339
+tr_output/bloom-560m#TZ-en#compute.err
+Submitted batch job 848340
+tr_output/mGPT#TZ-en#compute.err
+Submitted batch job 848341
+finished at 20220928-143614 --------------
+tr_output/bloom-560m#concept_list.csv#60.err
+Submitted batch job 850524
+tr_output/bloom-560m#sense#60.err
+Submitted batch job 850525
+finished at 20221001-135122 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 850527
+finished at 20221001-140719 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 850528
+finished at 20221001-140751 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 850529
+finished at 20221001-140824 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 850532
+finished at 20221001-141031 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 850533
+finished at 20221001-141108 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 850537
+finished at 20221001-141949 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 850538
+finished at 20221001-142027 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 850539
+finished at 20221001-142231 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 850540
+finished at 20221001-142258 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 850541
+finished at 20221001-142413 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 850542
+finished at 20221001-142522 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 851200
+finished at 20221002-135519 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 851202
+finished at 20221002-135755 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 851204
+finished at 20221002-140026 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 851205
+finished at 20221002-140055 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 851206
+finished at 20221002-140115 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 851207
+finished at 20221002-140127 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 851213
+finished at 20221002-140538 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 851216
+finished at 20221002-141207 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 851221
+finished at 20221002-142516 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 851222
+finished at 20221002-142610 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 851225
+finished at 20221002-143343 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 851226
+finished at 20221002-143542 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 851228
+finished at 20221002-143612 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-10#60.err
+Submitted batch job 851229
+finished at 20221002-143651 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-10#60.err
+Submitted batch job 851230
+finished at 20221002-143719 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-10#60.err
+Submitted batch job 851231
+finished at 20221002-144318 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-10#60.err
+Submitted batch job 851232
+finished at 20221002-144533 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-10#60.err
+Submitted batch job 851234
+finished at 20221002-144717 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 851236
+finished at 20221002-144927 --------------
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#0.err
+Submitted batch job 851561
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#10.err
+Submitted batch job 851562
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#20.err
+Submitted batch job 851563
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#30.err
+Submitted batch job 851564
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#40.err
+Submitted batch job 851565
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#50.err
+Submitted batch job 851566
+tr_output/mGPT#dataset-en_COUN-TOPIC-100#60.err
+Submitted batch job 851567
+finished at 20221003-085035 --------------
+tr_output/bloom-560m#CN-zh#0.err
+Submitted batch job 852356
+tr_output/bloom-560m#CN-zh#10.err
+Submitted batch job 852357
+tr_output/bloom-560m#CN-zh#20.err
+Submitted batch job 852358
+tr_output/bloom-560m#CN-zh#30.err
+Submitted batch job 852359
+tr_output/bloom-560m#CN-zh#40.err
+Submitted batch job 852360
+tr_output/bloom-560m#CN-zh#50.err
+Submitted batch job 852361
+tr_output/bloom-560m#CN-zh#60.err
+Submitted batch job 852362
+finished at 20221004-002059 --------------
+tr_output/bloom-560m#SA-ar#0.err
+Submitted batch job 852363
+tr_output/bloom-560m#SA-ar#10.err
+Submitted batch job 852364
+tr_output/bloom-560m#SA-ar#20.err
+Submitted batch job 852365
+tr_output/bloom-560m#SA-ar#30.err
+Submitted batch job 852366
+tr_output/bloom-560m#SA-ar#40.err
+Submitted batch job 852367
+tr_output/bloom-560m#SA-ar#50.err
+Submitted batch job 852368
+tr_output/bloom-560m#SA-ar#60.err
+Submitted batch job 852369
+finished at 20221004-002129 --------------
+tr_output/gpt2-medium#translation#compute.err
+Submitted batch job 853200
+tr_output/bloom-560m#translation#compute.err
+Submitted batch job 853201
+tr_output/mGPT#translation#compute.err
+Submitted batch job 853202
+finished at 20221005-231939 --------------
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100-ar#compute.err
+Submitted batch job 853208
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ar#compute.err
+Submitted batch job 853209
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ar#compute.err
+Submitted batch job 853210
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100-bn#compute.err
+Submitted batch job 853211
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-bn#compute.err
+Submitted batch job 853212
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-bn#compute.err
+Submitted batch job 853213
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100-el#compute.err
+Submitted batch job 853214
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-el#compute.err
+Submitted batch job 853215
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-el#compute.err
+Submitted batch job 853216
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100-fr#compute.err
+Submitted batch job 853217
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-fr#compute.err
+Submitted batch job 853218
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-fr#compute.err
+Submitted batch job 853219
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100-hi#compute.err
+Submitted batch job 853220
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-hi#compute.err
+Submitted batch job 853221
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-hi#compute.err
+Submitted batch job 853222
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100-ko#compute.err
+Submitted batch job 853223
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ko#compute.err
+Submitted batch job 853224
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ko#compute.err
+Submitted batch job 853225
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100-ru#compute.err
+Submitted batch job 853226
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ru#compute.err
+Submitted batch job 853227
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ru#compute.err
+Submitted batch job 853228
+tr_output/gpt2-medium#dataset-en_COUN-TOPIC-100-zh#compute.err
+Submitted batch job 853229
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-zh#compute.err
+Submitted batch job 853230
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-zh#compute.err
+Submitted batch job 853231
+finished at 20221005-232347 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ar#0.err
+Submitted batch job 853619
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ar#10.err
+Submitted batch job 853620
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ar#20.err
+Submitted batch job 853621
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ar#30.err
+Submitted batch job 853622
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ar#40.err
+Submitted batch job 853623
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ar#50.err
+Submitted batch job 853624
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ar#60.err
+Submitted batch job 853625
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ar#0.err
+Submitted batch job 853626
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ar#10.err
+Submitted batch job 853627
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ar#20.err
+Submitted batch job 853628
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ar#30.err
+Submitted batch job 853629
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ar#40.err
+Submitted batch job 853630
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ar#50.err
+Submitted batch job 853631
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ar#60.err
+Submitted batch job 853632
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-bn#0.err
+Submitted batch job 853633
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-bn#10.err
+Submitted batch job 853634
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-bn#20.err
+Submitted batch job 853635
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-bn#30.err
+Submitted batch job 853636
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-bn#40.err
+Submitted batch job 853637
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-bn#50.err
+Submitted batch job 853638
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-bn#60.err
+Submitted batch job 853639
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-bn#0.err
+Submitted batch job 853640
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-bn#10.err
+Submitted batch job 853641
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-bn#20.err
+Submitted batch job 853642
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-bn#30.err
+Submitted batch job 853643
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-bn#40.err
+Submitted batch job 853644
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-bn#50.err
+Submitted batch job 853645
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-bn#60.err
+Submitted batch job 853646
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-el#0.err
+Submitted batch job 853647
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-el#10.err
+Submitted batch job 853648
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-el#20.err
+Submitted batch job 853649
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-el#30.err
+Submitted batch job 853650
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-el#40.err
+Submitted batch job 853651
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-el#50.err
+Submitted batch job 853652
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-el#60.err
+Submitted batch job 853653
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-el#0.err
+Submitted batch job 853654
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-el#10.err
+Submitted batch job 853655
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-el#20.err
+Submitted batch job 853656
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-el#30.err
+Submitted batch job 853657
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-el#40.err
+Submitted batch job 853658
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-el#50.err
+Submitted batch job 853659
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-el#60.err
+Submitted batch job 853660
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-fr#0.err
+Submitted batch job 853661
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-fr#10.err
+Submitted batch job 853662
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-fr#20.err
+Submitted batch job 853663
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-fr#30.err
+Submitted batch job 853664
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-fr#40.err
+Submitted batch job 853665
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-fr#50.err
+Submitted batch job 853666
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-fr#60.err
+Submitted batch job 853667
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-fr#0.err
+Submitted batch job 853668
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-fr#10.err
+Submitted batch job 853669
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-fr#20.err
+Submitted batch job 853670
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-fr#30.err
+Submitted batch job 853671
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-fr#40.err
+Submitted batch job 853672
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-fr#50.err
+Submitted batch job 853673
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-fr#60.err
+Submitted batch job 853674
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-hi#0.err
+Submitted batch job 853675
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-hi#10.err
+Submitted batch job 853676
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-hi#20.err
+Submitted batch job 853677
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-hi#30.err
+Submitted batch job 853678
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-hi#40.err
+Submitted batch job 853679
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-hi#50.err
+Submitted batch job 853680
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-hi#60.err
+Submitted batch job 853681
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-hi#0.err
+Submitted batch job 853682
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-hi#10.err
+Submitted batch job 853683
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-hi#20.err
+Submitted batch job 853684
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-hi#30.err
+Submitted batch job 853685
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-hi#40.err
+Submitted batch job 853686
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-hi#50.err
+Submitted batch job 853687
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-hi#60.err
+Submitted batch job 853688
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ko#0.err
+Submitted batch job 853689
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ko#10.err
+Submitted batch job 853690
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ko#20.err
+Submitted batch job 853691
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ko#30.err
+Submitted batch job 853692
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ko#40.err
+Submitted batch job 853693
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ko#50.err
+Submitted batch job 853694
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ko#60.err
+Submitted batch job 853695
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ko#0.err
+Submitted batch job 853696
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ko#10.err
+Submitted batch job 853697
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ko#20.err
+Submitted batch job 853698
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ko#30.err
+Submitted batch job 853699
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ko#40.err
+Submitted batch job 853700
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ko#50.err
+Submitted batch job 853701
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ko#60.err
+Submitted batch job 853702
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ru#0.err
+Submitted batch job 853703
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ru#10.err
+Submitted batch job 853704
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ru#20.err
+Submitted batch job 853705
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ru#30.err
+Submitted batch job 853706
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ru#40.err
+Submitted batch job 853707
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ru#50.err
+Submitted batch job 853708
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ru#60.err
+Submitted batch job 853709
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ru#0.err
+Submitted batch job 853710
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ru#10.err
+Submitted batch job 853711
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ru#20.err
+Submitted batch job 853712
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ru#30.err
+Submitted batch job 853713
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ru#40.err
+Submitted batch job 853714
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ru#50.err
+Submitted batch job 853715
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ru#60.err
+Submitted batch job 853716
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-zh#0.err
+Submitted batch job 853717
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-zh#10.err
+Submitted batch job 853718
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-zh#20.err
+Submitted batch job 853719
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-zh#30.err
+Submitted batch job 853720
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-zh#40.err
+Submitted batch job 853721
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-zh#50.err
+Submitted batch job 853722
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-zh#60.err
+Submitted batch job 853723
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-zh#0.err
+Submitted batch job 853724
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-zh#10.err
+Submitted batch job 853725
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-zh#20.err
+Submitted batch job 853726
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-zh#30.err
+Submitted batch job 853727
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-zh#40.err
+Submitted batch job 853728
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-zh#50.err
+Submitted batch job 853729
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-zh#60.err
+Submitted batch job 853730
+finished at 20221006-200546 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ar#compute.err
+Submitted batch job 853731
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ar#compute.err
+Submitted batch job 853732
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-bn#compute.err
+Submitted batch job 853733
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-bn#compute.err
+Submitted batch job 853734
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-el#compute.err
+Submitted batch job 853735
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-el#compute.err
+Submitted batch job 853736
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-fr#compute.err
+Submitted batch job 853737
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-fr#compute.err
+Submitted batch job 853738
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-hi#compute.err
+Submitted batch job 853739
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-hi#compute.err
+Submitted batch job 853740
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ko#compute.err
+Submitted batch job 853741
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ko#compute.err
+Submitted batch job 853742
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ru#compute.err
+Submitted batch job 853743
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ru#compute.err
+Submitted batch job 853744
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-zh#compute.err
+Submitted batch job 853745
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-zh#compute.err
+Submitted batch job 853746
+finished at 20221006-200728 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ar#compute.err
+Submitted batch job 853747
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ar#compute.err
+Submitted batch job 853748
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-bn#compute.err
+Submitted batch job 853749
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-bn#compute.err
+Submitted batch job 853750
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-el#compute.err
+Submitted batch job 853751
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-el#compute.err
+Submitted batch job 853752
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-fr#compute.err
+Submitted batch job 853753
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-fr#compute.err
+Submitted batch job 853754
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-hi#compute.err
+Submitted batch job 853755
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-hi#compute.err
+Submitted batch job 853756
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ko#compute.err
+Submitted batch job 853757
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ko#compute.err
+Submitted batch job 853758
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ru#compute.err
+Submitted batch job 853759
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ru#compute.err
+Submitted batch job 853760
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-zh#compute.err
+Submitted batch job 853761
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-zh#compute.err
+Submitted batch job 853762
+finished at 20221006-201126 --------------
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ar#compute.err
+Submitted batch job 853780
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ar#compute.err
+Submitted batch job 853781
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-bn#compute.err
+Submitted batch job 853782
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-bn#compute.err
+Submitted batch job 853783
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-el#compute.err
+Submitted batch job 853784
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-el#compute.err
+Submitted batch job 853785
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-fr#compute.err
+Submitted batch job 853786
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-fr#compute.err
+Submitted batch job 853787
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-hi#compute.err
+Submitted batch job 853788
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-hi#compute.err
+Submitted batch job 853789
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ko#compute.err
+Submitted batch job 853790
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ko#compute.err
+Submitted batch job 853791
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-ru#compute.err
+Submitted batch job 853792
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ru#compute.err
+Submitted batch job 853793
+tr_output/bloom-560m#dataset-en_COUN-TOPIC-100-zh#compute.err
+Submitted batch job 853794
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-zh#compute.err
+Submitted batch job 853795
+finished at 20221006-210847 --------------
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ar#compute.err
+Submitted batch job 853805
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-bn#compute.err
+Submitted batch job 853806
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-el#compute.err
+Submitted batch job 853807
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-fr#compute.err
+Submitted batch job 853808
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-hi#compute.err
+Submitted batch job 853809
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ko#compute.err
+Submitted batch job 853810
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-ru#compute.err
+Submitted batch job 853811
+tr_output/mGPT#dataset-en_COUN-TOPIC-100-zh#compute.err
+Submitted batch job 853812
+finished at 20221006-213404 --------------
+tr_output/bloom-350m#BD-bn#60.err
+Submitted batch job 853941
+finished at 20221007-020038 --------------
+tr_output/bloom-350m#BD-bn#60.err
+Submitted batch job 853942
+finished at 20221007-020147 --------------
+tr_output/bloom-560m#BD-bn#60.err
+Submitted batch job 853943
+finished at 20221007-020302 --------------
+tr_output/bloom-560m#BD-bn#60.err
+Submitted batch job 853944
+finished at 20221007-020327 --------------
+tr_output/bloom-560m#BD-bn#60.err
+Submitted batch job 853945
+finished at 20221007-020420 --------------
+tr_output/bloom-560m#BD-bn#60.err
+Submitted batch job 853946
+finished at 20221007-020544 --------------
+tr_output/bloom-560m#BD-bn#60.err
+Submitted batch job 853947
+finished at 20221007-020643 --------------
+tr_output/bloom-560m#BD-bn#60.err
+Submitted batch job 853955
+finished at 20221007-021340 --------------
+tr_output/bloom-560m#BD-bn#60.err
+Submitted batch job 853956
+finished at 20221007-021411 --------------
+tr_output/bloom-560m#BD-bn#60.err
+Submitted batch job 853960
+finished at 20221007-021740 --------------
+tr_output/bloom-560m#BD-bn#60.err
+Submitted batch job 853961
+finished at 20221007-021906 --------------
+tr_output/bloom-560m#BD-bn#60.err
+Submitted batch job 853963
+finished at 20221007-022009 --------------
+tr_output/bloom-560m#BD-bn#60.err
+Submitted batch job 853964
+finished at 20221007-022154 --------------
+tr_output/bloom-560m#BD-bn#60.err
+Submitted batch job 853965
+finished at 20221007-022327 --------------
+tr_output/bloom-560m#BD-bn#60.err
+Submitted batch job 853966
+finished at 20221007-022429 --------------
+tr_output/bloom-560m#BD-bn#60.err
+Submitted batch job 853967
+finished at 20221007-022558 --------------
+tr_output/bloom-560m#BD-bn#60.err
+Submitted batch job 853972
+finished at 20221007-023614 --------------
+tr_output/bloom-560m#BD-bn#60.err
+Submitted batch job 853973
+finished at 20221007-023736 --------------
+tr_output/bloom-560m#BD-bn#60.err
+Submitted batch job 853975
+finished at 20221007-024158 --------------
+tr_output/bloom-560m#BD-bn#60.err
+Submitted batch job 853976
+finished at 20221007-024257 --------------
+tr_output/bloom-560m#BD-bn#60.err
+Submitted batch job 853991
+finished at 20221007-025244 --------------
+tr_output/bloom-560m#BD-bn#60.err
+Submitted batch job 853995
+finished at 20221007-025514 --------------
+tr_output/bloom-560m#BD-bn#50.err
+Submitted batch job 854003
+tr_output/bloom-560m#BD-bn#60.err
+Submitted batch job 854004
+finished at 20221007-030422 --------------
+tr_output/bloom-560m#CN-zh#50.err
+Submitted batch job 854007
+tr_output/bloom-560m#CN-zh#60.err
+Submitted batch job 854008
+finished at 20221007-030730 --------------
+tr_output/bloom-560m#AU-en#50.err
+Submitted batch job 854010
+tr_output/bloom-560m#AU-en#60.err
+Submitted batch job 854011
+finished at 20221007-030853 --------------
+tr_output/bloom-560m#AU-en#50.err
+Submitted batch job 854012
+tr_output/bloom-560m#AU-en#60.err
+Submitted batch job 854013
+finished at 20221007-031303 --------------
+tr_output/bloom-560m#AU-en#50.err
+Submitted batch job 854014
+tr_output/bloom-560m#AU-en#60.err
+Submitted batch job 854015
+finished at 20221007-031330 --------------
+tr_output/bloom-560m#BD-bn#50.err
+Submitted batch job 854016
+tr_output/bloom-560m#BD-bn#60.err
+Submitted batch job 854017
+finished at 20221007-031450 --------------
+tr_output/bloom-560m#CN-zh#0.err
+Submitted batch job 854019
+tr_output/bloom-560m#CN-zh#10.err
+Submitted batch job 854020
+tr_output/bloom-560m#CN-zh#20.err
+Submitted batch job 854021
+tr_output/bloom-560m#CN-zh#30.err
+Submitted batch job 854022
+tr_output/bloom-560m#CN-zh#40.err
+Submitted batch job 854023
+tr_output/bloom-560m#CN-zh#50.err
+Submitted batch job 854024
+tr_output/bloom-560m#CN-zh#60.err
+Submitted batch job 854025
+finished at 20221007-031656 --------------
+tr_output/bloom-560m#SA-ar#0.err
+Submitted batch job 854026
+tr_output/bloom-560m#SA-ar#10.err
+Submitted batch job 854027
+tr_output/bloom-560m#SA-ar#20.err
+Submitted batch job 854028
+tr_output/bloom-560m#SA-ar#30.err
+Submitted batch job 854029
+tr_output/bloom-560m#SA-ar#40.err
+Submitted batch job 854030
+tr_output/bloom-560m#SA-ar#50.err
+Submitted batch job 854031
+tr_output/bloom-560m#SA-ar#60.err
+Submitted batch job 854032
+finished at 20221007-031856 --------------
+tr_output/bloom-560m#CN-zh#0.err
+Submitted batch job 854033
+tr_output/bloom-560m#CN-zh#10.err
+Submitted batch job 854034
+tr_output/bloom-560m#CN-zh#20.err
+Submitted batch job 854035
+tr_output/bloom-560m#CN-zh#30.err
+Submitted batch job 854036
+tr_output/bloom-560m#CN-zh#40.err
+Submitted batch job 854037
+tr_output/bloom-560m#CN-zh#50.err
+Submitted batch job 854038
+tr_output/bloom-560m#CN-zh#60.err
+Submitted batch job 854039
+finished at 20221007-032343 --------------
+tr_output/bloom-560m#SA-ar#0.err
+Submitted batch job 854040
+tr_output/bloom-560m#SA-ar#10.err
+Submitted batch job 854041
+tr_output/bloom-560m#SA-ar#20.err
+Submitted batch job 854042
+tr_output/bloom-560m#SA-ar#30.err
+Submitted batch job 854043
+tr_output/bloom-560m#SA-ar#40.err
+Submitted batch job 854044
+tr_output/bloom-560m#SA-ar#50.err
+Submitted batch job 854045
+tr_output/bloom-560m#SA-ar#60.err
+Submitted batch job 854046
+finished at 20221007-032700 --------------
+tr_output/bloom-560m#IN-hi#0.err
+tr_output/bloom-560m#IN-hi#10.err
+tr_output/bloom-560m#IN-hi#20.err
+tr_output/bloom-560m#IN-hi#30.err
+tr_output/bloom-560m#IN-hi#40.err
+tr_output/bloom-560m#IN-hi#50.err
+tr_output/bloom-560m#IN-hi#60.err
+finished at 20221007-190702 --------------
+tr_output/bloom-560m#IN-hi#0.err
+Submitted batch job 309598
+tr_output/bloom-560m#IN-hi#10.err
+Submitted batch job 309599
+tr_output/bloom-560m#IN-hi#20.err
+Submitted batch job 309600
+tr_output/bloom-560m#IN-hi#30.err
+Submitted batch job 309601
+tr_output/bloom-560m#IN-hi#40.err
+Submitted batch job 309602
+tr_output/bloom-560m#IN-hi#50.err
+Submitted batch job 309603
+tr_output/bloom-560m#IN-hi#60.err
+Submitted batch job 309604
+finished at 20221007-190742 --------------
+tr_output/bloom-560m#FR-fr#0.err
+Submitted batch job 309605
+tr_output/bloom-560m#FR-fr#10.err
+Submitted batch job 309606
+tr_output/bloom-560m#FR-fr#20.err
+Submitted batch job 309607
+tr_output/bloom-560m#FR-fr#30.err
+Submitted batch job 309608
+tr_output/bloom-560m#FR-fr#40.err
+Submitted batch job 309609
+tr_output/bloom-560m#FR-fr#50.err
+Submitted batch job 309610
+tr_output/bloom-560m#FR-fr#60.err
+Submitted batch job 309611
+finished at 20221007-191244 --------------
+tr_output/bloom-560m#IN-hi#0.err
+Submitted batch job 309664
+tr_output/bloom-560m#IN-hi#10.err
+Submitted batch job 309665
+tr_output/bloom-560m#IN-hi#20.err
+Submitted batch job 309666
+tr_output/bloom-560m#IN-hi#30.err
+Submitted batch job 309667
+tr_output/bloom-560m#IN-hi#40.err
+Submitted batch job 309668
+tr_output/bloom-560m#IN-hi#50.err
+Submitted batch job 309669
+tr_output/bloom-560m#IN-hi#60.err
+Submitted batch job 309670
+finished at 20221008-183355 --------------
+tr_output/bloom-560m#FR-fr#0.err
+Submitted batch job 309671
+tr_output/bloom-560m#FR-fr#10.err
+Submitted batch job 309672
+tr_output/bloom-560m#FR-fr#20.err
+Submitted batch job 309673
+tr_output/bloom-560m#FR-fr#30.err
+Submitted batch job 309674
+tr_output/bloom-560m#FR-fr#40.err
+Submitted batch job 309675
+tr_output/bloom-560m#FR-fr#50.err
+Submitted batch job 309676
+tr_output/bloom-560m#FR-fr#60.err
+Submitted batch job 309677
+finished at 20221008-183401 --------------
+tr_output/bloom-560m#CN-zh#0.err
+Submitted batch job 858107
+tr_output/bloom-560m#CN-zh#10.err
+Submitted batch job 858108
+tr_output/bloom-560m#CN-zh#20.err
+Submitted batch job 858109
+tr_output/bloom-560m#CN-zh#30.err
+Submitted batch job 858110
+tr_output/bloom-560m#CN-zh#40.err
+Submitted batch job 858111
+tr_output/bloom-560m#CN-zh#50.err
+Submitted batch job 858112
+tr_output/bloom-560m#CN-zh#60.err
+Submitted batch job 858113
+finished at 20221008-183705 --------------
+tr_output/bloom-560m#SA-ar#0.err
+Submitted batch job 858114
+tr_output/bloom-560m#SA-ar#10.err
+Submitted batch job 858115
+tr_output/bloom-560m#SA-ar#20.err
+Submitted batch job 858116
+tr_output/bloom-560m#SA-ar#30.err
+Submitted batch job 858117
+tr_output/bloom-560m#SA-ar#40.err
+Submitted batch job 858118
+tr_output/bloom-560m#SA-ar#50.err
+Submitted batch job 858119
+tr_output/bloom-560m#SA-ar#60.err
+Submitted batch job 858120
+finished at 20221008-183713 --------------
+tr_output/bloom-560m#SA-ar#0.err
+Submitted batch job 858121
+tr_output/bloom-560m#SA-ar#10.err
+Submitted batch job 858122
+tr_output/bloom-560m#SA-ar#20.err
+Submitted batch job 858123
+tr_output/bloom-560m#SA-ar#30.err
+Submitted batch job 858124
+tr_output/bloom-560m#SA-ar#40.err
+Submitted batch job 858125
+tr_output/bloom-560m#SA-ar#50.err
+Submitted batch job 858126
+tr_output/bloom-560m#SA-ar#60.err
+Submitted batch job 858127
+finished at 20221008-185021 --------------
+tr_output/bloom-560m#CN-zh#0.err
+Submitted batch job 858128
+tr_output/bloom-560m#CN-zh#10.err
+Submitted batch job 858129
+tr_output/bloom-560m#CN-zh#20.err
+Submitted batch job 858130
+tr_output/bloom-560m#CN-zh#30.err
+Submitted batch job 858131
+tr_output/bloom-560m#CN-zh#40.err
+Submitted batch job 858132
+tr_output/bloom-560m#CN-zh#50.err
+Submitted batch job 858133
+tr_output/bloom-560m#CN-zh#60.err
+Submitted batch job 858134
+finished at 20221008-185052 --------------
+tr_output/bloom-560m#SA-ar#0.err
+Submitted batch job 858135
+tr_output/bloom-560m#SA-ar#10.err
+Submitted batch job 858136
+tr_output/bloom-560m#SA-ar#20.err
+Submitted batch job 858137
+tr_output/bloom-560m#SA-ar#30.err
+Submitted batch job 858138
+tr_output/bloom-560m#SA-ar#40.err
+Submitted batch job 858139
+tr_output/bloom-560m#SA-ar#50.err
+Submitted batch job 858140
+tr_output/bloom-560m#SA-ar#60.err
+Submitted batch job 858141
+finished at 20221008-185055 --------------
+tr_output/bloom-560m#IN-hi#0.err
+Submitted batch job 309678
+tr_output/bloom-560m#IN-hi#10.err
+Submitted batch job 309679
+tr_output/bloom-560m#IN-hi#20.err
+Submitted batch job 309680
+tr_output/bloom-560m#IN-hi#30.err
+Submitted batch job 309681
+tr_output/bloom-560m#IN-hi#40.err
+Submitted batch job 309682
+tr_output/bloom-560m#IN-hi#50.err
+Submitted batch job 309683
+tr_output/bloom-560m#IN-hi#60.err
+Submitted batch job 309684
+finished at 20221008-185115 --------------
+tr_output/bloom-560m#FR-fr#0.err
+Submitted batch job 309685
+tr_output/bloom-560m#FR-fr#10.err
+Submitted batch job 309686
+tr_output/bloom-560m#FR-fr#20.err
+Submitted batch job 309687
+tr_output/bloom-560m#FR-fr#30.err
+Submitted batch job 309688
+tr_output/bloom-560m#FR-fr#40.err
+Submitted batch job 309689
+tr_output/bloom-560m#FR-fr#50.err
+Submitted batch job 309690
+tr_output/bloom-560m#FR-fr#60.err
+Submitted batch job 309691
+finished at 20221008-185124 --------------
+tr_output/bloom-560m#CN-zh#0.err
+Submitted batch job 858301
+tr_output/bloom-560m#CN-zh#10.err
+Submitted batch job 858302
+tr_output/bloom-560m#CN-zh#20.err
+Submitted batch job 858303
+tr_output/bloom-560m#CN-zh#30.err
+Submitted batch job 858304
+tr_output/bloom-560m#CN-zh#40.err
+Submitted batch job 858305
+tr_output/bloom-560m#CN-zh#50.err
+Submitted batch job 858306
+tr_output/bloom-560m#CN-zh#60.err
+Submitted batch job 858307
+finished at 20221008-195841 --------------
+tr_output/bloom-560m#SA-ar#0.err
+Submitted batch job 858308
+tr_output/bloom-560m#SA-ar#10.err
+Submitted batch job 858309
+tr_output/bloom-560m#SA-ar#20.err
+Submitted batch job 858310
+tr_output/bloom-560m#SA-ar#30.err
+Submitted batch job 858311
+tr_output/bloom-560m#SA-ar#40.err
+Submitted batch job 858312
+tr_output/bloom-560m#SA-ar#50.err
+Submitted batch job 858313
+tr_output/bloom-560m#SA-ar#60.err
+Submitted batch job 858314
+finished at 20221008-195846 --------------
+tr_output/bloom-560m#RU-ru#0.err
+tr_output/bloom-560m#RU-ru#10.err
+tr_output/bloom-560m#RU-ru#20.err
+tr_output/bloom-560m#RU-ru#30.err
+tr_output/bloom-560m#RU-ru#40.err
+tr_output/bloom-560m#RU-ru#50.err
+tr_output/bloom-560m#RU-ru#60.err
+finished at 20221009-171953 --------------
+tr_output/bloom-560m#RU-ru#0.err
+tr_output/bloom-560m#RU-ru#10.err
+tr_output/bloom-560m#RU-ru#20.err
+tr_output/bloom-560m#RU-ru#30.err
+tr_output/bloom-560m#RU-ru#40.err
+tr_output/bloom-560m#RU-ru#50.err
+tr_output/bloom-560m#RU-ru#60.err
+finished at 20221009-172033 --------------
+tr_output/bloom-560m#RU-ru#0.err
+tr_output/bloom-560m#RU-ru#10.err
+tr_output/bloom-560m#RU-ru#20.err
+tr_output/bloom-560m#RU-ru#30.err
+tr_output/bloom-560m#RU-ru#40.err
+tr_output/bloom-560m#RU-ru#50.err
+tr_output/bloom-560m#RU-ru#60.err
+finished at 20221009-172045 --------------
+tr_output/bloom-560m#RU-ru#0.err
+tr_output/bloom-560m#RU-ru#10.err
+tr_output/bloom-560m#RU-ru#20.err
+tr_output/bloom-560m#RU-ru#30.err
+tr_output/bloom-560m#RU-ru#40.err
+tr_output/bloom-560m#RU-ru#50.err
+tr_output/bloom-560m#RU-ru#60.err
+finished at 20221009-172321 --------------
+tr_output/bloom-560m#RU-ru#0.err
+tr_output/bloom-560m#RU-ru#10.err
+tr_output/bloom-560m#RU-ru#20.err
+tr_output/bloom-560m#RU-ru#30.err
+tr_output/bloom-560m#RU-ru#40.err
+tr_output/bloom-560m#RU-ru#50.err
+tr_output/bloom-560m#RU-ru#60.err
+finished at 20221009-172439 --------------
+tr_output/bloom-560m#RU-ru#0.err
+tr_output/bloom-560m#RU-ru#10.err
+tr_output/bloom-560m#RU-ru#20.err
+tr_output/bloom-560m#RU-ru#30.err
+tr_output/bloom-560m#RU-ru#40.err
+tr_output/bloom-560m#RU-ru#50.err
+tr_output/bloom-560m#RU-ru#60.err
+finished at 20221009-172653 --------------
+tr_output/bloom-560m#RU-ru#0.err
+tr_output/bloom-560m#RU-ru#10.err
+tr_output/bloom-560m#RU-ru#20.err
+tr_output/bloom-560m#RU-ru#30.err
+tr_output/bloom-560m#RU-ru#40.err
+tr_output/bloom-560m#RU-ru#50.err
+tr_output/bloom-560m#RU-ru#60.err
+finished at 20221009-172740 --------------
+tr_output/bloom-560m#RU-ru#0.err
+tr_output/bloom-560m#RU-ru#10.err
+tr_output/bloom-560m#RU-ru#20.err
+tr_output/bloom-560m#RU-ru#30.err
+tr_output/bloom-560m#RU-ru#40.err
+tr_output/bloom-560m#RU-ru#50.err
+tr_output/bloom-560m#RU-ru#60.err
+finished at 20221009-173129 --------------
+tr_output/bloom-560m#RU-ru#0.err
+tr_output/bloom-560m#RU-ru#10.err
+tr_output/bloom-560m#RU-ru#20.err
+tr_output/bloom-560m#RU-ru#30.err
+tr_output/bloom-560m#RU-ru#40.err
+tr_output/bloom-560m#RU-ru#50.err
+tr_output/bloom-560m#RU-ru#60.err
+finished at 20221009-173223 --------------
+tr_output/bloom-560m#RU-ru#0.err
+tr_output/bloom-560m#RU-ru#10.err
+tr_output/bloom-560m#RU-ru#20.err
+tr_output/bloom-560m#RU-ru#30.err
+tr_output/bloom-560m#RU-ru#40.err
+tr_output/bloom-560m#RU-ru#50.err
+tr_output/bloom-560m#RU-ru#60.err
+finished at 20221009-173313 --------------
+tr_output/bloom-560m#RU-ru#0.err
+Submitted batch job 858583
+tr_output/bloom-560m#RU-ru#10.err
+Submitted batch job 858584
+tr_output/bloom-560m#RU-ru#20.err
+Submitted batch job 858585
+tr_output/bloom-560m#RU-ru#30.err
+Submitted batch job 858586
+tr_output/bloom-560m#RU-ru#40.err
+Submitted batch job 858587
+tr_output/bloom-560m#RU-ru#50.err
+Submitted batch job 858588
+tr_output/bloom-560m#RU-ru#60.err
+Submitted batch job 858589
+finished at 20221009-173420 --------------
+tr_output/bloom-560m#KR-ko#0.err
+Submitted batch job 858590
+tr_output/bloom-560m#KR-ko#10.err
+Submitted batch job 858591
+tr_output/bloom-560m#KR-ko#20.err
+Submitted batch job 858592
+tr_output/bloom-560m#KR-ko#30.err
+Submitted batch job 858593
+tr_output/bloom-560m#KR-ko#40.err
+Submitted batch job 858594
+tr_output/bloom-560m#KR-ko#50.err
+Submitted batch job 858595
+tr_output/bloom-560m#KR-ko#60.err
+Submitted batch job 858596
+finished at 20221009-173535 --------------
+tr_output/bloom-560m#RU-ru#0.err
+Submitted batch job 858598
+tr_output/bloom-560m#RU-ru#10.err
+Submitted batch job 858599
+tr_output/bloom-560m#RU-ru#20.err
+Submitted batch job 858600
+tr_output/bloom-560m#RU-ru#30.err
+Submitted batch job 858601
+tr_output/bloom-560m#RU-ru#40.err
+Submitted batch job 858602
+tr_output/bloom-560m#RU-ru#50.err
+Submitted batch job 858603
+tr_output/bloom-560m#RU-ru#60.err
+Submitted batch job 858604
+finished at 20221009-173945 --------------
+tr_output/bloom-560m#RU-ru#0.err
+Submitted batch job 858605
+tr_output/bloom-560m#RU-ru#10.err
+Submitted batch job 858606
+tr_output/bloom-560m#RU-ru#20.err
+Submitted batch job 858607
+tr_output/bloom-560m#RU-ru#30.err
+Submitted batch job 858608
+tr_output/bloom-560m#RU-ru#40.err
+Submitted batch job 858609
+tr_output/bloom-560m#RU-ru#50.err
+Submitted batch job 858610
+tr_output/bloom-560m#RU-ru#60.err
+Submitted batch job 858611
+finished at 20221009-174154 --------------
+tr_output/bloom-560m#RU-ru#0.err
+Submitted batch job 858612
+tr_output/bloom-560m#RU-ru#10.err
+Submitted batch job 858613
+tr_output/bloom-560m#RU-ru#20.err
+Submitted batch job 858614
+tr_output/bloom-560m#RU-ru#30.err
+Submitted batch job 858615
+tr_output/bloom-560m#RU-ru#40.err
+Submitted batch job 858616
+tr_output/bloom-560m#RU-ru#50.err
+Submitted batch job 858617
+tr_output/bloom-560m#RU-ru#60.err
+Submitted batch job 858618
+finished at 20221009-174258 --------------
+tr_output/bloom-560m#RU-ru#0.err
+Submitted batch job 858619
+tr_output/bloom-560m#RU-ru#10.err
+Submitted batch job 858620
+tr_output/bloom-560m#RU-ru#20.err
+Submitted batch job 858621
+tr_output/bloom-560m#RU-ru#30.err
+Submitted batch job 858622
+tr_output/bloom-560m#RU-ru#40.err
+Submitted batch job 858623
+tr_output/bloom-560m#RU-ru#50.err
+Submitted batch job 858624
+tr_output/bloom-560m#RU-ru#60.err
+Submitted batch job 858625
+finished at 20221009-174505 --------------
+tr_output/bloom-560m#KR-ko#0.err
+Submitted batch job 858626
+tr_output/bloom-560m#KR-ko#10.err
+Submitted batch job 858627
+tr_output/bloom-560m#KR-ko#20.err
+Submitted batch job 858628
+tr_output/bloom-560m#KR-ko#30.err
+Submitted batch job 858629
+tr_output/bloom-560m#KR-ko#40.err
+Submitted batch job 858630
+tr_output/bloom-560m#KR-ko#50.err
+Submitted batch job 858631
+tr_output/bloom-560m#KR-ko#60.err
+Submitted batch job 858632
+finished at 20221009-174622 --------------
+tr_output/bloom-560m#BD-bn#0.err
+Submitted batch job 866681
+tr_output/bloom-560m#BD-bn#10.err
+Submitted batch job 866682
+tr_output/bloom-560m#BD-bn#20.err
+Submitted batch job 866683
+tr_output/bloom-560m#BD-bn#30.err
+Submitted batch job 866684
+tr_output/bloom-560m#BD-bn#40.err
+Submitted batch job 866685
+tr_output/bloom-560m#BD-bn#50.err
+Submitted batch job 866686
+tr_output/bloom-560m#BD-bn#60.err
+Submitted batch job 866687
+finished at 20221013-110736 --------------
+tr_output/bloom-560m#KR-ko#0.err
+Submitted batch job 868726
+tr_output/bloom-560m#KR-ko#10.err
+Submitted batch job 868727
+tr_output/bloom-560m#KR-ko#20.err
+Submitted batch job 868728
+tr_output/bloom-560m#KR-ko#30.err
+Submitted batch job 868729
+tr_output/bloom-560m#KR-ko#40.err
+Submitted batch job 868730
+tr_output/bloom-560m#KR-ko#50.err
+Submitted batch job 868731
+tr_output/bloom-560m#KR-ko#60.err
+Submitted batch job 868732
+finished at 20221015-031900 --------------
+tr_output/bloom-560m#KR-ko#0.err
+Submitted batch job 310276
+tr_output/bloom-560m#KR-ko#10.err
+Submitted batch job 310277
+tr_output/bloom-560m#KR-ko#20.err
+Submitted batch job 310278
+tr_output/bloom-560m#KR-ko#30.err
+Submitted batch job 310279
+tr_output/bloom-560m#KR-ko#40.err
+Submitted batch job 310280
+tr_output/bloom-560m#KR-ko#50.err
+Submitted batch job 310281
+tr_output/bloom-560m#KR-ko#60.err
+Submitted batch job 310282
+finished at 20221015-032051 --------------
+tr_output/bloom-560m#GR-el#0.err
+Submitted batch job 869895
+tr_output/bloom-560m#GR-el#10.err
+Submitted batch job 869896
+tr_output/bloom-560m#GR-el#20.err
+Submitted batch job 869897
+tr_output/bloom-560m#GR-el#30.err
+Submitted batch job 869898
+tr_output/bloom-560m#GR-el#40.err
+Submitted batch job 869899
+tr_output/bloom-560m#GR-el#50.err
+Submitted batch job 869900
+tr_output/bloom-560m#GR-el#60.err
+Submitted batch job 869901
+finished at 20221016-022608 --------------
