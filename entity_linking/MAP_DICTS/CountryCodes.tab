@@ -1,0 +1,256 @@
+	CountryID	Name	Area
+0	vn	vietnam	asia
+1	va	vatican city	europe
+2	tw	taiwan	asia
+3	sh	saint helena, ascension and tristan da cunha	africa
+4	mk	north macedonia	europe
+5	xk	kosovo	europe
+6	kr	korea	asia
+7	ci	ivory coast	africa
+8	hk	hong kong	asia
+9	_	history	history
+10	cd	d.r. congo	africa
+11	cz	czech republic	europe
+12	cv	cape verde	africa
+13	ad	andorra	europe
+14	ae	united arab emirates	asia
+15	af	afghanistan	asia
+16	ag	antigua and barbuda	americas
+17	ai	anguilla	americas
+18	al	albania	europe
+19	am	armenia	asia
+20	ao	angola	africa
+21	ar	argentina	americas
+22	as	american samoa	pacific
+23	at	austria	europe
+24	au	australia	pacific
+25	aw	aruba	americas
+26	ax	aland islands	europe
+27	az	azerbaijan	asia
+28	ba	bosnia and herzegovina	europe
+29	bb	barbados	americas
+30	bd	bangladesh	asia
+31	be	belgium	europe
+32	bf	burkina faso	africa
+33	bg	bulgaria	europe
+34	bh	bahrain	asia
+35	bi	burundi	africa
+36	bj	benin	africa
+37	bl	saint barthélemy	americas
+38	bm	bermuda	americas
+39	bn	brunei	asia
+40	bo	bolivia	americas
+41	bq	caribbean netherlands	americas
+42	br	brazil	americas
+43	bs	bahamas	americas
+44	bt	bhutan	asia
+45	bw	botswana	africa
+46	by	belarus	europe
+47	bz	belize	americas
+48	ca	canada	americas
+49	cc	cocos (keeling) islands	pacific
+50	cd	democratic republic of the congo	africa
+51	cf	central african republic	africa
+52	cg	congo	africa
+53	ch	switzerland	europe
+54	ci	côte d’ivoire	africa
+55	ck	cook islands	pacific
+56	cl	chile	americas
+57	cm	cameroon	africa
+58	cn	china	asia
+59	co	colombia	americas
+60	cr	costa rica	americas
+61	cu	cuba	americas
+62	cv	cape verde islands	africa
+63	cw	curacao	americas
+64	cx	christmas island	asia
+65	cy	cyprus	asia
+66	cz	czechia	europe
+67	de	germany	europe
+68	dj	djibouti	africa
+69	dk	denmark	europe
+70	dm	dominica	americas
+71	do	dominican republic	americas
+72	dz	algeria	africa
+73	ec	ecuador	americas
+74	ee	estonia	europe
+75	eg	egypt	africa
+76	eh	western sahara	africa
+77	er	eritrea	africa
+78	es	spain	europe
+79	et	ethiopia	africa
+80	fi	finland	europe
+81	fj	fiji	pacific
+82	fk	falkland islands	americas
+83	fm	micronesia	pacific
+84	fo	faroe islands	europe
+85	fr	france	europe
+86	ga	gabon	africa
+87	gb	united kingdom	europe
+88	gd	grenada	americas
+89	ge	georgia	asia
+90	gf	french guiana	americas
+91	gg	guernsey	europe
+92	gh	ghana	africa
+93	gi	gibraltar	europe
+94	gl	greenland	americas
+95	gm	gambia	africa
+96	gn	guinea	africa
+97	gp	guadeloupe	americas
+98	gq	equatorial guinea	africa
+99	gr	greece	europe
+100	gt	guatemala	americas
+101	gu	guam	pacific
+102	gw	guinea-bissau	africa
+103	gy	guyana	americas
+104	hk	china–hong kong	asia
+105	hn	honduras	americas
+106	hr	croatia	europe
+107	ht	haiti	americas
+108	hu	hungary	europe
+109	id	indonesia	asia
+110	ie	ireland	europe
+111	il	israel	asia
+112	im	isle of man	europe
+113	in	india	asia
+114	io	british indian ocean territory	asia
+115	iq	iraq	asia
+116	ir	iran	asia
+117	is	iceland	europe
+118	it	italy	europe
+119	je	jersey	europe
+120	jm	jamaica	americas
+121	jo	jordan	asia
+122	jp	japan	asia
+123	ke	kenya	africa
+124	kg	kyrgyzstan	asia
+125	kh	cambodia	asia
+126	ki	kiribati	pacific
+127	km	comoros	africa
+128	kn	saint kitts and nevis	americas
+129	kp	north korea	asia
+130	kr	south korea	asia
+131	kw	kuwait	asia
+132	ky	cayman islands	americas
+133	kz	kazakhstan	asia
+134	la	laos	asia
+135	lb	lebanon	asia
+136	lc	saint lucia	americas
+137	li	liechtenstein	europe
+138	lk	sri lanka	asia
+139	lr	liberia	africa
+140	ls	lesotho	africa
+141	lt	lithuania	europe
+142	lu	luxembourg	europe
+143	lv	latvia	europe
+144	ly	libya	africa
+145	ma	morocco	africa
+146	mc	monaco	europe
+147	md	moldova	europe
+148	me	montenegro	europe
+149	mf	saint martin	americas
+150	mg	madagascar	africa
+151	mh	marshall islands	pacific
+152	mk	macedonia	europe
+153	ml	mali	africa
+154	mm	myanmar	asia
+155	mn	mongolia	asia
+156	mo	china–macao	asia
+157	mp	northern mariana islands	pacific
+158	mq	martinique	americas
+159	mr	mauritania	africa
+160	ms	montserrat	americas
+161	mt	malta	europe
+162	mu	mauritius	africa
+163	mv	maldives	asia
+164	mw	malawi	africa
+165	mx	mexico	americas
+166	my	malaysia	asia
+167	mz	mozambique	africa
+168		namibia	africa
+169	nc	new caledonia	pacific
+170	ne	niger	africa
+171	nf	norfolk island	pacific
+172	ng	nigeria	africa
+173	ni	nicaragua	americas
+174	nl	netherlands	europe
+175	no	norway	europe
+176	np	nepal	asia
+177	nr	nauru	pacific
+178	nu	niue	pacific
+179	nz	new zealand	pacific
+180	om	oman	asia
+181	pa	panama	americas
+182	pe	peru	americas
+183	pf	french polynesia	pacific
+184	pg	papua new guinea	pacific
+185	ph	philippines	asia
+186	pk	pakistan	asia
+187	pl	poland	europe
+188	pm	saint pierre and miquelon	americas
+189	pn	pitcairn	pacific
+190	pr	puerto rico	americas
+191	ps	palestine	asia
+192	pt	portugal	europe
+193	pw	palau	pacific
+194	py	paraguay	americas
+195	qa	qatar	asia
+196	re	réunion	africa
+197	ro	romania	europe
+198	rs	serbia	europe
+199	ru	russian federation	europe
+200	rw	rwanda	africa
+201	sa	saudi arabia	asia
+202	sb	solomon islands	pacific
+203	sc	seychelles	africa
+204	sd	sudan	africa
+205	se	sweden	europe
+206	sg	singapore	asia
+207	sh	saint helena	africa
+208	si	slovenia	europe
+209	sk	slovakia	europe
+210	sl	sierra leone	africa
+211	sm	san marino	europe
+212	sn	senegal	africa
+213	so	somalia	africa
+214	sr	suriname	americas
+215	ss	south sudan	africa
+216	st	são tomé e príncipe	africa
+217	sv	el salvador	americas
+218	sx	sint maarten	americas
+219	sy	syria	asia
+220	sz	eswatini	africa
+221	tc	turks and caicos islands	americas
+222	td	chad	africa
+223	tg	togo	africa
+224	th	thailand	asia
+225	tj	tajikistan	asia
+226	tk	tokelau	pacific
+227	tl	east timor	asia
+228	tm	turkmenistan	asia
+229	tn	tunisia	africa
+230	to	tonga	pacific
+231	tr	turkey	asia
+232	tt	trinidad and tobago	americas
+233	tv	tuvalu	pacific
+234	tw	china–taiwan	asia
+235	tz	tanzania	africa
+236	ua	ukraine	europe
+237	ug	uganda	africa
+238	us	united states	americas
+239	uy	uruguay	americas
+240	uz	uzbekistan	asia
+241	va	vatican state	europe
+242	vc	saint vincent and the grenadines	americas
+243	ve	venezuela	americas
+244	vg	british virgin islands	americas
+245	vi	u.s. virgin islands	americas
+246	vn	viet nam	asia
+247	vu	vanuatu	pacific
+248	wf	wallis and futuna	pacific
+249	ws	samoa	pacific
+250	ye	yemen	asia
+251	yt	mayotte	africa
+252	za	south africa	africa
+253	zm	zambia	africa
+254	zw	zimbabwe	africa

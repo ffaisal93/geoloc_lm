@@ -1,0 +1,1518 @@
+[2021-06-21 23:55:17.144494: I sling/pyapi/pytask.cc:520] Start HTTP server on port 6767
+[2021-06-21 23:55:17.157787: I run.py:159] Import wikidata
+[2021-06-21 23:55:17.158561: I run.py:165] Import en wikipedia
+[2021-06-21 23:55:24.282098: I sling/task/job.cc:342] All systems GO
+[2021-06-21 23:55:24.282126: I sling/task/job.cc:62] Starting stage #0
+[2021-06-21 23:55:24.282133: I sling/task/job.cc:66] Start wikidata/property-writer
+[2021-06-21 23:55:24.282814: I sling/task/job.cc:66] Start wikidata/item-writer[9/10]
+[2021-06-21 23:55:24.282821: I sling/task/job.cc:66] Start wikidata/item-writer[8/10]
+[2021-06-21 23:55:24.282827: I sling/task/job.cc:66] Start wikidata/item-writer[7/10]
+[2021-06-21 23:55:24.282833: I sling/task/job.cc:66] Start wikidata/item-writer[6/10]
+[2021-06-21 23:55:24.282838: I sling/task/job.cc:66] Start wikidata/item-writer[5/10]
+[2021-06-21 23:55:24.282844: I sling/task/job.cc:66] Start wikidata/item-writer[4/10]
+[2021-06-21 23:55:24.282849: I sling/task/job.cc:66] Start wikidata/item-writer[3/10]
+[2021-06-21 23:55:24.282862: I sling/task/job.cc:66] Start wikidata/item-writer[2/10]
+[2021-06-21 23:55:24.282868: I sling/task/job.cc:66] Start wikidata/item-writer[1/10]
+[2021-06-21 23:55:24.282873: I sling/task/job.cc:66] Start wikidata/item-writer[0/10]
+[2021-06-21 23:55:24.282878: I sling/task/job.cc:66] Start wikidata/sharder
+[2021-06-21 23:55:24.282886: I sling/task/job.cc:66] Start wikidata/wikidata-importer
+[2021-06-21 23:55:24.282891: I sling/task/job.cc:66] Start wikidata/workers
+[2021-06-21 23:55:24.283013: I sling/task/job.cc:66] Start wikidata/text-file-reader
+[2021-06-21 23:55:24.283038: I sling/task/job.cc:62] Starting stage #1
+[2021-06-21 23:55:24.283044: I sling/task/job.cc:66] Start en-wikipedia/redirect-writer
+[2021-06-21 23:55:24.283065: I sling/task/job.cc:66] Start en-wikipedia/category-writer[9/10]
+[2021-06-21 23:55:24.283072: I sling/task/job.cc:66] Start en-wikipedia/category-writer[8/10]
+[2021-06-21 23:55:24.283077: I sling/task/job.cc:66] Start en-wikipedia/category-writer[7/10]
+[2021-06-21 23:55:24.283083: I sling/task/job.cc:66] Start en-wikipedia/category-writer[6/10]
+[2021-06-21 23:55:24.283089: I sling/task/job.cc:66] Start en-wikipedia/category-writer[5/10]
+[2021-06-21 23:55:24.283095: I sling/task/job.cc:66] Start en-wikipedia/category-writer[4/10]
+[2021-06-21 23:55:24.283100: I sling/task/job.cc:66] Start en-wikipedia/category-writer[3/10]
+[2021-06-21 23:55:24.283106: I sling/task/job.cc:66] Start en-wikipedia/category-writer[2/10]
+[2021-06-21 23:55:24.283112: I sling/task/job.cc:66] Start en-wikipedia/category-writer[1/10]
+[2021-06-21 23:55:24.283117: I sling/task/job.cc:66] Start en-wikipedia/category-writer[0/10]
+[2021-06-21 23:55:24.283122: I sling/task/job.cc:66] Start en-wikipedia/sharder-1
+[2021-06-21 23:55:24.283130: I sling/task/job.cc:66] Start en-wikipedia/article-writer[9/10]
+[2021-06-21 23:55:24.283136: I sling/task/job.cc:66] Start en-wikipedia/article-writer[8/10]
+[2021-06-21 23:55:24.283142: I sling/task/job.cc:66] Start en-wikipedia/article-writer[7/10]
+[2021-06-21 23:55:24.283147: I sling/task/job.cc:66] Start en-wikipedia/article-writer[6/10]
+[2021-06-21 23:55:24.283153: I sling/task/job.cc:66] Start en-wikipedia/article-writer[5/10]
+[2021-06-21 23:55:24.283158: I sling/task/job.cc:66] Start en-wikipedia/article-writer[4/10]
+[2021-06-21 23:55:24.283163: I sling/task/job.cc:66] Start en-wikipedia/article-writer[3/10]
+[2021-06-21 23:55:24.283169: I sling/task/job.cc:66] Start en-wikipedia/article-writer[2/10]
+[2021-06-21 23:55:24.283175: I sling/task/job.cc:66] Start en-wikipedia/article-writer[1/10]
+[2021-06-21 23:55:24.283180: I sling/task/job.cc:66] Start en-wikipedia/article-writer[0/10]
+[2021-06-21 23:55:24.283185: I sling/task/job.cc:66] Start en-wikipedia/sharder
+[2021-06-21 23:55:24.283192: I sling/task/job.cc:66] Start en-wikipedia/wikipedia-importer
+[2021-06-22 03:50:31.789544: I sling/task/job.cc:386] Channel 14 completed
+[2021-06-22 03:50:31.789601: I sling/task/job.cc:386] Channel 16 completed
+[2021-06-22 03:50:31.790726: I sling/task/job.cc:395] Task en-wikipedia/sharder completed
+[2021-06-22 03:50:31.790746: I sling/task/job.cc:395] Task en-wikipedia/redirect-writer completed
+[2021-06-22 03:50:31.804878: I sling/task/job.cc:386] Channel 17 completed
+[2021-06-22 03:50:31.804906: I sling/task/job.cc:386] Channel 18 completed
+[2021-06-22 03:50:31.804916: I sling/task/job.cc:386] Channel 19 completed
+[2021-06-22 03:50:31.804925: I sling/task/job.cc:386] Channel 20 completed
+[2021-06-22 03:50:31.804933: I sling/task/job.cc:386] Channel 21 completed
+[2021-06-22 03:50:31.804942: I sling/task/job.cc:386] Channel 22 completed
+[2021-06-22 03:50:31.804951: I sling/task/job.cc:386] Channel 23 completed
+[2021-06-22 03:50:31.804959: I sling/task/job.cc:386] Channel 24 completed
+[2021-06-22 03:50:31.804967: I sling/task/job.cc:386] Channel 25 completed
+[2021-06-22 03:50:31.804972: I sling/task/job.cc:386] Channel 26 completed
+[2021-06-22 03:50:31.804977: I sling/task/job.cc:400] Task en-wikipedia/sharder done
+[2021-06-22 03:50:31.804987: I sling/task/job.cc:395] Task en-wikipedia/article-writer[0/10] completed
+[2021-06-22 03:50:31.804994: I sling/task/job.cc:395] Task en-wikipedia/article-writer[1/10] completed
+[2021-06-22 03:50:31.805009: I sling/task/job.cc:395] Task en-wikipedia/article-writer[2/10] completed
+[2021-06-22 03:50:31.805015: I sling/task/job.cc:395] Task en-wikipedia/article-writer[3/10] completed
+[2021-06-22 03:50:31.805021: I sling/task/job.cc:395] Task en-wikipedia/article-writer[4/10] completed
+[2021-06-22 03:50:31.805027: I sling/task/job.cc:395] Task en-wikipedia/article-writer[5/10] completed
+[2021-06-22 03:50:31.805033: I sling/task/job.cc:395] Task en-wikipedia/article-writer[6/10] completed
+[2021-06-22 03:50:31.805039: I sling/task/job.cc:395] Task en-wikipedia/article-writer[7/10] completed
+[2021-06-22 03:50:31.805045: I sling/task/job.cc:395] Task en-wikipedia/article-writer[8/10] completed
+[2021-06-22 03:50:31.805051: I sling/task/job.cc:395] Task en-wikipedia/article-writer[9/10] completed
+[2021-06-22 03:50:31.810652: I sling/task/job.cc:400] Task en-wikipedia/article-writer[2/10] done
+[2021-06-22 03:50:31.811147: I sling/task/job.cc:400] Task en-wikipedia/article-writer[7/10] done
+[2021-06-22 03:50:31.811387: I sling/task/job.cc:400] Task en-wikipedia/article-writer[5/10] done
+[2021-06-22 03:50:31.811418: I sling/task/job.cc:400] Task en-wikipedia/article-writer[6/10] done
+[2021-06-22 03:50:31.811492: I sling/task/job.cc:400] Task en-wikipedia/article-writer[4/10] done
+[2021-06-22 03:50:31.811531: I sling/task/job.cc:400] Task en-wikipedia/article-writer[9/10] done
+[2021-06-22 03:50:31.812215: I sling/task/job.cc:400] Task en-wikipedia/article-writer[1/10] done
+[2021-06-22 03:50:31.812568: I sling/task/job.cc:400] Task en-wikipedia/article-writer[0/10] done
+[2021-06-22 03:50:31.813177: I sling/task/job.cc:400] Task en-wikipedia/article-writer[8/10] done
+[2021-06-22 03:50:31.813194: I sling/task/job.cc:400] Task en-wikipedia/article-writer[3/10] done
+[2021-06-22 03:50:31.819766: I sling/task/job.cc:395] Task en-wikipedia/wikipedia-importer completed
+[2021-06-22 03:50:31.819869: I sling/task/job.cc:386] Channel 15 completed
+[2021-06-22 03:50:31.819880: I sling/task/job.cc:400] Task en-wikipedia/wikipedia-importer done
+[2021-06-22 03:50:31.819887: I sling/task/job.cc:395] Task en-wikipedia/sharder-1 completed
+[2021-06-22 03:50:31.819896: I sling/task/job.cc:386] Channel 27 completed
+[2021-06-22 03:50:31.819904: I sling/task/job.cc:386] Channel 28 completed
+[2021-06-22 03:50:31.819912: I sling/task/job.cc:386] Channel 29 completed
+[2021-06-22 03:50:31.819920: I sling/task/job.cc:386] Channel 30 completed
+[2021-06-22 03:50:31.819928: I sling/task/job.cc:386] Channel 31 completed
+[2021-06-22 03:50:31.819936: I sling/task/job.cc:386] Channel 32 completed
+[2021-06-22 03:50:31.819943: I sling/task/job.cc:386] Channel 33 completed
+[2021-06-22 03:50:31.819954: I sling/task/job.cc:386] Channel 34 completed
+[2021-06-22 03:50:31.819959: I sling/task/job.cc:386] Channel 35 completed
+[2021-06-22 03:50:31.819964: I sling/task/job.cc:386] Channel 36 completed
+[2021-06-22 03:50:31.820957: I sling/task/job.cc:400] Task en-wikipedia/sharder-1 done
+[2021-06-22 03:50:31.820966: I sling/task/job.cc:395] Task en-wikipedia/category-writer[8/10] completed
+[2021-06-22 03:50:31.820972: I sling/task/job.cc:395] Task en-wikipedia/category-writer[9/10] completed
+[2021-06-22 03:50:31.819981: I sling/task/job.cc:395] Task en-wikipedia/category-writer[0/10] completed
+[2021-06-22 03:50:31.819996: I sling/task/job.cc:395] Task en-wikipedia/category-writer[1/10] completed
+[2021-06-22 03:50:31.820006: I sling/task/job.cc:395] Task en-wikipedia/category-writer[2/10] completed
+[2021-06-22 03:50:31.820015: I sling/task/job.cc:395] Task en-wikipedia/category-writer[3/10] completed
+[2021-06-22 03:50:31.820025: I sling/task/job.cc:395] Task en-wikipedia/category-writer[4/10] completed
+[2021-06-22 03:50:31.820050: I sling/task/job.cc:395] Task en-wikipedia/category-writer[5/10] completed
+[2021-06-22 03:50:31.820059: I sling/task/job.cc:395] Task en-wikipedia/category-writer[6/10] completed
+[2021-06-22 03:50:31.820069: I sling/task/job.cc:395] Task en-wikipedia/category-writer[7/10] completed
+[2021-06-22 03:50:31.821363: I sling/task/job.cc:400] Task en-wikipedia/category-writer[9/10] done
+[2021-06-22 03:50:31.821443: I sling/task/job.cc:400] Task en-wikipedia/category-writer[0/10] done
+[2021-06-22 03:50:31.821490: I sling/task/job.cc:400] Task en-wikipedia/category-writer[1/10] done
+[2021-06-22 03:50:31.821504: I sling/task/job.cc:400] Task en-wikipedia/category-writer[8/10] done
+[2021-06-22 03:50:31.821559: I sling/task/job.cc:400] Task en-wikipedia/category-writer[4/10] done
+[2021-06-22 03:50:31.821604: I sling/task/job.cc:400] Task en-wikipedia/category-writer[5/10] done
+[2021-06-22 03:50:31.821633: I sling/task/job.cc:400] Task en-wikipedia/category-writer[6/10] done
+[2021-06-22 03:50:31.821653: I sling/task/job.cc:400] Task en-wikipedia/category-writer[3/10] done
+[2021-06-22 03:50:31.821720: I sling/task/job.cc:400] Task en-wikipedia/category-writer[7/10] done
+[2021-06-22 03:50:31.825353: I sling/task/job.cc:400] Task en-wikipedia/category-writer[2/10] done
+[2021-06-22 03:50:53.920946: I sling/task/frame-store-writer.cc:64] Saving store to local/data/e/wiki/en/redirects.sling
+[2021-06-22 03:53:18.388138: I sling/task/job.cc:400] Task en-wikipedia/redirect-writer done
+[2021-06-22 03:53:18.388182: I sling/task/job.cc:412] Stage #1 done
+[2021-06-22 16:32:00.643934: I sling/task/job.cc:386] Channel 0 completed
+[2021-06-22 16:32:00.644932: I sling/task/job.cc:395] Task wikidata/workers completed
+[2021-06-22 16:32:00.645137: I sling/task/job.cc:386] Channel 1 completed
+[2021-06-22 16:32:00.645150: I sling/task/job.cc:400] Task wikidata/workers done
+[2021-06-22 16:32:00.645159: I sling/task/job.cc:395] Task wikidata/wikidata-importer completed
+[2021-06-22 16:32:00.645228: I sling/task/job.cc:395] Task wikidata/text-file-reader completed
+[2021-06-22 16:32:00.645288: I sling/task/job.cc:400] Task wikidata/text-file-reader done
+[2021-06-22 16:32:00.646246: I sling/task/job.cc:386] Channel 2 completed
+[2021-06-22 16:32:00.646256: I sling/task/job.cc:386] Channel 3 completed
+[2021-06-22 16:32:00.646264: I sling/task/job.cc:400] Task wikidata/wikidata-importer done
+[2021-06-22 16:32:00.646270: I sling/task/job.cc:395] Task wikidata/sharder completed
+[2021-06-22 16:32:00.646279: I sling/task/job.cc:395] Task wikidata/property-writer completed
+[2021-06-22 16:32:00.646288: I sling/task/job.cc:386] Channel 4 completed
+[2021-06-22 16:32:00.646296: I sling/task/job.cc:386] Channel 5 completed
+[2021-06-22 16:32:00.646303: I sling/task/job.cc:386] Channel 6 completed
+[2021-06-22 16:32:00.646311: I sling/task/job.cc:386] Channel 7 completed
+[2021-06-22 16:32:00.646318: I sling/task/job.cc:386] Channel 8 completed
+[2021-06-22 16:32:00.646325: I sling/task/job.cc:386] Channel 9 completed
+[2021-06-22 16:32:00.646331: I sling/task/job.cc:386] Channel 10 completed
+[2021-06-22 16:32:00.646336: I sling/task/job.cc:386] Channel 11 completed
+[2021-06-22 16:32:00.646341: I sling/task/job.cc:386] Channel 12 completed
+[2021-06-22 16:32:00.646346: I sling/task/job.cc:386] Channel 13 completed
+[2021-06-22 16:32:00.646356: I sling/task/job.cc:400] Task wikidata/sharder done
+[2021-06-22 16:32:00.646388: I sling/task/job.cc:395] Task wikidata/item-writer[0/10] completed
+[2021-06-22 16:32:00.646395: I sling/task/job.cc:395] Task wikidata/item-writer[1/10] completed
+[2021-06-22 16:32:00.646402: I sling/task/job.cc:395] Task wikidata/item-writer[2/10] completed
+[2021-06-22 16:32:00.646408: I sling/task/job.cc:395] Task wikidata/item-writer[3/10] completed
+[2021-06-22 16:32:00.646414: I sling/task/job.cc:395] Task wikidata/item-writer[4/10] completed
+[2021-06-22 16:32:00.646419: I sling/task/job.cc:395] Task wikidata/item-writer[5/10] completed
+[2021-06-22 16:32:00.646426: I sling/task/job.cc:395] Task wikidata/item-writer[6/10] completed
+[2021-06-22 16:32:00.646432: I sling/task/job.cc:395] Task wikidata/item-writer[7/10] completed
+[2021-06-22 16:32:00.646439: I sling/task/job.cc:395] Task wikidata/item-writer[8/10] completed
+[2021-06-22 16:32:00.646444: I sling/task/job.cc:395] Task wikidata/item-writer[9/10] completed
+[2021-06-22 16:32:00.647448: I sling/task/job.cc:400] Task wikidata/item-writer[4/10] done
+[2021-06-22 16:32:00.647513: I sling/task/job.cc:400] Task wikidata/item-writer[5/10] done
+[2021-06-22 16:32:00.647563: I sling/task/job.cc:400] Task wikidata/item-writer[1/10] done
+[2021-06-22 16:32:00.647590: I sling/task/job.cc:400] Task wikidata/item-writer[6/10] done
+[2021-06-22 16:32:00.647663: I sling/task/job.cc:400] Task wikidata/item-writer[7/10] done
+[2021-06-22 16:32:00.647845: I sling/task/job.cc:400] Task wikidata/property-writer done
+[2021-06-22 16:32:00.647866: I sling/task/job.cc:400] Task wikidata/item-writer[3/10] done
+[2021-06-22 16:32:00.647937: I sling/task/job.cc:400] Task wikidata/item-writer[0/10] done
+[2021-06-22 16:32:00.648007: I sling/task/job.cc:400] Task wikidata/item-writer[2/10] done
+[2021-06-22 16:32:00.648055: I sling/task/job.cc:400] Task wikidata/item-writer[8/10] done
+[2021-06-22 16:32:00.648082: I sling/task/job.cc:400] Task wikidata/item-writer[9/10] done
+[2021-06-22 16:32:00.648088: I sling/task/job.cc:412] Stage #0 done
+[2021-06-22 16:32:00.754000: I run.py:174] Parse en wikipedia
+[2021-06-22 16:32:01.724966: I sling/task/job.cc:342] All systems GO
+[2021-06-22 16:32:01.724993: I sling/task/job.cc:62] Starting stage #0
+[2021-06-22 16:32:01.725000: I sling/task/job.cc:66] Start en-wikipedia/mapping/mapping-writer
+[2021-06-22 16:32:01.725010: I sling/task/job.cc:66] Start en-wikipedia/mapping/wikipedia-mapping
+[2021-06-22 16:32:01.725657: I sling/task/job.cc:66] Start en-wikipedia/mapping/record-file-reader[9/10]
+[2021-06-22 16:32:01.725698: I sling/task/job.cc:66] Start en-wikipedia/mapping/record-file-reader[8/10]
+[2021-06-22 16:32:01.725722: I sling/task/job.cc:66] Start en-wikipedia/mapping/record-file-reader[7/10]
+[2021-06-22 16:32:01.725747: I sling/task/job.cc:66] Start en-wikipedia/mapping/record-file-reader[6/10]
+[2021-06-22 16:32:01.725771: I sling/task/job.cc:66] Start en-wikipedia/mapping/record-file-reader[5/10]
+[2021-06-22 16:32:01.725793: I sling/task/job.cc:66] Start en-wikipedia/mapping/record-file-reader[4/10]
+[2021-06-22 16:32:01.725818: I sling/task/job.cc:66] Start en-wikipedia/mapping/record-file-reader[3/10]
+[2021-06-22 16:32:01.725841: I sling/task/job.cc:66] Start en-wikipedia/mapping/record-file-reader[2/10]
+[2021-06-22 16:32:01.725870: I sling/task/job.cc:66] Start en-wikipedia/mapping/record-file-reader[1/10]
+[2021-06-22 16:32:01.725894: I sling/task/job.cc:66] Start en-wikipedia/mapping/record-file-reader[0/10]
+[2021-06-22 16:44:01.148889: I sling/task/job.cc:386] Channel 3 completed
+[2021-06-22 16:44:01.148953: I sling/task/job.cc:395] Task en-wikipedia/mapping/record-file-reader[3/10] completed
+[2021-06-22 16:44:01.149030: I sling/task/job.cc:400] Task en-wikipedia/mapping/record-file-reader[3/10] done
+[2021-06-22 16:44:04.220905: I sling/task/job.cc:386] Channel 2 completed
+[2021-06-22 16:44:04.220944: I sling/task/job.cc:395] Task en-wikipedia/mapping/record-file-reader[2/10] completed
+[2021-06-22 16:44:04.226933: I sling/task/job.cc:400] Task en-wikipedia/mapping/record-file-reader[2/10] done
+[2021-06-22 16:44:04.419300: I sling/task/job.cc:386] Channel 4 completed
+[2021-06-22 16:44:04.419340: I sling/task/job.cc:395] Task en-wikipedia/mapping/record-file-reader[4/10] completed
+[2021-06-22 16:44:04.419414: I sling/task/job.cc:400] Task en-wikipedia/mapping/record-file-reader[4/10] done
+[2021-06-22 16:44:04.419439: I sling/task/job.cc:386] Channel 6 completed
+[2021-06-22 16:44:04.419453: I sling/task/job.cc:395] Task en-wikipedia/mapping/record-file-reader[6/10] completed
+[2021-06-22 16:44:04.419493: I sling/task/job.cc:400] Task en-wikipedia/mapping/record-file-reader[6/10] done
+[2021-06-22 16:44:05.510883: I sling/task/job.cc:386] Channel 5 completed
+[2021-06-22 16:44:05.510922: I sling/task/job.cc:395] Task en-wikipedia/mapping/record-file-reader[5/10] completed
+[2021-06-22 16:44:05.511008: I sling/task/job.cc:400] Task en-wikipedia/mapping/record-file-reader[5/10] done
+[2021-06-22 16:44:08.853882: I sling/task/job.cc:386] Channel 9 completed
+[2021-06-22 16:44:08.853916: I sling/task/job.cc:395] Task en-wikipedia/mapping/record-file-reader[9/10] completed
+[2021-06-22 16:44:08.853998: I sling/task/job.cc:400] Task en-wikipedia/mapping/record-file-reader[9/10] done
+[2021-06-22 16:44:11.341887: I sling/task/job.cc:386] Channel 0 completed
+[2021-06-22 16:44:11.341924: I sling/task/job.cc:395] Task en-wikipedia/mapping/record-file-reader[0/10] completed
+[2021-06-22 16:44:11.342002: I sling/task/job.cc:400] Task en-wikipedia/mapping/record-file-reader[0/10] done
+[2021-06-22 16:44:12.452882: I sling/task/job.cc:386] Channel 8 completed
+[2021-06-22 16:44:12.452918: I sling/task/job.cc:395] Task en-wikipedia/mapping/record-file-reader[8/10] completed
+[2021-06-22 16:44:12.452996: I sling/task/job.cc:400] Task en-wikipedia/mapping/record-file-reader[8/10] done
+[2021-06-22 16:44:12.701882: I sling/task/job.cc:386] Channel 7 completed
+[2021-06-22 16:44:12.701917: I sling/task/job.cc:395] Task en-wikipedia/mapping/record-file-reader[7/10] completed
+[2021-06-22 16:44:12.702003: I sling/task/job.cc:400] Task en-wikipedia/mapping/record-file-reader[7/10] done
+[2021-06-22 16:44:12.999176: I sling/task/job.cc:386] Channel 1 completed
+[2021-06-22 16:44:12.999214: I sling/task/job.cc:395] Task en-wikipedia/mapping/record-file-reader[1/10] completed
+[2021-06-22 16:44:12.999272: I sling/task/job.cc:395] Task en-wikipedia/mapping/wikipedia-mapping completed
+[2021-06-22 16:44:12.999298: I sling/task/job.cc:400] Task en-wikipedia/mapping/record-file-reader[1/10] done
+[2021-06-22 16:44:12.999318: I sling/task/job.cc:386] Channel 10 completed
+[2021-06-22 16:44:12.999326: I sling/task/job.cc:400] Task en-wikipedia/mapping/wikipedia-mapping done
+[2021-06-22 16:44:12.999332: I sling/task/job.cc:395] Task en-wikipedia/mapping/mapping-writer completed
+[2021-06-22 16:44:20.511579: I sling/task/frame-store-writer.cc:64] Saving store to local/data/e/wiki/en/mapping.sling
+[2021-06-22 16:44:55.919598: I sling/task/job.cc:400] Task en-wikipedia/mapping/mapping-writer done
+[2021-06-22 16:44:55.919643: I sling/task/job.cc:412] Stage #0 done
+[2021-06-22 16:44:55.919653: I sling/task/job.cc:62] Starting stage #1
+[2021-06-22 16:44:55.919665: I sling/task/job.cc:66] Start en-wikipedia/aliases/record-file-writer[9/10]
+[2021-06-22 16:44:55.919672: I sling/task/job.cc:66] Start en-wikipedia/aliases/record-file-writer[8/10]
+[2021-06-22 16:44:55.919678: I sling/task/job.cc:66] Start en-wikipedia/aliases/record-file-writer[7/10]
+[2021-06-22 16:44:55.919684: I sling/task/job.cc:66] Start en-wikipedia/aliases/record-file-writer[6/10]
+[2021-06-22 16:44:55.919689: I sling/task/job.cc:66] Start en-wikipedia/aliases/record-file-writer[5/10]
+[2021-06-22 16:44:55.919695: I sling/task/job.cc:66] Start en-wikipedia/aliases/record-file-writer[4/10]
+[2021-06-22 16:44:55.919702: I sling/task/job.cc:66] Start en-wikipedia/aliases/record-file-writer[3/10]
+[2021-06-22 16:44:55.919707: I sling/task/job.cc:66] Start en-wikipedia/aliases/record-file-writer[2/10]
+[2021-06-22 16:44:55.919714: I sling/task/job.cc:66] Start en-wikipedia/aliases/record-file-writer[1/10]
+[2021-06-22 16:44:55.919720: I sling/task/job.cc:66] Start en-wikipedia/aliases/record-file-writer[0/10]
+[2021-06-22 16:44:55.919726: I sling/task/job.cc:66] Start en-wikipedia/aliases/wikipedia-alias-reducer
+[2021-06-22 16:44:55.919770: I sling/task/job.cc:66] Start en-wikipedia/aliases/sorter[9/10]
+[2021-06-22 16:44:55.919777: I sling/task/job.cc:66] Start en-wikipedia/aliases/sorter[8/10]
+[2021-06-22 16:44:55.919783: I sling/task/job.cc:66] Start en-wikipedia/aliases/sorter[7/10]
+[2021-06-22 16:44:55.919789: I sling/task/job.cc:66] Start en-wikipedia/aliases/sorter[6/10]
+[2021-06-22 16:44:55.919795: I sling/task/job.cc:66] Start en-wikipedia/aliases/sorter[5/10]
+[2021-06-22 16:44:55.919801: I sling/task/job.cc:66] Start en-wikipedia/aliases/sorter[4/10]
+[2021-06-22 16:44:55.919807: I sling/task/job.cc:66] Start en-wikipedia/aliases/sorter[3/10]
+[2021-06-22 16:44:55.919812: I sling/task/job.cc:66] Start en-wikipedia/aliases/sorter[2/10]
+[2021-06-22 16:44:55.919818: I sling/task/job.cc:66] Start en-wikipedia/aliases/sorter[1/10]
+[2021-06-22 16:44:55.919826: I sling/task/job.cc:66] Start en-wikipedia/aliases/sorter[0/10]
+[2021-06-22 16:44:55.919832: I sling/task/job.cc:66] Start en-wikipedia/aliases/sharder
+[2021-06-22 16:44:55.919843: I sling/task/job.cc:66] Start en-wikipedia/parsing/document-writer-1[9/10]
+[2021-06-22 16:44:55.919850: I sling/task/job.cc:66] Start en-wikipedia/parsing/document-writer-1[8/10]
+[2021-06-22 16:44:55.919855: I sling/task/job.cc:66] Start en-wikipedia/parsing/document-writer-1[7/10]
+[2021-06-22 16:44:55.919867: I sling/task/job.cc:66] Start en-wikipedia/parsing/document-writer-1[6/10]
+[2021-06-22 16:44:55.919873: I sling/task/job.cc:66] Start en-wikipedia/parsing/document-writer-1[5/10]
+[2021-06-22 16:44:55.919878: I sling/task/job.cc:66] Start en-wikipedia/parsing/document-writer-1[4/10]
+[2021-06-22 16:44:55.919884: I sling/task/job.cc:66] Start en-wikipedia/parsing/document-writer-1[3/10]
+[2021-06-22 16:44:55.919891: I sling/task/job.cc:66] Start en-wikipedia/parsing/document-writer-1[2/10]
+[2021-06-22 16:44:55.919896: I sling/task/job.cc:66] Start en-wikipedia/parsing/document-writer-1[1/10]
+[2021-06-22 16:44:55.919901: I sling/task/job.cc:66] Start en-wikipedia/parsing/document-writer-1[0/10]
+[2021-06-22 16:44:55.919906: I sling/task/job.cc:66] Start en-wikipedia/parsing/sharder-1
+[2021-06-22 16:44:55.919915: I sling/task/job.cc:66] Start en-wikipedia/parsing/document-writer[9/10]
+[2021-06-22 16:44:55.919922: I sling/task/job.cc:66] Start en-wikipedia/parsing/document-writer[8/10]
+[2021-06-22 16:44:55.919928: I sling/task/job.cc:66] Start en-wikipedia/parsing/document-writer[7/10]
+[2021-06-22 16:44:55.919933: I sling/task/job.cc:66] Start en-wikipedia/parsing/document-writer[6/10]
+[2021-06-22 16:44:55.919939: I sling/task/job.cc:66] Start en-wikipedia/parsing/document-writer[5/10]
+[2021-06-22 16:44:55.919945: I sling/task/job.cc:66] Start en-wikipedia/parsing/document-writer[4/10]
+[2021-06-22 16:44:55.919950: I sling/task/job.cc:66] Start en-wikipedia/parsing/document-writer[3/10]
+[2021-06-22 16:44:55.919956: I sling/task/job.cc:66] Start en-wikipedia/parsing/document-writer[2/10]
+[2021-06-22 16:44:55.919962: I sling/task/job.cc:66] Start en-wikipedia/parsing/document-writer[1/10]
+[2021-06-22 16:44:55.919967: I sling/task/job.cc:66] Start en-wikipedia/parsing/document-writer[0/10]
+[2021-06-22 16:44:55.919972: I sling/task/job.cc:66] Start en-wikipedia/parsing/sharder
+[2021-06-22 16:44:55.919983: I sling/task/job.cc:66] Start en-wikipedia/parsing/wikipedia-documents
+[2021-06-22 16:44:56.198620: I sling/nlp/wiki/wikipedia-documents.cc:60] Loading redirects from local/data/e/wiki/en/redirects.sling
+[2021-06-22 16:45:10.976107: I sling/nlp/wiki/wikipedia-documents.cc:65] Loading wikimap from local/data/e/wiki/en/mapping.sling
+[2021-06-22 16:45:45.886918: I sling/nlp/wiki/wikipedia-documents.cc:101] Loading template configuration
+[2021-06-22 16:45:45.887710: W sling/nlp/wiki/wiki-annotator.cc:167] Unknown template: HPR
+[2021-06-22 16:45:45.888039: W sling/nlp/wiki/wiki-annotator.cc:167] Unknown template: MDA-PMR
+[2021-06-22 16:45:45.888088: W sling/nlp/wiki/wiki-annotator.cc:167] Unknown template: MPR
+[2021-06-22 16:45:45.888192: W sling/nlp/wiki/wiki-annotator.cc:167] Unknown template: PRB
+[2021-06-22 16:45:48.613136: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-22 16:45:49.204474: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creationism_(literature_movement) ending at /wp/en/Creationism_(literary_movement)
+[2021-06-22 16:45:49.682722: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nube ending at /wp/en/Hell_Teacher_Nūbē
+[2021-06-22 16:45:50.893549: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creationism_(literary_movement) ending at /wp/en/Creationism_(literature_movement)
+[2021-06-22 16:45:51.947841: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creationism_(art) ending at /wp/en/Creationism_(literature_movement)
+[2021-06-22 16:45:54.503790: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē:_Kyōfu_no_Natsu_Yasumi!_Asashi_no_Uni_no_Gensetsu ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-22 16:45:56.089849: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Wikipedia:Example_of_a_circular_redirect/part_2 ending at /wp/en/Wikipedia:Example_of_a_circular_redirect
+[2021-06-22 16:45:57.685770: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Wikipedia:Example_of_a_circular_redirect ending at /wp/en/Wikipedia:Example_of_a_circular_redirect/part_2
+[2021-06-22 16:45:59.159023: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Jigoku_Sensei_Nūbē ending at /wp/en/Hell_Teacher_Nūbē
+[2021-06-22 16:45:59.282498: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Jigoku_Sensei_Nube ending at /wp/en/Hell_Teacher_Nūbē
+[2021-06-22 16:45:59.619949: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creacionismo ending at /wp/en/Creationism_(literary_movement)
+[2021-06-22 16:45:59.904994: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creacionismo_(art) ending at /wp/en/Creationism_(literature_movement)
+[2021-06-22 16:46:00.588802: I sling/task/job.cc:66] Start en-wikipedia/parsing/category-reader[9/10]
+[2021-06-22 16:46:00.588875: I sling/task/job.cc:66] Start en-wikipedia/parsing/category-reader[8/10]
+[2021-06-22 16:46:00.588894: I sling/task/job.cc:66] Start en-wikipedia/parsing/category-reader[7/10]
+[2021-06-22 16:46:00.588913: I sling/task/job.cc:66] Start en-wikipedia/parsing/category-reader[6/10]
+[2021-06-22 16:46:00.588930: I sling/task/job.cc:66] Start en-wikipedia/parsing/category-reader[5/10]
+[2021-06-22 16:46:00.588960: I sling/task/job.cc:66] Start en-wikipedia/parsing/category-reader[4/10]
+[2021-06-22 16:46:00.588985: I sling/task/job.cc:66] Start en-wikipedia/parsing/category-reader[3/10]
+[2021-06-22 16:46:00.589012: I sling/task/job.cc:66] Start en-wikipedia/parsing/category-reader[2/10]
+[2021-06-22 16:46:00.589042: I sling/task/job.cc:66] Start en-wikipedia/parsing/category-reader[1/10]
+[2021-06-22 16:46:00.589066: I sling/task/job.cc:66] Start en-wikipedia/parsing/category-reader[0/10]
+[2021-06-22 16:46:00.589090: I sling/task/job.cc:66] Start en-wikipedia/parsing/article-reader[9/10]
+[2021-06-22 16:46:00.589115: I sling/task/job.cc:66] Start en-wikipedia/parsing/article-reader[8/10]
+[2021-06-22 16:46:00.589140: I sling/task/job.cc:66] Start en-wikipedia/parsing/article-reader[7/10]
+[2021-06-22 16:46:00.589165: I sling/task/job.cc:66] Start en-wikipedia/parsing/article-reader[6/10]
+[2021-06-22 16:46:00.589190: I sling/task/job.cc:66] Start en-wikipedia/parsing/article-reader[5/10]
+[2021-06-22 16:46:00.589215: I sling/task/job.cc:66] Start en-wikipedia/parsing/article-reader[4/10]
+[2021-06-22 16:46:00.589308: I sling/task/job.cc:66] Start en-wikipedia/parsing/article-reader[3/10]
+[2021-06-22 16:46:00.589333: I sling/task/job.cc:66] Start en-wikipedia/parsing/article-reader[2/10]
+[2021-06-22 16:46:00.589360: I sling/task/job.cc:66] Start en-wikipedia/parsing/article-reader[1/10]
+[2021-06-22 16:46:00.589383: I sling/task/job.cc:66] Start en-wikipedia/parsing/article-reader[0/10]
+[2021-06-22 16:49:25.307881: I sling/task/job.cc:386] Channel 27 completed
+[2021-06-22 16:49:25.307933: I sling/task/job.cc:395] Task en-wikipedia/parsing/category-reader[6/10] completed
+[2021-06-22 16:49:25.308007: I sling/task/job.cc:400] Task en-wikipedia/parsing/category-reader[6/10] done
+[2021-06-22 16:49:28.566878: I sling/task/job.cc:386] Channel 29 completed
+[2021-06-22 16:49:28.566914: I sling/task/job.cc:395] Task en-wikipedia/parsing/category-reader[8/10] completed
+[2021-06-22 16:49:28.566986: I sling/task/job.cc:400] Task en-wikipedia/parsing/category-reader[8/10] done
+[2021-06-22 16:49:29.806898: I sling/task/job.cc:386] Channel 22 completed
+[2021-06-22 16:49:29.806934: I sling/task/job.cc:395] Task en-wikipedia/parsing/category-reader[1/10] completed
+[2021-06-22 16:49:29.807004: I sling/task/job.cc:400] Task en-wikipedia/parsing/category-reader[1/10] done
+[2021-06-22 16:49:30.083223: I sling/task/job.cc:386] Channel 25 completed
+[2021-06-22 16:49:30.083255: I sling/task/job.cc:395] Task en-wikipedia/parsing/category-reader[4/10] completed
+[2021-06-22 16:49:30.083322: I sling/task/job.cc:400] Task en-wikipedia/parsing/category-reader[4/10] done
+[2021-06-22 16:49:30.389333: I sling/task/job.cc:386] Channel 24 completed
+[2021-06-22 16:49:30.389365: I sling/task/job.cc:395] Task en-wikipedia/parsing/category-reader[3/10] completed
+[2021-06-22 16:49:30.389458: I sling/task/job.cc:400] Task en-wikipedia/parsing/category-reader[3/10] done
+[2021-06-22 16:49:31.854406: I sling/task/job.cc:386] Channel 30 completed
+[2021-06-22 16:49:31.854439: I sling/task/job.cc:395] Task en-wikipedia/parsing/category-reader[9/10] completed
+[2021-06-22 16:49:31.854517: I sling/task/job.cc:400] Task en-wikipedia/parsing/category-reader[9/10] done
+[2021-06-22 16:49:34.758882: I sling/task/job.cc:386] Channel 26 completed
+[2021-06-22 16:49:34.758915: I sling/task/job.cc:395] Task en-wikipedia/parsing/category-reader[5/10] completed
+[2021-06-22 16:49:34.758998: I sling/task/job.cc:400] Task en-wikipedia/parsing/category-reader[5/10] done
+[2021-06-22 16:49:35.942502: I sling/task/job.cc:386] Channel 28 completed
+[2021-06-22 16:49:35.942537: I sling/task/job.cc:395] Task en-wikipedia/parsing/category-reader[7/10] completed
+[2021-06-22 16:49:35.942616: I sling/task/job.cc:400] Task en-wikipedia/parsing/category-reader[7/10] done
+[2021-06-22 16:49:36.044520: I sling/task/job.cc:386] Channel 23 completed
+[2021-06-22 16:49:36.044547: I sling/task/job.cc:395] Task en-wikipedia/parsing/category-reader[2/10] completed
+[2021-06-22 16:49:36.044613: I sling/task/job.cc:400] Task en-wikipedia/parsing/category-reader[2/10] done
+[2021-06-22 16:49:37.111878: I sling/task/job.cc:386] Channel 21 completed
+[2021-06-22 16:49:37.111910: I sling/task/job.cc:395] Task en-wikipedia/parsing/category-reader[0/10] completed
+[2021-06-22 16:49:37.111997: I sling/task/job.cc:400] Task en-wikipedia/parsing/category-reader[0/10] done
+[2021-06-22 19:13:09.121121: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creacionismo ending at /wp/en/Creationism_(literary_movement)
+[2021-06-22 21:02:02.480670: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creacionismo ending at /wp/en/Creationism_(literary_movement)
+[2021-06-23 01:45:12.931591: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creacionismo ending at /wp/en/Creationism_(literary_movement)
+[2021-06-23 01:45:12.931737: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creacionismo ending at /wp/en/Creationism_(literary_movement)
+[2021-06-23 01:45:12.931839: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creacionismo ending at /wp/en/Creationism_(literary_movement)
+[2021-06-23 01:45:12.954040: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creacionismo ending at /wp/en/Creationism_(literary_movement)
+[2021-06-23 02:11:40.579270: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nube ending at /wp/en/Hell_Teacher_Nūbē
+[2021-06-23 02:11:40.579729: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 02:11:40.581259: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nube ending at /wp/en/Hell_Teacher_Nūbē
+[2021-06-23 02:11:40.581271: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nube ending at /wp/en/Hell_Teacher_Nūbē
+[2021-06-23 02:11:40.581454: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nube ending at /wp/en/Hell_Teacher_Nūbē
+[2021-06-23 02:11:40.808432: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 02:33:41.533459: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 02:33:41.533506: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 02:33:41.533513: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 02:52:32.935929: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creacionismo ending at /wp/en/Creationism_(literary_movement)
+[2021-06-23 02:52:32.937055: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creacionismo ending at /wp/en/Creationism_(literary_movement)
+[2021-06-23 03:30:14.180240: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 03:30:14.182484: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 03:30:14.182502: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 03:30:14.182512: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 03:30:14.183118: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 03:35:33.653305: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creationism_(art) ending at /wp/en/Creationism_(literature_movement)
+[2021-06-23 03:35:33.653951: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creacionismo ending at /wp/en/Creationism_(literary_movement)
+[2021-06-23 04:03:29.185473: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nube ending at /wp/en/Hell_Teacher_Nūbē
+[2021-06-23 04:04:53.180535: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 04:08:51.534757: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 04:08:51.534849: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 04:34:47.398139: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 04:34:47.398399: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 04:34:47.398501: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 04:34:47.398668: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 04:57:23.649142: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nube ending at /wp/en/Hell_Teacher_Nūbē
+[2021-06-23 04:57:23.649463: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nube ending at /wp/en/Hell_Teacher_Nūbē
+[2021-06-23 04:57:23.649527: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 05:00:21.805949: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 05:17:30.430992: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 05:36:37.452445: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 05:39:20.643332: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 06:03:51.505654: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 06:41:29.844258: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nube ending at /wp/en/Hell_Teacher_Nūbē
+[2021-06-23 06:47:40.376300: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 06:47:40.376388: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 06:47:40.376415: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 08:29:52.354054: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nube ending at /wp/en/Hell_Teacher_Nūbē
+[2021-06-23 08:29:52.354204: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 08:29:52.354531: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 08:29:52.354586: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 08:43:03.429110: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creationism_(literature_movement) ending at /wp/en/Creationism_(literary_movement)
+[2021-06-23 08:51:20.076937: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creacionismo_(art) ending at /wp/en/Creationism_(literature_movement)
+[2021-06-23 09:56:38.676503: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 09:59:26.343870: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 10:09:47.598462: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 10:12:28.150979: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 11:38:57.519538: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 12:01:49.012433: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 12:07:02.747225: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 12:07:39.615893: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 12:16:21.768725: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Jigoku_Sensei_Nube ending at /wp/en/Hell_Teacher_Nūbē
+[2021-06-23 12:44:32.714847: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creacionismo ending at /wp/en/Creationism_(literary_movement)
+[2021-06-23 12:44:47.782765: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 12:44:47.782812: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 12:44:47.782823: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 12:46:03.161497: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 12:56:17.550597: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 13:54:19.622677: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creacionismo ending at /wp/en/Creationism_(literary_movement)
+[2021-06-23 13:58:19.563986: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 14:42:56.631269: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 14:42:56.631325: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 15:08:31.146998: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creacionismo ending at /wp/en/Creationism_(literary_movement)
+[2021-06-23 16:19:48.360579: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 17:48:02.661374: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nube ending at /wp/en/Hell_Teacher_Nūbē
+[2021-06-23 18:09:56.364150: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 18:19:22.820672: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 18:30:58.554345: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 18:44:35.803173: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 18:59:53.022062: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Jigoku_Sensei_Nube ending at /wp/en/Hell_Teacher_Nūbē
+[2021-06-23 19:47:18.297440: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 19:51:52.615160: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 19:55:45.627133: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Jigoku_Sensei_Nube ending at /wp/en/Hell_Teacher_Nūbē
+[2021-06-23 20:09:22.172746: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Jigoku_Sensei_Nube ending at /wp/en/Hell_Teacher_Nūbē
+[2021-06-23 20:14:10.732183: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creacionismo ending at /wp/en/Creationism_(literary_movement)
+[2021-06-23 20:17:47.870593: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 21:05:02.822357: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Jigoku_Sensei_Nube ending at /wp/en/Hell_Teacher_Nūbē
+[2021-06-23 21:22:09.224649: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Jigoku_Sensei_Nube ending at /wp/en/Hell_Teacher_Nūbē
+[2021-06-23 21:56:20.128158: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 22:00:35.909920: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 22:21:20.178067: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creacionismo ending at /wp/en/Creationism_(literary_movement)
+[2021-06-23 22:21:20.178147: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creacionismo ending at /wp/en/Creationism_(literary_movement)
+[2021-06-23 22:25:27.408656: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 22:30:50.726287: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nube ending at /wp/en/Hell_Teacher_Nūbē
+[2021-06-23 22:33:21.445433: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Jigoku_Sensei_Nube ending at /wp/en/Hell_Teacher_Nūbē
+[2021-06-23 22:33:21.445656: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-23 22:33:21.446999: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Jigoku_Sensei_Nube ending at /wp/en/Hell_Teacher_Nūbē
+[2021-06-23 22:55:20.943801: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creacionismo ending at /wp/en/Creationism_(literary_movement)
+[2021-06-23 23:02:09.458715: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-24 00:07:59.024391: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Jigoku_Sensei_Nube ending at /wp/en/Hell_Teacher_Nūbē
+[2021-06-24 00:10:07.750908: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creacionismo ending at /wp/en/Creationism_(literary_movement)
+[2021-06-24 01:07:55.434190: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-24 02:02:06.018589: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-24 02:02:06.018813: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-24 02:02:06.019095: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-24 03:09:24.172155: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-24 04:41:53.991524: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-24 05:27:35.961466: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creacionismo ending at /wp/en/Creationism_(literary_movement)
+[2021-06-24 05:38:26.749493: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-24 05:51:39.327510: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nube ending at /wp/en/Hell_Teacher_Nūbē
+[2021-06-24 05:53:11.498115: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nube ending at /wp/en/Hell_Teacher_Nūbē
+[2021-06-24 05:53:26.555150: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-24 06:02:37.423970: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nube ending at /wp/en/Hell_Teacher_Nūbē
+[2021-06-24 06:24:25.069766: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-24 07:03:12.995066: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-24 07:17:17.430117: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-24 07:20:06.133206: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creacionismo ending at /wp/en/Creationism_(literary_movement)
+[2021-06-24 07:41:48.627515: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-24 07:48:35.510952: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-24 07:53:44.560049: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-24 08:09:16.565835: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-24 08:19:27.534309: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-24 08:49:18.983065: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Creacionismo ending at /wp/en/Creationism_(literary_movement)
+[2021-06-24 09:01:44.026290: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-24 09:01:44.026701: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-24 09:10:05.396172: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-24 10:17:13.927825: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-24 10:17:13.927964: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-24 11:16:43.749302: W sling/nlp/wiki/wikipedia-map.cc:78] Unresolved redirect from /wp/en/Hell_Teacher_Nūbē ending at /wp/en/Jigoku_Sensei_Nūbē
+[2021-06-24 12:54:35.051889: I sling/task/job.cc:386] Channel 19 completed
+[2021-06-24 12:54:35.052067: I sling/task/job.cc:395] Task en-wikipedia/parsing/article-reader[8/10] completed
+[2021-06-24 12:54:35.052192: I sling/task/job.cc:400] Task en-wikipedia/parsing/article-reader[8/10] done
+[2021-06-24 12:56:03.317883: I sling/task/job.cc:386] Channel 20 completed
+[2021-06-24 12:56:03.317929: I sling/task/job.cc:395] Task en-wikipedia/parsing/article-reader[9/10] completed
+[2021-06-24 12:56:03.318070: I sling/task/job.cc:400] Task en-wikipedia/parsing/article-reader[9/10] done
+[2021-06-24 13:15:10.972898: I sling/task/job.cc:386] Channel 18 completed
+[2021-06-24 13:15:10.972987: I sling/task/job.cc:395] Task en-wikipedia/parsing/article-reader[7/10] completed
+[2021-06-24 13:15:10.973137: I sling/task/job.cc:400] Task en-wikipedia/parsing/article-reader[7/10] done
+[2021-06-24 13:33:01.088896: I sling/task/job.cc:386] Channel 15 completed
+[2021-06-24 13:33:01.088982: I sling/task/job.cc:395] Task en-wikipedia/parsing/article-reader[4/10] completed
+[2021-06-24 13:33:01.089096: I sling/task/job.cc:400] Task en-wikipedia/parsing/article-reader[4/10] done
+[2021-06-24 13:36:58.004922: I sling/task/job.cc:386] Channel 12 completed
+[2021-06-24 13:36:58.005013: I sling/task/job.cc:395] Task en-wikipedia/parsing/article-reader[1/10] completed
+[2021-06-24 13:36:58.005134: I sling/task/job.cc:400] Task en-wikipedia/parsing/article-reader[1/10] done
+[2021-06-24 13:40:21.324888: I sling/task/job.cc:386] Channel 16 completed
+[2021-06-24 13:40:21.324954: I sling/task/job.cc:395] Task en-wikipedia/parsing/article-reader[5/10] completed
+[2021-06-24 13:40:21.325084: I sling/task/job.cc:400] Task en-wikipedia/parsing/article-reader[5/10] done
+[2021-06-24 13:43:57.883889: I sling/task/job.cc:386] Channel 17 completed
+[2021-06-24 13:43:57.883956: I sling/task/job.cc:395] Task en-wikipedia/parsing/article-reader[6/10] completed
+[2021-06-24 13:43:57.884095: I sling/task/job.cc:400] Task en-wikipedia/parsing/article-reader[6/10] done
+[2021-06-24 13:44:36.301883: I sling/task/job.cc:386] Channel 14 completed
+[2021-06-24 13:44:36.301946: I sling/task/job.cc:395] Task en-wikipedia/parsing/article-reader[3/10] completed
+[2021-06-24 13:44:36.302062: I sling/task/job.cc:400] Task en-wikipedia/parsing/article-reader[3/10] done
+[2021-06-24 13:45:15.821907: I sling/task/job.cc:386] Channel 13 completed
+[2021-06-24 13:45:15.821952: I sling/task/job.cc:395] Task en-wikipedia/parsing/article-reader[2/10] completed
+[2021-06-24 13:45:15.822063: I sling/task/job.cc:400] Task en-wikipedia/parsing/article-reader[2/10] done
+[2021-06-24 13:46:05.343149: I sling/task/job.cc:386] Channel 11 completed
+[2021-06-24 13:46:05.343215: I sling/task/job.cc:395] Task en-wikipedia/parsing/article-reader[0/10] completed
+[2021-06-24 13:46:05.343300: I sling/task/job.cc:395] Task en-wikipedia/parsing/wikipedia-documents completed
+[2021-06-24 13:46:05.343345: I sling/task/job.cc:400] Task en-wikipedia/parsing/article-reader[0/10] done
+[2021-06-24 13:46:11.048044: I sling/task/job.cc:386] Channel 31 completed
+[2021-06-24 13:46:11.048105: I sling/task/job.cc:386] Channel 32 completed
+[2021-06-24 13:46:11.048116: I sling/task/job.cc:386] Channel 33 completed
+[2021-06-24 13:46:11.048126: I sling/task/job.cc:400] Task en-wikipedia/parsing/wikipedia-documents done
+[2021-06-24 13:46:11.048139: I sling/task/job.cc:395] Task en-wikipedia/parsing/sharder completed
+[2021-06-24 13:46:11.048147: I sling/task/job.cc:395] Task en-wikipedia/aliases/sharder completed
+[2021-06-24 13:46:11.048156: I sling/task/job.cc:395] Task en-wikipedia/parsing/sharder-1 completed
+[2021-06-24 13:46:11.048166: I sling/task/job.cc:386] Channel 34 completed
+[2021-06-24 13:46:11.048175: I sling/task/job.cc:386] Channel 35 completed
+[2021-06-24 13:46:11.048183: I sling/task/job.cc:386] Channel 36 completed
+[2021-06-24 13:46:11.048191: I sling/task/job.cc:386] Channel 37 completed
+[2021-06-24 13:46:11.048196: I sling/task/job.cc:386] Channel 38 completed
+[2021-06-24 13:46:11.048201: I sling/task/job.cc:386] Channel 39 completed
+[2021-06-24 13:46:11.048206: I sling/task/job.cc:386] Channel 40 completed
+[2021-06-24 13:46:11.048211: I sling/task/job.cc:386] Channel 41 completed
+[2021-06-24 13:46:11.048216: I sling/task/job.cc:386] Channel 42 completed
+[2021-06-24 13:46:11.048221: I sling/task/job.cc:386] Channel 43 completed
+[2021-06-24 13:46:11.048228: I sling/task/job.cc:400] Task en-wikipedia/parsing/sharder done
+[2021-06-24 13:46:11.048239: I sling/task/job.cc:386] Channel 54 completed
+[2021-06-24 13:46:11.048245: I sling/task/job.cc:386] Channel 55 completed
+[2021-06-24 13:46:11.048250: I sling/task/job.cc:386] Channel 56 completed
+[2021-06-24 13:46:11.048257: I sling/task/job.cc:386] Channel 57 completed
+[2021-06-24 13:46:11.048262: I sling/task/job.cc:386] Channel 58 completed
+[2021-06-24 13:46:11.048267: I sling/task/job.cc:386] Channel 59 completed
+[2021-06-24 13:46:11.048272: I sling/task/job.cc:386] Channel 60 completed
+[2021-06-24 13:46:11.048277: I sling/task/job.cc:386] Channel 61 completed
+[2021-06-24 13:46:11.048282: I sling/task/job.cc:386] Channel 62 completed
+[2021-06-24 13:46:11.048287: I sling/task/job.cc:386] Channel 63 completed
+[2021-06-24 13:46:11.048292: I sling/task/job.cc:400] Task en-wikipedia/aliases/sharder done
+[2021-06-24 13:46:11.048302: I sling/task/job.cc:386] Channel 44 completed
+[2021-06-24 13:46:11.048307: I sling/task/job.cc:386] Channel 45 completed
+[2021-06-24 13:46:11.048312: I sling/task/job.cc:386] Channel 46 completed
+[2021-06-24 13:46:11.048767: I sling/task/job.cc:386] Channel 47 completed
+[2021-06-24 13:46:11.048773: I sling/task/job.cc:386] Channel 48 completed
+[2021-06-24 13:46:11.048778: I sling/task/job.cc:386] Channel 49 completed
+[2021-06-24 13:46:11.048784: I sling/task/job.cc:386] Channel 50 completed
+[2021-06-24 13:46:11.048790: I sling/task/job.cc:386] Channel 51 completed
+[2021-06-24 13:46:11.048795: I sling/task/job.cc:386] Channel 52 completed
+[2021-06-24 13:46:11.048800: I sling/task/job.cc:386] Channel 53 completed
+[2021-06-24 13:46:11.048805: I sling/task/job.cc:400] Task en-wikipedia/parsing/sharder-1 done
+[2021-06-24 13:46:11.048811: I sling/task/job.cc:395] Task en-wikipedia/parsing/document-writer[9/10] completed
+[2021-06-24 13:46:11.048818: I sling/task/job.cc:395] Task en-wikipedia/aliases/sorter[0/10] completed
+[2021-06-24 13:46:11.048824: I sling/task/job.cc:395] Task en-wikipedia/aliases/sorter[1/10] completed
+[2021-06-24 13:46:11.048829: I sling/task/job.cc:395] Task en-wikipedia/aliases/sorter[2/10] completed
+[2021-06-24 13:46:11.048835: I sling/task/job.cc:395] Task en-wikipedia/aliases/sorter[3/10] completed
+[2021-06-24 13:46:11.048841: I sling/task/job.cc:395] Task en-wikipedia/aliases/sorter[4/10] completed
+[2021-06-24 13:46:11.048847: I sling/task/job.cc:395] Task en-wikipedia/aliases/sorter[5/10] completed
+[2021-06-24 13:46:11.048852: I sling/task/job.cc:395] Task en-wikipedia/aliases/sorter[6/10] completed
+[2021-06-24 13:46:11.048870: I sling/task/job.cc:395] Task en-wikipedia/aliases/sorter[7/10] completed
+[2021-06-24 13:46:11.048876: I sling/task/job.cc:395] Task en-wikipedia/aliases/sorter[8/10] completed
+[2021-06-24 13:46:11.048882: I sling/task/job.cc:395] Task en-wikipedia/aliases/sorter[9/10] completed
+[2021-06-24 13:46:11.048887: I sling/task/job.cc:395] Task en-wikipedia/parsing/document-writer-1[0/10] completed
+[2021-06-24 13:46:11.048893: I sling/task/job.cc:395] Task en-wikipedia/parsing/document-writer-1[1/10] completed
+[2021-06-24 13:46:11.048902: I sling/task/job.cc:395] Task en-wikipedia/parsing/document-writer-1[2/10] completed
+[2021-06-24 13:46:11.048908: I sling/task/job.cc:395] Task en-wikipedia/parsing/document-writer-1[3/10] completed
+[2021-06-24 13:46:11.048914: I sling/task/job.cc:395] Task en-wikipedia/parsing/document-writer-1[4/10] completed
+[2021-06-24 13:46:11.048919: I sling/task/job.cc:395] Task en-wikipedia/parsing/document-writer-1[5/10] completed
+[2021-06-24 13:46:11.048925: I sling/task/job.cc:395] Task en-wikipedia/parsing/document-writer-1[6/10] completed
+[2021-06-24 13:46:11.048931: I sling/task/job.cc:395] Task en-wikipedia/parsing/document-writer-1[7/10] completed
+[2021-06-24 13:46:11.048937: I sling/task/job.cc:395] Task en-wikipedia/parsing/document-writer-1[8/10] completed
+[2021-06-24 13:46:11.048943: I sling/task/job.cc:395] Task en-wikipedia/parsing/document-writer-1[9/10] completed
+[2021-06-24 13:46:11.048348: I sling/task/job.cc:395] Task en-wikipedia/parsing/document-writer[0/10] completed
+[2021-06-24 13:46:11.048387: I sling/task/job.cc:395] Task en-wikipedia/parsing/document-writer[1/10] completed
+[2021-06-24 13:46:11.048408: I sling/task/job.cc:395] Task en-wikipedia/parsing/document-writer[2/10] completed
+[2021-06-24 13:46:11.048427: I sling/task/job.cc:395] Task en-wikipedia/parsing/document-writer[3/10] completed
+[2021-06-24 13:46:11.048463: I sling/task/job.cc:395] Task en-wikipedia/parsing/document-writer[4/10] completed
+[2021-06-24 13:46:11.048481: I sling/task/job.cc:395] Task en-wikipedia/parsing/document-writer[5/10] completed
+[2021-06-24 13:46:11.048518: I sling/task/job.cc:395] Task en-wikipedia/parsing/document-writer[6/10] completed
+[2021-06-24 13:46:11.048536: I sling/task/job.cc:395] Task en-wikipedia/parsing/document-writer[7/10] completed
+[2021-06-24 13:46:11.048554: I sling/task/job.cc:395] Task en-wikipedia/parsing/document-writer[8/10] completed
+[2021-06-24 13:46:11.298063: I sling/task/job.cc:400] Task en-wikipedia/parsing/document-writer[9/10] done
+[2021-06-24 13:50:04.277812: I sling/task/job.cc:386] Channel 66 completed
+[2021-06-24 13:50:04.279991: I sling/task/job.cc:400] Task en-wikipedia/aliases/sorter[2/10] done
+[2021-06-24 13:50:04.303444: I sling/task/job.cc:400] Task en-wikipedia/parsing/document-writer-1[0/10] done
+[2021-06-24 13:50:04.317140: I sling/task/job.cc:386] Channel 72 completed
+[2021-06-24 13:50:04.317274: I sling/task/job.cc:400] Task en-wikipedia/aliases/sorter[8/10] done
+[2021-06-24 13:50:04.317318: I sling/task/job.cc:400] Task en-wikipedia/parsing/document-writer-1[1/10] done
+[2021-06-24 13:50:04.320656: I sling/task/job.cc:400] Task en-wikipedia/parsing/document-writer-1[2/10] done
+[2021-06-24 13:50:04.320687: I sling/task/job.cc:400] Task en-wikipedia/parsing/document-writer-1[3/10] done
+[2021-06-24 13:50:04.334879: I sling/task/job.cc:400] Task en-wikipedia/parsing/document-writer-1[4/10] done
+[2021-06-24 13:50:04.334907: I sling/task/job.cc:400] Task en-wikipedia/parsing/document-writer-1[5/10] done
+[2021-06-24 13:50:04.345977: I sling/task/job.cc:400] Task en-wikipedia/parsing/document-writer-1[6/10] done
+[2021-06-24 13:50:04.346007: I sling/task/job.cc:400] Task en-wikipedia/parsing/document-writer-1[7/10] done
+[2021-06-24 13:50:04.355455: I sling/task/job.cc:400] Task en-wikipedia/parsing/document-writer-1[8/10] done
+[2021-06-24 13:50:04.355482: I sling/task/job.cc:400] Task en-wikipedia/parsing/document-writer-1[9/10] done
+[2021-06-24 13:50:04.372479: I sling/task/job.cc:400] Task en-wikipedia/parsing/document-writer[0/10] done
+[2021-06-24 13:50:04.407006: I sling/task/job.cc:400] Task en-wikipedia/parsing/document-writer[1/10] done
+[2021-06-24 13:50:04.439066: I sling/task/job.cc:400] Task en-wikipedia/parsing/document-writer[2/10] done
+[2021-06-24 13:50:04.448973: I sling/task/job.cc:400] Task en-wikipedia/parsing/document-writer[4/10] done
+[2021-06-24 13:50:04.485668: I sling/task/job.cc:400] Task en-wikipedia/parsing/document-writer[5/10] done
+[2021-06-24 13:50:04.511445: I sling/task/job.cc:400] Task en-wikipedia/parsing/document-writer[3/10] done
+[2021-06-24 13:50:04.527359: I sling/task/job.cc:400] Task en-wikipedia/parsing/document-writer[6/10] done
+[2021-06-24 13:50:04.565898: I sling/task/job.cc:400] Task en-wikipedia/parsing/document-writer[8/10] done
+[2021-06-24 13:50:04.581483: I sling/task/job.cc:400] Task en-wikipedia/parsing/document-writer[7/10] done
+[2021-06-24 13:50:05.639225: I sling/task/job.cc:386] Channel 67 completed
+[2021-06-24 13:50:05.642013: I sling/task/job.cc:400] Task en-wikipedia/aliases/sorter[3/10] done
+[2021-06-24 13:50:09.764327: I sling/task/job.cc:386] Channel 71 completed
+[2021-06-24 13:50:09.764681: I sling/task/job.cc:400] Task en-wikipedia/aliases/sorter[7/10] done
+[2021-06-24 13:50:11.357542: I sling/task/job.cc:386] Channel 65 completed
+[2021-06-24 13:50:11.357706: I sling/task/job.cc:400] Task en-wikipedia/aliases/sorter[1/10] done
+[2021-06-24 13:50:16.242237: I sling/task/job.cc:386] Channel 73 completed
+[2021-06-24 13:50:16.242379: I sling/task/job.cc:400] Task en-wikipedia/aliases/sorter[9/10] done
+[2021-06-24 13:50:16.708780: I sling/task/job.cc:386] Channel 70 completed
+[2021-06-24 13:50:16.709136: I sling/task/job.cc:400] Task en-wikipedia/aliases/sorter[6/10] done
+[2021-06-24 13:50:17.598949: I sling/task/job.cc:386] Channel 69 completed
+[2021-06-24 13:50:17.599096: I sling/task/job.cc:400] Task en-wikipedia/aliases/sorter[5/10] done
+[2021-06-24 13:50:18.289899: I sling/task/job.cc:386] Channel 68 completed
+[2021-06-24 13:50:18.290349: I sling/task/job.cc:400] Task en-wikipedia/aliases/sorter[4/10] done
+[2021-06-24 13:50:18.889449: I sling/task/job.cc:386] Channel 64 completed
+[2021-06-24 13:50:18.890773: I sling/task/job.cc:400] Task en-wikipedia/aliases/sorter[0/10] done
+[2021-06-24 13:50:18.890788: I sling/task/job.cc:395] Task en-wikipedia/aliases/wikipedia-alias-reducer completed
+[2021-06-24 13:50:18.891058: I sling/task/job.cc:386] Channel 74 completed
+[2021-06-24 13:50:18.891068: I sling/task/job.cc:386] Channel 75 completed
+[2021-06-24 13:50:18.891076: I sling/task/job.cc:386] Channel 76 completed
+[2021-06-24 13:50:18.891084: I sling/task/job.cc:386] Channel 77 completed
+[2021-06-24 13:50:18.911161: I sling/task/job.cc:386] Channel 78 completed
+[2021-06-24 13:50:18.911171: I sling/task/job.cc:386] Channel 79 completed
+[2021-06-24 13:50:18.911179: I sling/task/job.cc:386] Channel 80 completed
+[2021-06-24 13:50:18.911187: I sling/task/job.cc:386] Channel 81 completed
+[2021-06-24 13:50:18.911195: I sling/task/job.cc:386] Channel 82 completed
+[2021-06-24 13:50:18.911202: I sling/task/job.cc:386] Channel 83 completed
+[2021-06-24 13:50:18.911208: I sling/task/job.cc:400] Task en-wikipedia/aliases/wikipedia-alias-reducer done
+[2021-06-24 13:50:18.911215: I sling/task/job.cc:395] Task en-wikipedia/aliases/record-file-writer[3/10] completed
+[2021-06-24 13:50:18.911221: I sling/task/job.cc:395] Task en-wikipedia/aliases/record-file-writer[4/10] completed
+[2021-06-24 13:50:18.911227: I sling/task/job.cc:395] Task en-wikipedia/aliases/record-file-writer[5/10] completed
+[2021-06-24 13:50:18.911233: I sling/task/job.cc:395] Task en-wikipedia/aliases/record-file-writer[6/10] completed
+[2021-06-24 13:50:18.911239: I sling/task/job.cc:395] Task en-wikipedia/aliases/record-file-writer[7/10] completed
+[2021-06-24 13:50:18.911245: I sling/task/job.cc:395] Task en-wikipedia/aliases/record-file-writer[8/10] completed
+[2021-06-24 13:50:18.911251: I sling/task/job.cc:395] Task en-wikipedia/aliases/record-file-writer[9/10] completed
+[2021-06-24 13:50:18.891106: I sling/task/job.cc:395] Task en-wikipedia/aliases/record-file-writer[0/10] completed
+[2021-06-24 13:50:18.891118: I sling/task/job.cc:395] Task en-wikipedia/aliases/record-file-writer[1/10] completed
+[2021-06-24 13:50:18.911051: I sling/task/job.cc:395] Task en-wikipedia/aliases/record-file-writer[2/10] completed
+[2021-06-24 13:50:18.912036: I sling/task/job.cc:400] Task en-wikipedia/aliases/record-file-writer[0/10] done
+[2021-06-24 13:50:18.912067: I sling/task/job.cc:400] Task en-wikipedia/aliases/record-file-writer[9/10] done
+[2021-06-24 13:50:18.912084: I sling/task/job.cc:400] Task en-wikipedia/aliases/record-file-writer[6/10] done
+[2021-06-24 13:50:18.912097: I sling/task/job.cc:400] Task en-wikipedia/aliases/record-file-writer[1/10] done
+[2021-06-24 13:50:18.912121: I sling/task/job.cc:400] Task en-wikipedia/aliases/record-file-writer[4/10] done
+[2021-06-24 13:50:18.912141: I sling/task/job.cc:400] Task en-wikipedia/aliases/record-file-writer[8/10] done
+[2021-06-24 13:50:18.912160: I sling/task/job.cc:400] Task en-wikipedia/aliases/record-file-writer[7/10] done
+[2021-06-24 13:50:18.912176: I sling/task/job.cc:400] Task en-wikipedia/aliases/record-file-writer[5/10] done
+[2021-06-24 13:50:18.912190: I sling/task/job.cc:400] Task en-wikipedia/aliases/record-file-writer[2/10] done
+[2021-06-24 13:50:18.912238: I sling/task/job.cc:400] Task en-wikipedia/aliases/record-file-writer[3/10] done
+[2021-06-24 13:50:18.912245: I sling/task/job.cc:412] Stage #1 done
+[2021-06-24 13:50:19.034042: I run.py:182] Merge wikipedia categories
+[2021-06-24 13:50:19.040633: I sling/task/job.cc:342] All systems GO
+[2021-06-24 13:50:19.040655: I sling/task/job.cc:62] Starting stage #0
+[2021-06-24 13:50:19.040661: I sling/task/job.cc:66] Start wikipedia-categories/record-file-writer
+[2021-06-24 13:50:19.040666: I sling/task/job.cc:66] Start wikipedia-categories/category-item-merger
+[2021-06-24 13:50:19.040681: I sling/task/job.cc:66] Start wikipedia-categories/sorter
+[2021-06-24 13:50:19.040686: I sling/task/job.cc:66] Start wikipedia-categories/category-item-extractor
+[2021-06-24 13:50:19.040708: I sling/task/job.cc:66] Start wikipedia-categories/record-file-reader[19/20]
+[2021-06-24 13:50:19.040742: I sling/task/job.cc:66] Start wikipedia-categories/record-file-reader[18/20]
+[2021-06-24 13:50:19.040768: I sling/task/job.cc:66] Start wikipedia-categories/record-file-reader[17/20]
+[2021-06-24 13:50:19.040791: I sling/task/job.cc:66] Start wikipedia-categories/record-file-reader[16/20]
+[2021-06-24 13:50:19.040815: I sling/task/job.cc:66] Start wikipedia-categories/record-file-reader[15/20]
+[2021-06-24 13:50:19.040839: I sling/task/job.cc:66] Start wikipedia-categories/record-file-reader[14/20]
+[2021-06-24 13:50:19.040869: I sling/task/job.cc:66] Start wikipedia-categories/record-file-reader[13/20]
+[2021-06-24 13:50:19.040893: I sling/task/job.cc:66] Start wikipedia-categories/record-file-reader[12/20]
+[2021-06-24 13:50:19.040918: I sling/task/job.cc:66] Start wikipedia-categories/record-file-reader[11/20]
+[2021-06-24 13:50:19.040942: I sling/task/job.cc:66] Start wikipedia-categories/record-file-reader[10/20]
+[2021-06-24 13:50:19.040966: I sling/task/job.cc:66] Start wikipedia-categories/record-file-reader[9/20]
+[2021-06-24 13:50:19.041383: I sling/task/job.cc:66] Start wikipedia-categories/record-file-reader[8/20]
+[2021-06-24 13:50:19.041408: I sling/task/job.cc:66] Start wikipedia-categories/record-file-reader[7/20]
+[2021-06-24 13:50:19.041432: I sling/task/job.cc:66] Start wikipedia-categories/record-file-reader[6/20]
+[2021-06-24 13:50:19.041456: I sling/task/job.cc:66] Start wikipedia-categories/record-file-reader[5/20]
+[2021-06-24 13:50:19.041480: I sling/task/job.cc:66] Start wikipedia-categories/record-file-reader[4/20]
+[2021-06-24 13:50:19.041503: I sling/task/job.cc:66] Start wikipedia-categories/record-file-reader[3/20]
+[2021-06-24 13:50:19.041527: I sling/task/job.cc:66] Start wikipedia-categories/record-file-reader[2/20]
+[2021-06-24 13:50:19.041551: I sling/task/job.cc:66] Start wikipedia-categories/record-file-reader[1/20]
+[2021-06-24 13:50:19.041574: I sling/task/job.cc:66] Start wikipedia-categories/record-file-reader[0/20]
+[2021-06-24 13:50:47.331848: I sling/task/job.cc:386] Channel 13 completed
+[2021-06-24 13:50:47.331915: I sling/task/job.cc:395] Task wikipedia-categories/record-file-reader[13/20] completed
+[2021-06-24 13:50:47.331998: I sling/task/job.cc:400] Task wikipedia-categories/record-file-reader[13/20] done
+[2021-06-24 13:50:48.229119: I sling/task/job.cc:386] Channel 19 completed
+[2021-06-24 13:50:48.229160: I sling/task/job.cc:395] Task wikipedia-categories/record-file-reader[19/20] completed
+[2021-06-24 13:50:48.229234: I sling/task/job.cc:400] Task wikipedia-categories/record-file-reader[19/20] done
+[2021-06-24 13:50:48.926204: I sling/task/job.cc:386] Channel 12 completed
+[2021-06-24 13:50:48.926245: I sling/task/job.cc:395] Task wikipedia-categories/record-file-reader[12/20] completed
+[2021-06-24 13:50:48.926326: I sling/task/job.cc:400] Task wikipedia-categories/record-file-reader[12/20] done
+[2021-06-24 13:50:49.032987: I sling/task/job.cc:386] Channel 18 completed
+[2021-06-24 13:50:49.033031: I sling/task/job.cc:395] Task wikipedia-categories/record-file-reader[18/20] completed
+[2021-06-24 13:50:49.033108: I sling/task/job.cc:400] Task wikipedia-categories/record-file-reader[18/20] done
+[2021-06-24 13:50:49.170863: I sling/task/job.cc:386] Channel 17 completed
+[2021-06-24 13:50:49.170905: I sling/task/job.cc:395] Task wikipedia-categories/record-file-reader[17/20] completed
+[2021-06-24 13:50:49.171004: I sling/task/job.cc:400] Task wikipedia-categories/record-file-reader[17/20] done
+[2021-06-24 13:50:57.579308: I sling/task/job.cc:386] Channel 14 completed
+[2021-06-24 13:50:57.579370: I sling/task/job.cc:395] Task wikipedia-categories/record-file-reader[14/20] completed
+[2021-06-24 13:50:57.579701: I sling/task/job.cc:400] Task wikipedia-categories/record-file-reader[14/20] done
+[2021-06-24 13:51:03.001254: I sling/task/job.cc:386] Channel 15 completed
+[2021-06-24 13:51:03.001295: I sling/task/job.cc:395] Task wikipedia-categories/record-file-reader[15/20] completed
+[2021-06-24 13:51:03.002000: I sling/task/job.cc:400] Task wikipedia-categories/record-file-reader[15/20] done
+[2021-06-24 13:51:03.585811: I sling/task/job.cc:386] Channel 16 completed
+[2021-06-24 13:51:03.585855: I sling/task/job.cc:395] Task wikipedia-categories/record-file-reader[16/20] completed
+[2021-06-24 13:51:03.586133: I sling/task/job.cc:400] Task wikipedia-categories/record-file-reader[16/20] done
+[2021-06-24 13:51:04.412552: I sling/task/job.cc:386] Channel 11 completed
+[2021-06-24 13:51:04.412596: I sling/task/job.cc:395] Task wikipedia-categories/record-file-reader[11/20] completed
+[2021-06-24 13:51:04.418176: I sling/task/job.cc:400] Task wikipedia-categories/record-file-reader[11/20] done
+[2021-06-24 13:51:04.812527: I sling/task/job.cc:386] Channel 10 completed
+[2021-06-24 13:51:04.812574: I sling/task/job.cc:395] Task wikipedia-categories/record-file-reader[10/20] completed
+[2021-06-24 13:51:04.812681: I sling/task/job.cc:400] Task wikipedia-categories/record-file-reader[10/20] done
+[2021-06-24 14:00:08.285002: I sling/task/job.cc:386] Channel 3 completed
+[2021-06-24 14:00:08.285067: I sling/task/job.cc:395] Task wikipedia-categories/record-file-reader[3/20] completed
+[2021-06-24 14:00:08.285190: I sling/task/job.cc:400] Task wikipedia-categories/record-file-reader[3/20] done
+[2021-06-24 14:00:08.879907: I sling/task/job.cc:386] Channel 7 completed
+[2021-06-24 14:00:08.879949: I sling/task/job.cc:395] Task wikipedia-categories/record-file-reader[7/20] completed
+[2021-06-24 14:00:08.880054: I sling/task/job.cc:400] Task wikipedia-categories/record-file-reader[7/20] done
+[2021-06-24 14:00:09.283892: I sling/task/job.cc:386] Channel 0 completed
+[2021-06-24 14:00:09.283936: I sling/task/job.cc:395] Task wikipedia-categories/record-file-reader[0/20] completed
+[2021-06-24 14:00:09.284048: I sling/task/job.cc:400] Task wikipedia-categories/record-file-reader[0/20] done
+[2021-06-24 14:00:09.713244: I sling/task/job.cc:386] Channel 8 completed
+[2021-06-24 14:00:09.713286: I sling/task/job.cc:395] Task wikipedia-categories/record-file-reader[8/20] completed
+[2021-06-24 14:00:09.713951: I sling/task/job.cc:400] Task wikipedia-categories/record-file-reader[8/20] done
+[2021-06-24 14:00:10.073599: I sling/task/job.cc:386] Channel 4 completed
+[2021-06-24 14:00:10.073642: I sling/task/job.cc:395] Task wikipedia-categories/record-file-reader[4/20] completed
+[2021-06-24 14:00:10.074111: I sling/task/job.cc:400] Task wikipedia-categories/record-file-reader[4/20] done
+[2021-06-24 14:00:10.330292: I sling/task/job.cc:386] Channel 5 completed
+[2021-06-24 14:00:10.330333: I sling/task/job.cc:395] Task wikipedia-categories/record-file-reader[5/20] completed
+[2021-06-24 14:00:10.330436: I sling/task/job.cc:400] Task wikipedia-categories/record-file-reader[5/20] done
+[2021-06-24 14:00:10.455218: I sling/task/job.cc:386] Channel 2 completed
+[2021-06-24 14:00:10.455257: I sling/task/job.cc:395] Task wikipedia-categories/record-file-reader[2/20] completed
+[2021-06-24 14:00:10.455358: I sling/task/job.cc:400] Task wikipedia-categories/record-file-reader[2/20] done
+[2021-06-24 14:00:12.080992: I sling/task/job.cc:386] Channel 1 completed
+[2021-06-24 14:00:12.081036: I sling/task/job.cc:395] Task wikipedia-categories/record-file-reader[1/20] completed
+[2021-06-24 14:00:12.081128: I sling/task/job.cc:400] Task wikipedia-categories/record-file-reader[1/20] done
+[2021-06-24 14:00:12.231247: I sling/task/job.cc:386] Channel 6 completed
+[2021-06-24 14:00:12.231283: I sling/task/job.cc:395] Task wikipedia-categories/record-file-reader[6/20] completed
+[2021-06-24 14:00:12.231370: I sling/task/job.cc:400] Task wikipedia-categories/record-file-reader[6/20] done
+[2021-06-24 14:00:12.777829: I sling/task/job.cc:386] Channel 9 completed
+[2021-06-24 14:00:12.777868: I sling/task/job.cc:395] Task wikipedia-categories/record-file-reader[9/20] completed
+[2021-06-24 14:00:12.778139: I sling/task/job.cc:395] Task wikipedia-categories/category-item-extractor completed
+[2021-06-24 14:00:12.778177: I sling/task/job.cc:400] Task wikipedia-categories/record-file-reader[9/20] done
+[2021-06-24 14:00:12.778188: I sling/task/job.cc:386] Channel 20 completed
+[2021-06-24 14:00:12.778199: I sling/task/job.cc:400] Task wikipedia-categories/category-item-extractor done
+[2021-06-24 14:00:12.778204: I sling/task/job.cc:395] Task wikipedia-categories/sorter completed
+[2021-06-24 14:01:07.782422: I sling/task/job.cc:386] Channel 21 completed
+[2021-06-24 14:01:07.782488: I sling/task/job.cc:400] Task wikipedia-categories/sorter done
+[2021-06-24 14:01:07.782498: I sling/task/job.cc:395] Task wikipedia-categories/category-item-merger completed
+[2021-06-24 14:01:07.782545: I sling/task/job.cc:386] Channel 22 completed
+[2021-06-24 14:01:07.782555: I sling/task/job.cc:400] Task wikipedia-categories/category-item-merger done
+[2021-06-24 14:01:07.782560: I sling/task/job.cc:395] Task wikipedia-categories/record-file-writer completed
+[2021-06-24 14:01:07.783102: I sling/task/job.cc:400] Task wikipedia-categories/record-file-writer done
+[2021-06-24 14:01:07.783108: I sling/task/job.cc:412] Stage #0 done
+[2021-06-24 14:01:07.793421: I run.py:189] Invert categories
+[2021-06-24 14:01:07.802336: I sling/task/job.cc:342] All systems GO
+[2021-06-24 14:01:07.802357: I sling/task/job.cc:62] Starting stage #0
+[2021-06-24 14:01:07.802363: I sling/task/job.cc:66] Start wikipedia-members/record-file-writer
+[2021-06-24 14:01:07.802369: I sling/task/job.cc:66] Start wikipedia-members/category-member-merger
+[2021-06-24 14:01:07.802386: I sling/task/job.cc:66] Start wikipedia-members/sorter
+[2021-06-24 14:01:07.802393: I sling/task/job.cc:66] Start wikipedia-members/category-inverter
+[2021-06-24 14:01:07.802417: I sling/task/job.cc:66] Start wikipedia-members/record-file-reader
+[2021-06-24 14:02:35.676375: I sling/task/job.cc:386] Channel 0 completed
+[2021-06-24 14:02:35.676431: I sling/task/job.cc:395] Task wikipedia-members/record-file-reader completed
+[2021-06-24 14:02:35.676506: I sling/task/job.cc:395] Task wikipedia-members/category-inverter completed
+[2021-06-24 14:02:35.676524: I sling/task/job.cc:400] Task wikipedia-members/record-file-reader done
+[2021-06-24 14:02:35.676534: I sling/task/job.cc:386] Channel 1 completed
+[2021-06-24 14:02:35.676542: I sling/task/job.cc:400] Task wikipedia-members/category-inverter done
+[2021-06-24 14:02:35.676550: I sling/task/job.cc:395] Task wikipedia-members/sorter completed
+[2021-06-24 14:02:46.395425: W sling/nlp/wiki/wikipedia-documents.cc:552] Skipping category Q3919876 with 141532 members
+[2021-06-24 14:03:11.525391: I sling/task/job.cc:386] Channel 2 completed
+[2021-06-24 14:03:11.525747: I sling/task/job.cc:400] Task wikipedia-members/sorter done
+[2021-06-24 14:03:11.525762: I sling/task/job.cc:395] Task wikipedia-members/category-member-merger completed
+[2021-06-24 14:03:11.553818: I sling/task/job.cc:386] Channel 3 completed
+[2021-06-24 14:03:11.553847: I sling/task/job.cc:400] Task wikipedia-members/category-member-merger done
+[2021-06-24 14:03:11.553854: I sling/task/job.cc:395] Task wikipedia-members/record-file-writer completed
+[2021-06-24 14:03:11.560988: I sling/task/job.cc:400] Task wikipedia-members/record-file-writer done
+[2021-06-24 14:03:11.561008: I sling/task/job.cc:412] Stage #0 done
+[2021-06-24 14:03:11.564258: I run.py:196] Extract link graph
+[2021-06-24 14:03:11.672951: I sling/task/job.cc:342] All systems GO
+[2021-06-24 14:03:11.672981: I sling/task/job.cc:62] Starting stage #0
+[2021-06-24 14:03:11.672987: I sling/task/job.cc:66] Start popularity/record-file-writer
+[2021-06-24 14:03:11.672993: I sling/task/job.cc:66] Start popularity/item-popularity-reducer
+[2021-06-24 14:03:11.673006: I sling/task/job.cc:66] Start popularity/sorter
+[2021-06-24 14:03:11.673014: I sling/task/job.cc:66] Start links/record-file-writer[9/10]
+[2021-06-24 14:03:11.673020: I sling/task/job.cc:66] Start links/record-file-writer[8/10]
+[2021-06-24 14:03:11.673026: I sling/task/job.cc:66] Start links/record-file-writer[7/10]
+[2021-06-24 14:03:11.673032: I sling/task/job.cc:66] Start links/record-file-writer[6/10]
+[2021-06-24 14:03:11.673038: I sling/task/job.cc:66] Start links/record-file-writer[5/10]
+[2021-06-24 14:03:11.673043: I sling/task/job.cc:66] Start links/record-file-writer[4/10]
+[2021-06-24 14:03:11.673049: I sling/task/job.cc:66] Start links/record-file-writer[3/10]
+[2021-06-24 14:03:11.673054: I sling/task/job.cc:66] Start links/record-file-writer[2/10]
+[2021-06-24 14:03:11.673060: I sling/task/job.cc:66] Start links/record-file-writer[1/10]
+[2021-06-24 14:03:11.673065: I sling/task/job.cc:66] Start links/record-file-writer[0/10]
+[2021-06-24 14:03:11.673070: I sling/task/job.cc:66] Start links/wikipedia-link-merger
+[2021-06-24 14:03:11.673175: I sling/task/job.cc:66] Start links/sorter[9/10]
+[2021-06-24 14:03:11.673181: I sling/task/job.cc:66] Start links/sorter[8/10]
+[2021-06-24 14:03:11.673187: I sling/task/job.cc:66] Start links/sorter[7/10]
+[2021-06-24 14:03:11.673192: I sling/task/job.cc:66] Start links/sorter[6/10]
+[2021-06-24 14:03:11.673198: I sling/task/job.cc:66] Start links/sorter[5/10]
+[2021-06-24 14:03:11.673203: I sling/task/job.cc:66] Start links/sorter[4/10]
+[2021-06-24 14:03:11.673208: I sling/task/job.cc:66] Start links/sorter[3/10]
+[2021-06-24 14:03:11.673214: I sling/task/job.cc:66] Start links/sorter[2/10]
+[2021-06-24 14:03:11.673219: I sling/task/job.cc:66] Start links/sorter[1/10]
+[2021-06-24 14:03:11.673225: I sling/task/job.cc:66] Start links/sorter[0/10]
+[2021-06-24 14:03:11.673230: I sling/task/job.cc:66] Start links/sharder
+[2021-06-24 14:03:11.673235: I sling/task/job.cc:66] Start fact-target-extractor
+[2021-06-24 14:03:11.683038: I sling/task/job.cc:66] Start wikipedia-link-extractor
+[2021-06-24 14:03:11.691410: I sling/task/job.cc:66] Start record-file-reader-1[9/10]
+[2021-06-24 14:03:11.691487: I sling/task/job.cc:66] Start record-file-reader-1[8/10]
+[2021-06-24 14:03:11.691512: I sling/task/job.cc:66] Start record-file-reader-1[7/10]
+[2021-06-24 14:03:11.691539: I sling/task/job.cc:66] Start record-file-reader-1[6/10]
+[2021-06-24 14:03:11.691568: I sling/task/job.cc:66] Start record-file-reader-1[5/10]
+[2021-06-24 14:03:11.691591: I sling/task/job.cc:66] Start record-file-reader-1[4/10]
+[2021-06-24 14:03:11.691622: I sling/task/job.cc:66] Start record-file-reader-1[3/10]
+[2021-06-24 14:03:11.691647: I sling/task/job.cc:66] Start record-file-reader-1[2/10]
+[2021-06-24 14:03:11.691671: I sling/task/job.cc:66] Start record-file-reader-1[1/10]
+[2021-06-24 14:03:11.691697: I sling/task/job.cc:66] Start record-file-reader-1[0/10]
+[2021-06-24 14:03:11.692118: I sling/task/job.cc:66] Start record-file-reader[9/10]
+[2021-06-24 14:03:11.692142: I sling/task/job.cc:66] Start record-file-reader[8/10]
+[2021-06-24 14:03:11.692165: I sling/task/job.cc:66] Start record-file-reader[7/10]
+[2021-06-24 14:03:11.692187: I sling/task/job.cc:66] Start record-file-reader[6/10]
+[2021-06-24 14:03:11.692210: I sling/task/job.cc:66] Start record-file-reader[5/10]
+[2021-06-24 14:03:11.692236: I sling/task/job.cc:66] Start record-file-reader[4/10]
+[2021-06-24 14:03:11.692259: I sling/task/job.cc:66] Start record-file-reader[3/10]
+[2021-06-24 14:03:11.692282: I sling/task/job.cc:66] Start record-file-reader[2/10]
+[2021-06-24 14:03:11.692305: I sling/task/job.cc:66] Start record-file-reader[1/10]
+[2021-06-24 14:03:11.692329: I sling/task/job.cc:66] Start record-file-reader[0/10]
+[2021-06-24 14:51:57.261896: I sling/task/job.cc:386] Channel 12 completed
+[2021-06-24 14:51:57.261981: I sling/task/job.cc:395] Task record-file-reader-1[0/10] completed
+[2021-06-24 14:51:57.262253: I sling/task/job.cc:400] Task record-file-reader-1[0/10] done
+[2021-06-24 14:52:08.659893: I sling/task/job.cc:386] Channel 21 completed
+[2021-06-24 14:52:08.659955: I sling/task/job.cc:395] Task record-file-reader-1[9/10] completed
+[2021-06-24 14:52:08.660035: I sling/task/job.cc:400] Task record-file-reader-1[9/10] done
+[2021-06-24 14:52:41.259883: I sling/task/job.cc:386] Channel 17 completed
+[2021-06-24 14:52:41.259923: I sling/task/job.cc:395] Task record-file-reader-1[5/10] completed
+[2021-06-24 14:52:41.260001: I sling/task/job.cc:400] Task record-file-reader-1[5/10] done
+[2021-06-24 14:52:51.522882: I sling/task/job.cc:386] Channel 16 completed
+[2021-06-24 14:52:51.522922: I sling/task/job.cc:395] Task record-file-reader-1[4/10] completed
+[2021-06-24 14:52:51.522995: I sling/task/job.cc:400] Task record-file-reader-1[4/10] done
+[2021-06-24 14:52:53.263883: I sling/task/job.cc:386] Channel 15 completed
+[2021-06-24 14:52:53.263928: I sling/task/job.cc:395] Task record-file-reader-1[3/10] completed
+[2021-06-24 14:52:53.264025: I sling/task/job.cc:400] Task record-file-reader-1[3/10] done
+[2021-06-24 14:52:54.107886: I sling/task/job.cc:386] Channel 20 completed
+[2021-06-24 14:52:54.107930: I sling/task/job.cc:395] Task record-file-reader-1[8/10] completed
+[2021-06-24 14:52:54.108019: I sling/task/job.cc:400] Task record-file-reader-1[8/10] done
+[2021-06-24 14:52:56.488963: I sling/task/job.cc:386] Channel 14 completed
+[2021-06-24 14:52:56.488999: I sling/task/job.cc:395] Task record-file-reader-1[2/10] completed
+[2021-06-24 14:52:56.489074: I sling/task/job.cc:400] Task record-file-reader-1[2/10] done
+[2021-06-24 14:53:02.195886: I sling/task/job.cc:386] Channel 13 completed
+[2021-06-24 14:53:02.195929: I sling/task/job.cc:395] Task record-file-reader-1[1/10] completed
+[2021-06-24 14:53:02.196019: I sling/task/job.cc:400] Task record-file-reader-1[1/10] done
+[2021-06-24 14:53:05.542209: I sling/task/job.cc:386] Channel 18 completed
+[2021-06-24 14:53:05.542251: I sling/task/job.cc:395] Task record-file-reader-1[6/10] completed
+[2021-06-24 14:53:05.542338: I sling/task/job.cc:400] Task record-file-reader-1[6/10] done
+[2021-06-24 14:53:09.707093: I sling/task/job.cc:386] Channel 19 completed
+[2021-06-24 14:53:09.707143: I sling/task/job.cc:395] Task record-file-reader-1[7/10] completed
+[2021-06-24 14:53:09.707209: I sling/task/job.cc:395] Task fact-target-extractor completed
+[2021-06-24 14:53:09.707246: I sling/task/job.cc:400] Task record-file-reader-1[7/10] done
+[2021-06-24 14:53:18.146851: I sling/task/job.cc:386] Channel 22 completed
+[2021-06-24 14:53:18.389415: I sling/task/job.cc:400] Task fact-target-extractor done
+[2021-06-24 14:55:12.581751: I sling/task/job.cc:386] Channel 6 completed
+[2021-06-24 14:55:12.581848: I sling/task/job.cc:395] Task record-file-reader[6/10] completed
+[2021-06-24 14:55:12.581984: I sling/task/job.cc:400] Task record-file-reader[6/10] done
+[2021-06-24 14:55:39.406087: I sling/task/job.cc:386] Channel 7 completed
+[2021-06-24 14:55:39.406199: I sling/task/job.cc:395] Task record-file-reader[7/10] completed
+[2021-06-24 14:55:39.406298: I sling/task/job.cc:400] Task record-file-reader[7/10] done
+[2021-06-24 14:55:41.070924: I sling/task/job.cc:386] Channel 3 completed
+[2021-06-24 14:55:41.070995: I sling/task/job.cc:395] Task record-file-reader[3/10] completed
+[2021-06-24 14:55:41.071089: I sling/task/job.cc:400] Task record-file-reader[3/10] done
+[2021-06-24 14:55:43.035778: I sling/task/job.cc:386] Channel 0 completed
+[2021-06-24 14:55:43.035852: I sling/task/job.cc:395] Task record-file-reader[0/10] completed
+[2021-06-24 14:55:43.035955: I sling/task/job.cc:400] Task record-file-reader[0/10] done
+[2021-06-24 14:55:44.158614: I sling/task/job.cc:386] Channel 1 completed
+[2021-06-24 14:55:44.158718: I sling/task/job.cc:395] Task record-file-reader[1/10] completed
+[2021-06-24 14:55:44.161333: I sling/task/job.cc:400] Task record-file-reader[1/10] done
+[2021-06-24 14:55:45.469905: I sling/task/job.cc:386] Channel 5 completed
+[2021-06-24 14:55:45.469970: I sling/task/job.cc:395] Task record-file-reader[5/10] completed
+[2021-06-24 14:55:45.470059: I sling/task/job.cc:400] Task record-file-reader[5/10] done
+[2021-06-24 14:55:46.781375: I sling/task/job.cc:386] Channel 9 completed
+[2021-06-24 14:55:46.781421: I sling/task/job.cc:395] Task record-file-reader[9/10] completed
+[2021-06-24 14:55:46.781514: I sling/task/job.cc:400] Task record-file-reader[9/10] done
+[2021-06-24 14:55:49.256659: I sling/task/job.cc:386] Channel 4 completed
+[2021-06-24 14:55:49.256723: I sling/task/job.cc:395] Task record-file-reader[4/10] completed
+[2021-06-24 14:55:49.256807: I sling/task/job.cc:400] Task record-file-reader[4/10] done
+[2021-06-24 14:55:52.067022: I sling/task/job.cc:386] Channel 8 completed
+[2021-06-24 14:55:52.067067: I sling/task/job.cc:395] Task record-file-reader[8/10] completed
+[2021-06-24 14:55:52.067156: I sling/task/job.cc:400] Task record-file-reader[8/10] done
+[2021-06-24 14:55:52.420608: I sling/task/job.cc:386] Channel 2 completed
+[2021-06-24 14:55:52.420645: I sling/task/job.cc:395] Task record-file-reader[2/10] completed
+[2021-06-24 14:55:52.422094: I sling/task/job.cc:395] Task wikipedia-link-extractor completed
+[2021-06-24 14:55:52.423282: I sling/task/job.cc:400] Task record-file-reader[2/10] done
+[2021-06-24 14:55:53.793304: I sling/task/job.cc:386] Channel 10 completed
+[2021-06-24 14:55:53.793340: I sling/task/job.cc:386] Channel 11 completed
+[2021-06-24 14:55:53.793350: I sling/task/job.cc:400] Task wikipedia-link-extractor done
+[2021-06-24 14:55:53.793358: I sling/task/job.cc:395] Task links/sharder completed
+[2021-06-24 14:55:53.793366: I sling/task/job.cc:395] Task popularity/sorter completed
+[2021-06-24 14:55:53.793377: I sling/task/job.cc:386] Channel 23 completed
+[2021-06-24 14:55:53.793386: I sling/task/job.cc:386] Channel 24 completed
+[2021-06-24 14:55:53.793394: I sling/task/job.cc:386] Channel 25 completed
+[2021-06-24 14:55:53.793402: I sling/task/job.cc:386] Channel 26 completed
+[2021-06-24 14:55:53.793409: I sling/task/job.cc:386] Channel 27 completed
+[2021-06-24 14:55:53.793417: I sling/task/job.cc:386] Channel 28 completed
+[2021-06-24 14:55:53.793422: I sling/task/job.cc:386] Channel 29 completed
+[2021-06-24 14:55:53.793427: I sling/task/job.cc:386] Channel 30 completed
+[2021-06-24 14:55:53.793432: I sling/task/job.cc:386] Channel 31 completed
+[2021-06-24 14:55:53.793437: I sling/task/job.cc:386] Channel 32 completed
+[2021-06-24 14:55:53.793442: I sling/task/job.cc:400] Task links/sharder done
+[2021-06-24 14:55:53.793875: I sling/task/job.cc:395] Task links/sorter[0/10] completed
+[2021-06-24 14:55:53.793887: I sling/task/job.cc:395] Task links/sorter[1/10] completed
+[2021-06-24 14:55:53.793894: I sling/task/job.cc:395] Task links/sorter[2/10] completed
+[2021-06-24 14:55:53.793900: I sling/task/job.cc:395] Task links/sorter[3/10] completed
+[2021-06-24 14:55:53.793906: I sling/task/job.cc:395] Task links/sorter[4/10] completed
+[2021-06-24 14:55:53.793912: I sling/task/job.cc:395] Task links/sorter[5/10] completed
+[2021-06-24 14:55:53.793919: I sling/task/job.cc:395] Task links/sorter[6/10] completed
+[2021-06-24 14:55:53.793925: I sling/task/job.cc:395] Task links/sorter[7/10] completed
+[2021-06-24 14:55:53.793931: I sling/task/job.cc:395] Task links/sorter[8/10] completed
+[2021-06-24 14:55:53.793938: I sling/task/job.cc:395] Task links/sorter[9/10] completed
+[2021-06-24 14:57:47.570932: I sling/task/job.cc:386] Channel 34 completed
+[2021-06-24 14:57:47.884411: I sling/task/job.cc:386] Channel 39 completed
+[2021-06-24 14:57:48.020304: I sling/task/job.cc:400] Task links/sorter[1/10] done
+[2021-06-24 14:57:48.772447: I sling/task/job.cc:386] Channel 41 completed
+[2021-06-24 14:57:48.772481: I sling/task/job.cc:400] Task links/sorter[8/10] done
+[2021-06-24 14:57:48.888006: I sling/task/job.cc:386] Channel 36 completed
+[2021-06-24 14:57:49.149425: I sling/task/job.cc:400] Task links/sorter[3/10] done
+[2021-06-24 14:57:50.268163: I sling/task/job.cc:400] Task links/sorter[6/10] done
+[2021-06-24 14:57:54.074147: I sling/task/job.cc:386] Channel 38 completed
+[2021-06-24 14:57:54.477524: I sling/task/job.cc:400] Task links/sorter[5/10] done
+[2021-06-24 14:57:54.742308: I sling/task/job.cc:386] Channel 35 completed
+[2021-06-24 14:57:54.742344: I sling/task/job.cc:400] Task links/sorter[2/10] done
+[2021-06-24 14:57:55.016772: I sling/task/job.cc:386] Channel 33 completed
+[2021-06-24 14:57:55.016812: I sling/task/job.cc:400] Task links/sorter[0/10] done
+[2021-06-24 14:57:55.093585: I sling/task/job.cc:386] Channel 40 completed
+[2021-06-24 14:57:55.130585: I sling/task/job.cc:400] Task links/sorter[7/10] done
+[2021-06-24 14:58:03.491661: I sling/task/job.cc:386] Channel 37 completed
+[2021-06-24 14:58:03.491709: I sling/task/job.cc:400] Task links/sorter[4/10] done
+[2021-06-24 14:58:13.672823: I sling/task/job.cc:386] Channel 42 completed
+[2021-06-24 14:58:13.672887: I sling/task/job.cc:400] Task links/sorter[9/10] done
+[2021-06-24 14:58:13.672897: I sling/task/job.cc:395] Task links/wikipedia-link-merger completed
+[2021-06-24 14:58:13.673151: I sling/task/job.cc:386] Channel 43 completed
+[2021-06-24 14:58:13.673160: I sling/task/job.cc:386] Channel 44 completed
+[2021-06-24 14:58:13.673170: I sling/task/job.cc:386] Channel 45 completed
+[2021-06-24 14:58:13.673181: I sling/task/job.cc:386] Channel 46 completed
+[2021-06-24 14:58:13.673189: I sling/task/job.cc:386] Channel 47 completed
+[2021-06-24 14:58:13.673197: I sling/task/job.cc:386] Channel 48 completed
+[2021-06-24 14:58:13.673205: I sling/task/job.cc:386] Channel 49 completed
+[2021-06-24 14:58:13.673210: I sling/task/job.cc:386] Channel 50 completed
+[2021-06-24 14:58:13.673215: I sling/task/job.cc:386] Channel 51 completed
+[2021-06-24 14:58:13.673220: I sling/task/job.cc:386] Channel 52 completed
+[2021-06-24 14:58:13.673225: I sling/task/job.cc:400] Task links/wikipedia-link-merger done
+[2021-06-24 14:58:13.673232: I sling/task/job.cc:395] Task links/record-file-writer[0/10] completed
+[2021-06-24 14:58:13.684777: I sling/task/job.cc:395] Task links/record-file-writer[1/10] completed
+[2021-06-24 14:58:13.684797: I sling/task/job.cc:395] Task links/record-file-writer[2/10] completed
+[2021-06-24 14:58:13.684803: I sling/task/job.cc:395] Task links/record-file-writer[3/10] completed
+[2021-06-24 14:58:13.684809: I sling/task/job.cc:395] Task links/record-file-writer[4/10] completed
+[2021-06-24 14:58:13.684815: I sling/task/job.cc:395] Task links/record-file-writer[5/10] completed
+[2021-06-24 14:58:13.684821: I sling/task/job.cc:395] Task links/record-file-writer[6/10] completed
+[2021-06-24 14:58:13.684826: I sling/task/job.cc:395] Task links/record-file-writer[7/10] completed
+[2021-06-24 14:58:13.684832: I sling/task/job.cc:395] Task links/record-file-writer[8/10] completed
+[2021-06-24 14:58:13.684838: I sling/task/job.cc:395] Task links/record-file-writer[9/10] completed
+[2021-06-24 14:58:13.698828: I sling/task/job.cc:400] Task links/record-file-writer[2/10] done
+[2021-06-24 14:58:13.698875: I sling/task/job.cc:400] Task links/record-file-writer[3/10] done
+[2021-06-24 14:58:13.698898: I sling/task/job.cc:400] Task links/record-file-writer[1/10] done
+[2021-06-24 14:58:13.699748: I sling/task/job.cc:400] Task links/record-file-writer[8/10] done
+[2021-06-24 14:58:13.699805: I sling/task/job.cc:400] Task links/record-file-writer[5/10] done
+[2021-06-24 14:58:13.699819: I sling/task/job.cc:400] Task links/record-file-writer[4/10] done
+[2021-06-24 14:58:13.699839: I sling/task/job.cc:400] Task links/record-file-writer[7/10] done
+[2021-06-24 14:58:13.699851: I sling/task/job.cc:400] Task links/record-file-writer[6/10] done
+[2021-06-24 14:58:13.700400: I sling/task/job.cc:400] Task links/record-file-writer[9/10] done
+[2021-06-24 14:58:13.700420: I sling/task/job.cc:400] Task links/record-file-writer[0/10] done
+[2021-06-24 15:03:23.199644: I sling/task/job.cc:386] Channel 53 completed
+[2021-06-24 15:03:23.199956: I sling/task/job.cc:400] Task popularity/sorter done
+[2021-06-24 15:03:23.199975: I sling/task/job.cc:395] Task popularity/item-popularity-reducer completed
+[2021-06-24 15:03:23.200021: I sling/task/job.cc:386] Channel 54 completed
+[2021-06-24 15:03:23.200030: I sling/task/job.cc:400] Task popularity/item-popularity-reducer done
+[2021-06-24 15:03:23.200035: I sling/task/job.cc:395] Task popularity/record-file-writer completed
+[2021-06-24 15:03:23.200672: I sling/task/job.cc:400] Task popularity/record-file-writer done
+[2021-06-24 15:03:23.200682: I sling/task/job.cc:412] Stage #0 done
+[2021-06-24 15:03:23.246415: I run.py:203] Fuse items
+[2021-06-24 15:03:23.365385: I sling/task/job.cc:342] All systems GO
+[2021-06-24 15:03:23.365415: I sling/task/job.cc:62] Starting stage #0
+[2021-06-24 15:03:23.365424: I sling/task/job.cc:66] Start fused-items/record-file-writer[9/10]
+[2021-06-24 15:03:23.365431: I sling/task/job.cc:66] Start fused-items/record-file-writer[8/10]
+[2021-06-24 15:03:23.365437: I sling/task/job.cc:66] Start fused-items/record-file-writer[7/10]
+[2021-06-24 15:03:23.365443: I sling/task/job.cc:66] Start fused-items/record-file-writer[6/10]
+[2021-06-24 15:03:23.365449: I sling/task/job.cc:66] Start fused-items/record-file-writer[5/10]
+[2021-06-24 15:03:23.365455: I sling/task/job.cc:66] Start fused-items/record-file-writer[4/10]
+[2021-06-24 15:03:23.365461: I sling/task/job.cc:66] Start fused-items/record-file-writer[3/10]
+[2021-06-24 15:03:23.365602: I sling/task/job.cc:66] Start fused-items/record-file-writer[2/10]
+[2021-06-24 15:03:23.365611: I sling/task/job.cc:66] Start fused-items/record-file-writer[1/10]
+[2021-06-24 15:03:23.365617: I sling/task/job.cc:66] Start fused-items/record-file-writer[0/10]
+[2021-06-24 15:03:23.365622: I sling/task/job.cc:66] Start fused-items/item-merger
+[2021-06-24 15:03:23.365634: I sling/task/job.cc:66] Start fused-items/sorter[9/10]
+[2021-06-24 15:03:23.365641: I sling/task/job.cc:66] Start fused-items/sorter[8/10]
+[2021-06-24 15:03:23.365648: I sling/task/job.cc:66] Start fused-items/sorter[7/10]
+[2021-06-24 15:03:23.365654: I sling/task/job.cc:66] Start fused-items/sorter[6/10]
+[2021-06-24 15:03:23.365660: I sling/task/job.cc:66] Start fused-items/sorter[5/10]
+[2021-06-24 15:03:23.365667: I sling/task/job.cc:66] Start fused-items/sorter[4/10]
+[2021-06-24 15:03:23.365673: I sling/task/job.cc:66] Start fused-items/sorter[3/10]
+[2021-06-24 15:03:23.365679: I sling/task/job.cc:66] Start fused-items/sorter[2/10]
+[2021-06-24 15:03:23.365685: I sling/task/job.cc:66] Start fused-items/sorter[1/10]
+[2021-06-24 15:03:23.365692: I sling/task/job.cc:66] Start fused-items/sorter[0/10]
+[2021-06-24 15:03:23.365698: I sling/task/job.cc:66] Start fused-items/sharder
+[2021-06-24 15:03:23.365706: I sling/task/job.cc:66] Start fused-items/record-file-reader[22/23]
+[2021-06-24 15:03:23.365756: I sling/task/job.cc:66] Start fused-items/record-file-reader[21/23]
+[2021-06-24 15:03:23.365782: I sling/task/job.cc:66] Start fused-items/record-file-reader[20/23]
+[2021-06-24 15:03:23.365807: I sling/task/job.cc:66] Start fused-items/record-file-reader[19/23]
+[2021-06-24 15:03:23.365831: I sling/task/job.cc:66] Start fused-items/record-file-reader[18/23]
+[2021-06-24 15:03:23.365864: I sling/task/job.cc:66] Start fused-items/record-file-reader[17/23]
+[2021-06-24 15:03:23.365888: I sling/task/job.cc:66] Start fused-items/record-file-reader[16/23]
+[2021-06-24 15:03:23.365913: I sling/task/job.cc:66] Start fused-items/record-file-reader[15/23]
+[2021-06-24 15:03:23.365937: I sling/task/job.cc:66] Start fused-items/record-file-reader[14/23]
+[2021-06-24 15:03:23.365960: I sling/task/job.cc:66] Start fused-items/record-file-reader[13/23]
+[2021-06-24 15:03:23.365989: I sling/task/job.cc:66] Start fused-items/record-file-reader[12/23]
+[2021-06-24 15:03:23.366405: I sling/task/job.cc:66] Start fused-items/record-file-reader[11/23]
+[2021-06-24 15:03:23.366432: I sling/task/job.cc:66] Start fused-items/record-file-reader[10/23]
+[2021-06-24 15:03:23.366458: I sling/task/job.cc:66] Start fused-items/record-file-reader[9/23]
+[2021-06-24 15:03:23.366484: I sling/task/job.cc:66] Start fused-items/record-file-reader[8/23]
+[2021-06-24 15:03:23.366507: I sling/task/job.cc:66] Start fused-items/record-file-reader[7/23]
+[2021-06-24 15:03:23.366531: I sling/task/job.cc:66] Start fused-items/record-file-reader[6/23]
+[2021-06-24 15:03:23.366555: I sling/task/job.cc:66] Start fused-items/record-file-reader[5/23]
+[2021-06-24 15:03:23.366581: I sling/task/job.cc:66] Start fused-items/record-file-reader[4/23]
+[2021-06-24 15:03:23.366605: I sling/task/job.cc:66] Start fused-items/record-file-reader[3/23]
+[2021-06-24 15:03:23.366629: I sling/task/job.cc:66] Start fused-items/record-file-reader[2/23]
+[2021-06-24 15:03:23.366659: I sling/task/job.cc:66] Start fused-items/record-file-reader[1/23]
+[2021-06-24 15:03:23.366684: I sling/task/job.cc:66] Start fused-items/record-file-reader[0/23]
+[2021-06-24 15:03:51.855672: I sling/task/job.cc:386] Channel 15 completed
+[2021-06-24 15:03:51.855730: I sling/task/job.cc:395] Task fused-items/record-file-reader[15/23] completed
+[2021-06-24 15:03:51.855818: I sling/task/job.cc:400] Task fused-items/record-file-reader[15/23] done
+[2021-06-24 15:03:53.280727: I sling/task/job.cc:386] Channel 14 completed
+[2021-06-24 15:03:53.280767: I sling/task/job.cc:395] Task fused-items/record-file-reader[14/23] completed
+[2021-06-24 15:03:53.280848: I sling/task/job.cc:400] Task fused-items/record-file-reader[14/23] done
+[2021-06-24 15:03:53.363889: I sling/task/job.cc:386] Channel 19 completed
+[2021-06-24 15:03:53.363929: I sling/task/job.cc:395] Task fused-items/record-file-reader[19/23] completed
+[2021-06-24 15:03:53.364006: I sling/task/job.cc:400] Task fused-items/record-file-reader[19/23] done
+[2021-06-24 15:03:55.730347: I sling/task/job.cc:386] Channel 13 completed
+[2021-06-24 15:03:55.730392: I sling/task/job.cc:395] Task fused-items/record-file-reader[13/23] completed
+[2021-06-24 15:03:55.730469: I sling/task/job.cc:400] Task fused-items/record-file-reader[13/23] done
+[2021-06-24 15:03:55.864617: I sling/task/job.cc:386] Channel 10 completed
+[2021-06-24 15:03:55.864662: I sling/task/job.cc:395] Task fused-items/record-file-reader[10/23] completed
+[2021-06-24 15:03:55.864759: I sling/task/job.cc:400] Task fused-items/record-file-reader[10/23] done
+[2021-06-24 15:03:55.974799: I sling/task/job.cc:386] Channel 16 completed
+[2021-06-24 15:03:55.974847: I sling/task/job.cc:395] Task fused-items/record-file-reader[16/23] completed
+[2021-06-24 15:03:55.974937: I sling/task/job.cc:400] Task fused-items/record-file-reader[16/23] done
+[2021-06-24 15:03:56.294648: I sling/task/job.cc:386] Channel 11 completed
+[2021-06-24 15:03:56.294686: I sling/task/job.cc:395] Task fused-items/record-file-reader[11/23] completed
+[2021-06-24 15:03:56.294781: I sling/task/job.cc:400] Task fused-items/record-file-reader[11/23] done
+[2021-06-24 15:03:56.348885: I sling/task/job.cc:386] Channel 17 completed
+[2021-06-24 15:03:56.348931: I sling/task/job.cc:395] Task fused-items/record-file-reader[17/23] completed
+[2021-06-24 15:03:56.349023: I sling/task/job.cc:400] Task fused-items/record-file-reader[17/23] done
+[2021-06-24 15:03:57.374891: I sling/task/job.cc:386] Channel 12 completed
+[2021-06-24 15:03:57.374938: I sling/task/job.cc:395] Task fused-items/record-file-reader[12/23] completed
+[2021-06-24 15:03:57.375214: I sling/task/job.cc:400] Task fused-items/record-file-reader[12/23] done
+[2021-06-24 15:03:58.524886: I sling/task/job.cc:386] Channel 18 completed
+[2021-06-24 15:03:58.524935: I sling/task/job.cc:395] Task fused-items/record-file-reader[18/23] completed
+[2021-06-24 15:03:58.557946: I sling/task/job.cc:400] Task fused-items/record-file-reader[18/23] done
+[2021-06-24 15:08:51.921174: I sling/task/job.cc:386] Channel 6 completed
+[2021-06-24 15:08:51.921246: I sling/task/job.cc:395] Task fused-items/record-file-reader[6/23] completed
+[2021-06-24 15:08:51.921387: I sling/task/job.cc:400] Task fused-items/record-file-reader[6/23] done
+[2021-06-24 15:08:52.128892: I sling/task/job.cc:386] Channel 5 completed
+[2021-06-24 15:08:52.153119: I sling/task/job.cc:395] Task fused-items/record-file-reader[5/23] completed
+[2021-06-24 15:08:52.153486: I sling/task/job.cc:400] Task fused-items/record-file-reader[5/23] done
+[2021-06-24 15:08:52.794891: I sling/task/job.cc:386] Channel 4 completed
+[2021-06-24 15:08:52.794937: I sling/task/job.cc:395] Task fused-items/record-file-reader[4/23] completed
+[2021-06-24 15:08:52.795040: I sling/task/job.cc:400] Task fused-items/record-file-reader[4/23] done
+[2021-06-24 15:09:00.447893: I sling/task/job.cc:386] Channel 9 completed
+[2021-06-24 15:09:00.447935: I sling/task/job.cc:395] Task fused-items/record-file-reader[9/23] completed
+[2021-06-24 15:09:00.448073: I sling/task/job.cc:400] Task fused-items/record-file-reader[9/23] done
+[2021-06-24 15:09:00.798127: I sling/task/job.cc:386] Channel 8 completed
+[2021-06-24 15:09:00.798173: I sling/task/job.cc:395] Task fused-items/record-file-reader[8/23] completed
+[2021-06-24 15:09:00.798262: I sling/task/job.cc:400] Task fused-items/record-file-reader[8/23] done
+[2021-06-24 15:09:04.223705: I sling/task/job.cc:386] Channel 0 completed
+[2021-06-24 15:09:04.223746: I sling/task/job.cc:395] Task fused-items/record-file-reader[0/23] completed
+[2021-06-24 15:09:04.238635: I sling/task/job.cc:400] Task fused-items/record-file-reader[0/23] done
+[2021-06-24 15:09:04.775552: I sling/task/job.cc:386] Channel 3 completed
+[2021-06-24 15:09:04.775601: I sling/task/job.cc:395] Task fused-items/record-file-reader[3/23] completed
+[2021-06-24 15:09:04.783010: I sling/task/job.cc:400] Task fused-items/record-file-reader[3/23] done
+[2021-06-24 15:09:05.016895: I sling/task/job.cc:386] Channel 7 completed
+[2021-06-24 15:09:05.016935: I sling/task/job.cc:395] Task fused-items/record-file-reader[7/23] completed
+[2021-06-24 15:09:05.017045: I sling/task/job.cc:400] Task fused-items/record-file-reader[7/23] done
+[2021-06-24 15:09:05.770788: I sling/task/job.cc:386] Channel 2 completed
+[2021-06-24 15:09:05.770827: I sling/task/job.cc:395] Task fused-items/record-file-reader[2/23] completed
+[2021-06-24 15:09:05.770997: I sling/task/job.cc:400] Task fused-items/record-file-reader[2/23] done
+[2021-06-24 15:09:06.914890: I sling/task/job.cc:386] Channel 1 completed
+[2021-06-24 15:09:06.914931: I sling/task/job.cc:395] Task fused-items/record-file-reader[1/23] completed
+[2021-06-24 15:09:06.915018: I sling/task/job.cc:400] Task fused-items/record-file-reader[1/23] done
+[2021-06-24 15:09:23.262892: I sling/task/job.cc:386] Channel 22 completed
+[2021-06-24 15:09:23.262935: I sling/task/job.cc:395] Task fused-items/record-file-reader[22/23] completed
+[2021-06-24 15:09:23.263032: I sling/task/job.cc:400] Task fused-items/record-file-reader[22/23] done
+[2021-06-24 15:09:51.549899: I sling/task/job.cc:386] Channel 21 completed
+[2021-06-24 15:09:51.549984: I sling/task/job.cc:395] Task fused-items/record-file-reader[21/23] completed
+[2021-06-24 15:09:51.550103: I sling/task/job.cc:400] Task fused-items/record-file-reader[21/23] done
+[2021-06-24 15:10:45.217825: I sling/task/job.cc:386] Channel 20 completed
+[2021-06-24 15:10:45.217903: I sling/task/job.cc:395] Task fused-items/record-file-reader[20/23] completed
+[2021-06-24 15:10:45.217984: I sling/task/job.cc:395] Task fused-items/sharder completed
+[2021-06-24 15:10:45.218035: I sling/task/job.cc:400] Task fused-items/record-file-reader[20/23] done
+[2021-06-24 15:10:45.218048: I sling/task/job.cc:386] Channel 23 completed
+[2021-06-24 15:10:45.218057: I sling/task/job.cc:386] Channel 24 completed
+[2021-06-24 15:10:45.218066: I sling/task/job.cc:386] Channel 25 completed
+[2021-06-24 15:10:45.218074: I sling/task/job.cc:386] Channel 26 completed
+[2021-06-24 15:10:45.218083: I sling/task/job.cc:386] Channel 27 completed
+[2021-06-24 15:10:45.218091: I sling/task/job.cc:386] Channel 28 completed
+[2021-06-24 15:10:45.218099: I sling/task/job.cc:386] Channel 29 completed
+[2021-06-24 15:10:45.218107: I sling/task/job.cc:386] Channel 30 completed
+[2021-06-24 15:10:45.218112: I sling/task/job.cc:386] Channel 31 completed
+[2021-06-24 15:10:45.218118: I sling/task/job.cc:386] Channel 32 completed
+[2021-06-24 15:10:45.218123: I sling/task/job.cc:400] Task fused-items/sharder done
+[2021-06-24 15:10:45.218132: I sling/task/job.cc:395] Task fused-items/sorter[0/10] completed
+[2021-06-24 15:10:45.218138: I sling/task/job.cc:395] Task fused-items/sorter[1/10] completed
+[2021-06-24 15:10:45.218146: I sling/task/job.cc:395] Task fused-items/sorter[2/10] completed
+[2021-06-24 15:10:45.218152: I sling/task/job.cc:395] Task fused-items/sorter[3/10] completed
+[2021-06-24 15:10:45.218157: I sling/task/job.cc:395] Task fused-items/sorter[4/10] completed
+[2021-06-24 15:10:45.218163: I sling/task/job.cc:395] Task fused-items/sorter[5/10] completed
+[2021-06-24 15:10:45.218169: I sling/task/job.cc:395] Task fused-items/sorter[6/10] completed
+[2021-06-24 15:10:45.218175: I sling/task/job.cc:395] Task fused-items/sorter[7/10] completed
+[2021-06-24 15:10:45.218181: I sling/task/job.cc:395] Task fused-items/sorter[8/10] completed
+[2021-06-24 15:10:45.218187: I sling/task/job.cc:395] Task fused-items/sorter[9/10] completed
+[2021-06-24 15:33:48.418375: I sling/task/job.cc:386] Channel 40 completed
+[2021-06-24 15:33:48.418434: I sling/task/job.cc:400] Task fused-items/sorter[7/10] done
+[2021-06-24 15:33:56.375505: I sling/task/job.cc:386] Channel 33 completed
+[2021-06-24 15:33:56.375555: I sling/task/job.cc:400] Task fused-items/sorter[0/10] done
+[2021-06-24 15:33:57.825980: I sling/task/job.cc:386] Channel 39 completed
+[2021-06-24 15:33:57.826033: I sling/task/job.cc:400] Task fused-items/sorter[6/10] done
+[2021-06-24 15:33:59.567280: I sling/task/job.cc:386] Channel 37 completed
+[2021-06-24 15:33:59.567327: I sling/task/job.cc:400] Task fused-items/sorter[4/10] done
+[2021-06-24 15:34:00.405011: I sling/task/job.cc:386] Channel 38 completed
+[2021-06-24 15:34:00.405048: I sling/task/job.cc:400] Task fused-items/sorter[5/10] done
+[2021-06-24 15:34:02.696894: I sling/task/job.cc:386] Channel 41 completed
+[2021-06-24 15:34:02.696928: I sling/task/job.cc:400] Task fused-items/sorter[8/10] done
+[2021-06-24 15:34:02.740844: I sling/task/job.cc:386] Channel 42 completed
+[2021-06-24 15:34:02.740899: I sling/task/job.cc:400] Task fused-items/sorter[9/10] done
+[2021-06-24 15:34:04.126506: I sling/task/job.cc:386] Channel 35 completed
+[2021-06-24 15:34:04.126551: I sling/task/job.cc:400] Task fused-items/sorter[2/10] done
+[2021-06-24 15:34:05.479320: I sling/task/job.cc:386] Channel 36 completed
+[2021-06-24 15:34:05.479363: I sling/task/job.cc:400] Task fused-items/sorter[3/10] done
+[2021-06-24 15:34:14.058693: I sling/task/job.cc:386] Channel 34 completed
+[2021-06-24 15:34:14.058741: I sling/task/job.cc:400] Task fused-items/sorter[1/10] done
+[2021-06-24 15:34:14.058750: I sling/task/job.cc:395] Task fused-items/item-merger completed
+[2021-06-24 15:34:14.058845: I sling/task/job.cc:386] Channel 43 completed
+[2021-06-24 15:34:14.058859: I sling/task/job.cc:386] Channel 44 completed
+[2021-06-24 15:34:14.058868: I sling/task/job.cc:386] Channel 45 completed
+[2021-06-24 15:34:14.058876: I sling/task/job.cc:386] Channel 46 completed
+[2021-06-24 15:34:14.058884: I sling/task/job.cc:386] Channel 47 completed
+[2021-06-24 15:34:14.058892: I sling/task/job.cc:386] Channel 48 completed
+[2021-06-24 15:34:14.058900: I sling/task/job.cc:386] Channel 49 completed
+[2021-06-24 15:34:14.058908: I sling/task/job.cc:386] Channel 50 completed
+[2021-06-24 15:34:14.058913: I sling/task/job.cc:386] Channel 51 completed
+[2021-06-24 15:34:14.058918: I sling/task/job.cc:386] Channel 52 completed
+[2021-06-24 15:34:14.058923: I sling/task/job.cc:400] Task fused-items/item-merger done
+[2021-06-24 15:34:14.058929: I sling/task/job.cc:395] Task fused-items/record-file-writer[0/10] completed
+[2021-06-24 15:34:14.058936: I sling/task/job.cc:395] Task fused-items/record-file-writer[1/10] completed
+[2021-06-24 15:34:14.058942: I sling/task/job.cc:395] Task fused-items/record-file-writer[2/10] completed
+[2021-06-24 15:34:14.058948: I sling/task/job.cc:395] Task fused-items/record-file-writer[3/10] completed
+[2021-06-24 15:34:14.058953: I sling/task/job.cc:395] Task fused-items/record-file-writer[4/10] completed
+[2021-06-24 15:34:14.058959: I sling/task/job.cc:395] Task fused-items/record-file-writer[5/10] completed
+[2021-06-24 15:34:14.058965: I sling/task/job.cc:395] Task fused-items/record-file-writer[6/10] completed
+[2021-06-24 15:34:14.058970: I sling/task/job.cc:395] Task fused-items/record-file-writer[7/10] completed
+[2021-06-24 15:34:14.058977: I sling/task/job.cc:395] Task fused-items/record-file-writer[8/10] completed
+[2021-06-24 15:34:14.068945: I sling/task/job.cc:395] Task fused-items/record-file-writer[9/10] completed
+[2021-06-24 15:34:14.103225: I sling/task/job.cc:400] Task fused-items/record-file-writer[2/10] done
+[2021-06-24 15:34:14.103263: I sling/task/job.cc:400] Task fused-items/record-file-writer[5/10] done
+[2021-06-24 15:34:14.103279: I sling/task/job.cc:400] Task fused-items/record-file-writer[6/10] done
+[2021-06-24 15:34:14.103293: I sling/task/job.cc:400] Task fused-items/record-file-writer[3/10] done
+[2021-06-24 15:34:14.107009: I sling/task/job.cc:400] Task fused-items/record-file-writer[9/10] done
+[2021-06-24 15:34:14.107079: I sling/task/job.cc:400] Task fused-items/record-file-writer[0/10] done
+[2021-06-24 15:34:14.107094: I sling/task/job.cc:400] Task fused-items/record-file-writer[4/10] done
+[2021-06-24 15:34:14.130944: I sling/task/job.cc:400] Task fused-items/record-file-writer[7/10] done
+[2021-06-24 15:34:14.185623: I sling/task/job.cc:400] Task fused-items/record-file-writer[1/10] done
+[2021-06-24 15:34:14.191333: I sling/task/job.cc:400] Task fused-items/record-file-writer[8/10] done
+[2021-06-24 15:34:14.191352: I sling/task/job.cc:412] Stage #0 done
+[2021-06-24 15:34:14.201348: I run.py:210] Build knowledge base repository
+[2021-06-24 15:34:14.216090: I sling/task/job.cc:342] All systems GO
+[2021-06-24 15:34:14.216109: I sling/task/job.cc:62] Starting stage #0
+[2021-06-24 15:34:14.216114: I sling/task/job.cc:66] Start wikidata/frame-store-writer
+[2021-06-24 15:34:14.216131: I sling/task/job.cc:66] Start wikidata/wikidata-property-collector
+[2021-06-24 15:34:14.216153: I sling/task/job.cc:66] Start wikidata/wikidata-pruner
+[2021-06-24 15:34:14.217848: I sling/task/job.cc:66] Start wikidata/frame-store-reader-5
+[2021-06-24 15:34:14.217884: I sling/task/job.cc:66] Start wikidata/frame-store-reader-4
+[2021-06-24 15:34:14.217907: I sling/task/job.cc:66] Start wikidata/frame-store-reader-3
+[2021-06-24 15:34:14.217930: I sling/task/job.cc:66] Start wikidata/frame-store-reader-2
+[2021-06-24 15:34:14.217955: I sling/task/job.cc:66] Start wikidata/frame-store-reader-1
+[2021-06-24 15:34:14.217978: I sling/task/job.cc:66] Start wikidata/frame-store-reader
+[2021-06-24 15:34:14.218000: I sling/task/job.cc:66] Start wikidata/record-file-reader
+[2021-06-24 15:34:14.218024: I sling/task/job.cc:66] Start wikidata/record-file-reader[9/10]
+[2021-06-24 15:34:14.218048: I sling/task/job.cc:66] Start wikidata/record-file-reader[8/10]
+[2021-06-24 15:34:14.218071: I sling/task/job.cc:66] Start wikidata/record-file-reader[7/10]
+[2021-06-24 15:34:14.218095: I sling/task/job.cc:66] Start wikidata/record-file-reader[6/10]
+[2021-06-24 15:34:14.218508: I sling/task/job.cc:66] Start wikidata/record-file-reader[5/10]
+[2021-06-24 15:34:14.218531: I sling/task/job.cc:66] Start wikidata/record-file-reader[4/10]
+[2021-06-24 15:34:14.218554: I sling/task/job.cc:66] Start wikidata/record-file-reader[3/10]
+[2021-06-24 15:34:14.218576: I sling/task/job.cc:66] Start wikidata/record-file-reader[2/10]
+[2021-06-24 15:34:14.218599: I sling/task/job.cc:66] Start wikidata/record-file-reader[1/10]
+[2021-06-24 15:34:14.218622: I sling/task/job.cc:66] Start wikidata/record-file-reader[0/10]
+[2021-06-24 15:34:14.249700: I sling/task/job.cc:386] Channel 16 completed
+[2021-06-24 15:34:14.273883: I sling/task/job.cc:395] Task wikidata/frame-store-reader-3 completed
+[2021-06-24 15:34:14.273969: I sling/task/job.cc:400] Task wikidata/frame-store-reader-3 done
+[2021-06-24 15:34:14.296062: I sling/task/job.cc:386] Channel 13 completed
+[2021-06-24 15:34:14.298544: I sling/task/job.cc:386] Channel 14 completed
+[2021-06-24 15:34:14.298669: I sling/task/job.cc:386] Channel 15 completed
+[2021-06-24 15:34:14.298894: I sling/task/job.cc:386] Channel 17 completed
+[2021-06-24 15:34:14.298975: I sling/task/job.cc:386] Channel 18 completed
+[2021-06-24 15:34:14.317794: I sling/task/job.cc:395] Task wikidata/frame-store-reader-5 completed
+[2021-06-24 15:34:14.317883: I sling/task/job.cc:400] Task wikidata/frame-store-reader-5 done
+[2021-06-24 15:34:14.317905: I sling/task/job.cc:395] Task wikidata/frame-store-reader-2 completed
+[2021-06-24 15:34:14.317939: I sling/task/job.cc:400] Task wikidata/frame-store-reader-2 done
+[2021-06-24 15:34:14.317959: I sling/task/job.cc:395] Task wikidata/frame-store-reader-4 completed
+[2021-06-24 15:34:14.317991: I sling/task/job.cc:400] Task wikidata/frame-store-reader-4 done
+[2021-06-24 15:34:14.327481: I sling/task/job.cc:395] Task wikidata/frame-store-reader completed
+[2021-06-24 15:34:14.327564: I sling/task/job.cc:400] Task wikidata/frame-store-reader done
+[2021-06-24 15:34:14.338719: I sling/task/job.cc:395] Task wikidata/frame-store-reader-1 completed
+[2021-06-24 15:34:14.338793: I sling/task/job.cc:400] Task wikidata/frame-store-reader-1 done
+[2021-06-24 15:34:18.009692: I sling/task/job.cc:386] Channel 11 completed
+[2021-06-24 15:34:18.009727: I sling/task/job.cc:395] Task wikidata/record-file-reader completed
+[2021-06-24 15:34:18.009817: I sling/task/job.cc:395] Task wikidata/wikidata-property-collector completed
+[2021-06-24 15:34:18.009874: I sling/task/job.cc:400] Task wikidata/record-file-reader done
+[2021-06-24 15:34:18.022641: I sling/task/job.cc:386] Channel 12 completed
+[2021-06-24 15:34:18.022675: I sling/task/job.cc:400] Task wikidata/wikidata-property-collector done
+[2021-06-24 16:00:16.439904: I sling/task/job.cc:386] Channel 8 completed
+[2021-06-24 16:00:16.439969: I sling/task/job.cc:395] Task wikidata/record-file-reader[8/10] completed
+[2021-06-24 16:00:16.440073: I sling/task/job.cc:400] Task wikidata/record-file-reader[8/10] done
+[2021-06-24 16:00:28.006888: I sling/task/job.cc:386] Channel 1 completed
+[2021-06-24 16:00:28.006930: I sling/task/job.cc:395] Task wikidata/record-file-reader[1/10] completed
+[2021-06-24 16:00:28.007024: I sling/task/job.cc:400] Task wikidata/record-file-reader[1/10] done
+[2021-06-24 16:00:39.641137: I sling/task/job.cc:386] Channel 3 completed
+[2021-06-24 16:00:39.641177: I sling/task/job.cc:395] Task wikidata/record-file-reader[3/10] completed
+[2021-06-24 16:00:39.641272: I sling/task/job.cc:400] Task wikidata/record-file-reader[3/10] done
+[2021-06-24 16:00:44.561890: I sling/task/job.cc:386] Channel 2 completed
+[2021-06-24 16:00:44.561932: I sling/task/job.cc:395] Task wikidata/record-file-reader[2/10] completed
+[2021-06-24 16:00:44.562031: I sling/task/job.cc:400] Task wikidata/record-file-reader[2/10] done
+[2021-06-24 16:00:47.042891: I sling/task/job.cc:386] Channel 5 completed
+[2021-06-24 16:00:47.042929: I sling/task/job.cc:395] Task wikidata/record-file-reader[5/10] completed
+[2021-06-24 16:00:47.043020: I sling/task/job.cc:400] Task wikidata/record-file-reader[5/10] done
+[2021-06-24 16:00:47.393644: I sling/task/job.cc:386] Channel 9 completed
+[2021-06-24 16:00:47.393684: I sling/task/job.cc:395] Task wikidata/record-file-reader[9/10] completed
+[2021-06-24 16:00:47.393769: I sling/task/job.cc:400] Task wikidata/record-file-reader[9/10] done
+[2021-06-24 16:00:49.805902: I sling/task/job.cc:386] Channel 0 completed
+[2021-06-24 16:00:49.805942: I sling/task/job.cc:395] Task wikidata/record-file-reader[0/10] completed
+[2021-06-24 16:00:49.806022: I sling/task/job.cc:400] Task wikidata/record-file-reader[0/10] done
+[2021-06-24 16:00:55.357786: I sling/task/job.cc:386] Channel 7 completed
+[2021-06-24 16:00:55.357823: I sling/task/job.cc:395] Task wikidata/record-file-reader[7/10] completed
+[2021-06-24 16:00:55.357922: I sling/task/job.cc:400] Task wikidata/record-file-reader[7/10] done
+[2021-06-24 16:00:58.220905: I sling/task/job.cc:386] Channel 4 completed
+[2021-06-24 16:00:58.220943: I sling/task/job.cc:395] Task wikidata/record-file-reader[4/10] completed
+[2021-06-24 16:00:58.221030: I sling/task/job.cc:400] Task wikidata/record-file-reader[4/10] done
+[2021-06-24 16:00:58.573591: I sling/task/job.cc:386] Channel 6 completed
+[2021-06-24 16:00:58.573628: I sling/task/job.cc:395] Task wikidata/record-file-reader[6/10] completed
+[2021-06-24 16:00:58.573898: I sling/task/job.cc:395] Task wikidata/wikidata-pruner completed
+[2021-06-24 16:00:58.573928: I sling/task/job.cc:400] Task wikidata/record-file-reader[6/10] done
+[2021-06-24 16:00:58.573948: I sling/task/job.cc:386] Channel 10 completed
+[2021-06-24 16:00:58.573956: I sling/task/job.cc:400] Task wikidata/wikidata-pruner done
+[2021-06-24 16:00:58.573962: I sling/task/job.cc:395] Task wikidata/frame-store-writer completed
+[2021-06-24 16:02:53.579368: I sling/task/frame-store-writer.cc:64] Saving store to local/data/e/wiki/kb.sling
+[2021-06-24 16:14:17.211874: I sling/task/job.cc:400] Task wikidata/frame-store-writer done
+[2021-06-24 16:14:17.211921: I sling/task/job.cc:412] Stage #0 done
+[2021-06-24 16:14:17.224929: I run.py:219] Extract en names
+[2021-06-24 16:14:17.269019: I sling/task/job.cc:342] All systems GO
+[2021-06-24 16:14:17.269046: I sling/task/job.cc:62] Starting stage #0
+[2021-06-24 16:14:17.269054: I sling/task/job.cc:66] Start record-file-writer[9/10]
+[2021-06-24 16:14:17.269060: I sling/task/job.cc:66] Start record-file-writer[8/10]
+[2021-06-24 16:14:17.269066: I sling/task/job.cc:66] Start record-file-writer[7/10]
+[2021-06-24 16:14:17.269169: I sling/task/job.cc:66] Start record-file-writer[6/10]
+[2021-06-24 16:14:17.269175: I sling/task/job.cc:66] Start record-file-writer[5/10]
+[2021-06-24 16:14:17.269181: I sling/task/job.cc:66] Start record-file-writer[4/10]
+[2021-06-24 16:14:17.269186: I sling/task/job.cc:66] Start record-file-writer[3/10]
+[2021-06-24 16:14:17.269192: I sling/task/job.cc:66] Start record-file-writer[2/10]
+[2021-06-24 16:14:17.269197: I sling/task/job.cc:66] Start record-file-writer[1/10]
+[2021-06-24 16:14:17.269203: I sling/task/job.cc:66] Start record-file-writer[0/10]
+[2021-06-24 16:14:17.269208: I sling/task/job.cc:66] Start alias-reducer
+[2021-06-24 16:14:17.273704: I sling/task/job.cc:66] Start sorter[9/10]
+[2021-06-24 16:14:17.273716: I sling/task/job.cc:66] Start sorter[8/10]
+[2021-06-24 16:14:17.273722: I sling/task/job.cc:66] Start sorter[7/10]
+[2021-06-24 16:14:17.273728: I sling/task/job.cc:66] Start sorter[6/10]
+[2021-06-24 16:14:17.273734: I sling/task/job.cc:66] Start sorter[5/10]
+[2021-06-24 16:14:17.273739: I sling/task/job.cc:66] Start sorter[4/10]
+[2021-06-24 16:14:17.273745: I sling/task/job.cc:66] Start sorter[3/10]
+[2021-06-24 16:14:17.273751: I sling/task/job.cc:66] Start sorter[2/10]
+[2021-06-24 16:14:17.273757: I sling/task/job.cc:66] Start sorter[1/10]
+[2021-06-24 16:14:17.273763: I sling/task/job.cc:66] Start sorter[0/10]
+[2021-06-24 16:14:17.273768: I sling/task/job.cc:66] Start sharder
+[2021-06-24 16:14:17.273775: I sling/task/job.cc:66] Start wikidata-alias-extractor
+[2021-06-24 16:14:17.273814: I sling/task/job.cc:66] Start wikipedia-alias-reader[9/10]
+[2021-06-24 16:14:17.273866: I sling/task/job.cc:66] Start wikipedia-alias-reader[8/10]
+[2021-06-24 16:14:17.273893: I sling/task/job.cc:66] Start wikipedia-alias-reader[7/10]
+[2021-06-24 16:14:17.273917: I sling/task/job.cc:66] Start wikipedia-alias-reader[6/10]
+[2021-06-24 16:14:17.273944: I sling/task/job.cc:66] Start wikipedia-alias-reader[5/10]
+[2021-06-24 16:14:17.273968: I sling/task/job.cc:66] Start wikipedia-alias-reader[4/10]
+[2021-06-24 16:14:17.273992: I sling/task/job.cc:66] Start wikipedia-alias-reader[3/10]
+[2021-06-24 16:14:17.274017: I sling/task/job.cc:66] Start wikipedia-alias-reader[2/10]
+[2021-06-24 16:14:17.274042: I sling/task/job.cc:66] Start wikipedia-alias-reader[1/10]
+[2021-06-24 16:14:17.274065: I sling/task/job.cc:66] Start wikipedia-alias-reader[0/10]
+[2021-06-24 16:14:17.274089: I sling/task/job.cc:66] Start record-file-reader[9/10]
+[2021-06-24 16:14:17.274504: I sling/task/job.cc:66] Start record-file-reader[8/10]
+[2021-06-24 16:14:17.274530: I sling/task/job.cc:66] Start record-file-reader[7/10]
+[2021-06-24 16:14:17.274561: I sling/task/job.cc:66] Start record-file-reader[6/10]
+[2021-06-24 16:14:17.274585: I sling/task/job.cc:66] Start record-file-reader[5/10]
+[2021-06-24 16:14:17.274608: I sling/task/job.cc:66] Start record-file-reader[4/10]
+[2021-06-24 16:14:17.274632: I sling/task/job.cc:66] Start record-file-reader[3/10]
+[2021-06-24 16:14:17.274656: I sling/task/job.cc:66] Start record-file-reader[2/10]
+[2021-06-24 16:14:17.274681: I sling/task/job.cc:66] Start record-file-reader[1/10]
+[2021-06-24 16:14:17.274706: I sling/task/job.cc:66] Start record-file-reader[0/10]
+[2021-06-24 16:14:39.692901: I sling/task/job.cc:386] Channel 20 completed
+[2021-06-24 16:14:39.692966: I sling/task/job.cc:395] Task wikipedia-alias-reader[9/10] completed
+[2021-06-24 16:14:39.693053: I sling/task/job.cc:400] Task wikipedia-alias-reader[9/10] done
+[2021-06-24 16:14:40.541881: I sling/task/job.cc:386] Channel 18 completed
+[2021-06-24 16:14:40.541929: I sling/task/job.cc:395] Task wikipedia-alias-reader[7/10] completed
+[2021-06-24 16:14:40.542008: I sling/task/job.cc:400] Task wikipedia-alias-reader[7/10] done
+[2021-06-24 16:14:41.065883: I sling/task/job.cc:386] Channel 12 completed
+[2021-06-24 16:14:41.065928: I sling/task/job.cc:395] Task wikipedia-alias-reader[1/10] completed
+[2021-06-24 16:14:41.066012: I sling/task/job.cc:400] Task wikipedia-alias-reader[1/10] done
+[2021-06-24 16:14:45.127884: I sling/task/job.cc:386] Channel 13 completed
+[2021-06-24 16:14:45.127938: I sling/task/job.cc:395] Task wikipedia-alias-reader[2/10] completed
+[2021-06-24 16:14:45.128023: I sling/task/job.cc:400] Task wikipedia-alias-reader[2/10] done
+[2021-06-24 16:14:45.393886: I sling/task/job.cc:386] Channel 16 completed
+[2021-06-24 16:14:45.393928: I sling/task/job.cc:395] Task wikipedia-alias-reader[5/10] completed
+[2021-06-24 16:14:45.394030: I sling/task/job.cc:400] Task wikipedia-alias-reader[5/10] done
+[2021-06-24 16:14:45.543882: I sling/task/job.cc:386] Channel 17 completed
+[2021-06-24 16:14:45.543927: I sling/task/job.cc:395] Task wikipedia-alias-reader[6/10] completed
+[2021-06-24 16:14:45.544021: I sling/task/job.cc:400] Task wikipedia-alias-reader[6/10] done
+[2021-06-24 16:14:45.700401: I sling/task/job.cc:386] Channel 11 completed
+[2021-06-24 16:14:45.700443: I sling/task/job.cc:395] Task wikipedia-alias-reader[0/10] completed
+[2021-06-24 16:14:45.700534: I sling/task/job.cc:400] Task wikipedia-alias-reader[0/10] done
+[2021-06-24 16:14:46.032885: I sling/task/job.cc:386] Channel 19 completed
+[2021-06-24 16:14:46.032929: I sling/task/job.cc:395] Task wikipedia-alias-reader[8/10] completed
+[2021-06-24 16:14:46.033018: I sling/task/job.cc:400] Task wikipedia-alias-reader[8/10] done
+[2021-06-24 16:14:46.066881: I sling/task/job.cc:386] Channel 15 completed
+[2021-06-24 16:14:46.066917: I sling/task/job.cc:395] Task wikipedia-alias-reader[4/10] completed
+[2021-06-24 16:14:46.067006: I sling/task/job.cc:400] Task wikipedia-alias-reader[4/10] done
+[2021-06-24 16:14:46.890880: I sling/task/job.cc:386] Channel 14 completed
+[2021-06-24 16:14:46.890920: I sling/task/job.cc:395] Task wikipedia-alias-reader[3/10] completed
+[2021-06-24 16:14:46.891008: I sling/task/job.cc:400] Task wikipedia-alias-reader[3/10] done
+[2021-06-24 16:30:47.686163: I sling/task/job.cc:386] Channel 7 completed
+[2021-06-24 16:30:47.686229: I sling/task/job.cc:395] Task record-file-reader[7/10] completed
+[2021-06-24 16:30:47.686343: I sling/task/job.cc:400] Task record-file-reader[7/10] done
+[2021-06-24 16:30:59.254570: I sling/task/job.cc:386] Channel 6 completed
+[2021-06-24 16:30:59.254613: I sling/task/job.cc:395] Task record-file-reader[6/10] completed
+[2021-06-24 16:30:59.254726: I sling/task/job.cc:400] Task record-file-reader[6/10] done
+[2021-06-24 16:31:27.996257: I sling/task/job.cc:386] Channel 3 completed
+[2021-06-24 16:31:27.996302: I sling/task/job.cc:395] Task record-file-reader[3/10] completed
+[2021-06-24 16:31:27.996423: I sling/task/job.cc:400] Task record-file-reader[3/10] done
+[2021-06-24 16:31:30.334882: I sling/task/job.cc:386] Channel 9 completed
+[2021-06-24 16:31:30.334924: I sling/task/job.cc:395] Task record-file-reader[9/10] completed
+[2021-06-24 16:31:30.335219: I sling/task/job.cc:400] Task record-file-reader[9/10] done
+[2021-06-24 16:31:30.571881: I sling/task/job.cc:386] Channel 4 completed
+[2021-06-24 16:31:30.571921: I sling/task/job.cc:395] Task record-file-reader[4/10] completed
+[2021-06-24 16:31:30.572022: I sling/task/job.cc:400] Task record-file-reader[4/10] done
+[2021-06-24 16:31:41.459757: I sling/task/job.cc:386] Channel 1 completed
+[2021-06-24 16:31:41.459801: I sling/task/job.cc:395] Task record-file-reader[1/10] completed
+[2021-06-24 16:31:41.459907: I sling/task/job.cc:400] Task record-file-reader[1/10] done
+[2021-06-24 16:31:47.923879: I sling/task/job.cc:386] Channel 8 completed
+[2021-06-24 16:31:47.923919: I sling/task/job.cc:395] Task record-file-reader[8/10] completed
+[2021-06-24 16:31:47.924014: I sling/task/job.cc:400] Task record-file-reader[8/10] done
+[2021-06-24 16:31:49.224785: I sling/task/job.cc:386] Channel 2 completed
+[2021-06-24 16:31:49.224821: I sling/task/job.cc:395] Task record-file-reader[2/10] completed
+[2021-06-24 16:31:49.224951: I sling/task/job.cc:400] Task record-file-reader[2/10] done
+[2021-06-24 16:31:50.916408: I sling/task/job.cc:386] Channel 0 completed
+[2021-06-24 16:31:50.916449: I sling/task/job.cc:395] Task record-file-reader[0/10] completed
+[2021-06-24 16:31:50.916623: I sling/task/job.cc:400] Task record-file-reader[0/10] done
+[2021-06-24 16:31:50.920428: I sling/task/job.cc:386] Channel 5 completed
+[2021-06-24 16:31:50.920449: I sling/task/job.cc:395] Task record-file-reader[5/10] completed
+[2021-06-24 16:31:50.920491: I sling/task/job.cc:395] Task wikidata-alias-extractor completed
+[2021-06-24 16:31:50.920519: I sling/task/job.cc:400] Task record-file-reader[5/10] done
+[2021-06-24 16:31:50.920556: I sling/task/job.cc:386] Channel 10 completed
+[2021-06-24 16:31:50.920566: I sling/task/job.cc:400] Task wikidata-alias-extractor done
+[2021-06-24 16:31:50.920571: I sling/task/job.cc:395] Task sharder completed
+[2021-06-24 16:31:50.920580: I sling/task/job.cc:386] Channel 21 completed
+[2021-06-24 16:31:50.920588: I sling/task/job.cc:386] Channel 22 completed
+[2021-06-24 16:31:50.920595: I sling/task/job.cc:386] Channel 23 completed
+[2021-06-24 16:31:50.920603: I sling/task/job.cc:386] Channel 24 completed
+[2021-06-24 16:31:50.920610: I sling/task/job.cc:386] Channel 25 completed
+[2021-06-24 16:31:50.920618: I sling/task/job.cc:386] Channel 26 completed
+[2021-06-24 16:31:50.920624: I sling/task/job.cc:386] Channel 27 completed
+[2021-06-24 16:31:50.920629: I sling/task/job.cc:386] Channel 28 completed
+[2021-06-24 16:31:50.920634: I sling/task/job.cc:386] Channel 29 completed
+[2021-06-24 16:31:50.920640: I sling/task/job.cc:386] Channel 30 completed
+[2021-06-24 16:31:50.920645: I sling/task/job.cc:400] Task sharder done
+[2021-06-24 16:31:50.920651: I sling/task/job.cc:395] Task sorter[0/10] completed
+[2021-06-24 16:31:50.920657: I sling/task/job.cc:395] Task sorter[1/10] completed
+[2021-06-24 16:31:50.920663: I sling/task/job.cc:395] Task sorter[2/10] completed
+[2021-06-24 16:31:50.920669: I sling/task/job.cc:395] Task sorter[3/10] completed
+[2021-06-24 16:31:50.920675: I sling/task/job.cc:395] Task sorter[4/10] completed
+[2021-06-24 16:31:50.920680: I sling/task/job.cc:395] Task sorter[5/10] completed
+[2021-06-24 16:31:50.920686: I sling/task/job.cc:395] Task sorter[6/10] completed
+[2021-06-24 16:31:50.920693: I sling/task/job.cc:395] Task sorter[7/10] completed
+[2021-06-24 16:31:50.920699: I sling/task/job.cc:395] Task sorter[8/10] completed
+[2021-06-24 16:31:50.920704: I sling/task/job.cc:395] Task sorter[9/10] completed
+[2021-06-24 16:53:25.895318: I sling/task/job.cc:386] Channel 40 completed
+[2021-06-24 16:53:26.201483: I sling/task/job.cc:400] Task sorter[9/10] done
+[2021-06-24 16:53:48.982916: I sling/task/job.cc:386] Channel 31 completed
+[2021-06-24 16:53:49.465863: I sling/task/job.cc:400] Task sorter[0/10] done
+[2021-06-24 16:53:50.006805: I sling/task/job.cc:386] Channel 38 completed
+[2021-06-24 16:53:50.613580: I sling/task/job.cc:400] Task sorter[7/10] done
+[2021-06-24 16:53:50.648811: I sling/task/job.cc:386] Channel 35 completed
+[2021-06-24 16:53:50.648869: I sling/task/job.cc:400] Task sorter[4/10] done
+[2021-06-24 16:53:51.207477: I sling/task/job.cc:386] Channel 36 completed
+[2021-06-24 16:53:51.212389: I sling/task/job.cc:400] Task sorter[5/10] done
+[2021-06-24 16:53:51.966411: I sling/task/job.cc:386] Channel 33 completed
+[2021-06-24 16:53:51.966460: I sling/task/job.cc:400] Task sorter[2/10] done
+[2021-06-24 16:53:53.452999: I sling/task/job.cc:386] Channel 39 completed
+[2021-06-24 16:53:53.494551: I sling/task/job.cc:386] Channel 34 completed
+[2021-06-24 16:53:53.496429: I sling/task/job.cc:400] Task sorter[3/10] done
+[2021-06-24 16:53:53.540409: I sling/task/job.cc:400] Task sorter[8/10] done
+[2021-06-24 16:53:54.036345: I sling/task/job.cc:386] Channel 32 completed
+[2021-06-24 16:53:54.036560: I sling/task/job.cc:400] Task sorter[1/10] done
+[2021-06-24 16:53:54.215329: I sling/task/job.cc:386] Channel 37 completed
+[2021-06-24 16:53:54.220682: I sling/task/job.cc:400] Task sorter[6/10] done
+[2021-06-24 16:53:54.220705: I sling/task/job.cc:395] Task alias-reducer completed
+[2021-06-24 16:53:54.226145: I sling/task/job.cc:386] Channel 41 completed
+[2021-06-24 16:53:54.226173: I sling/task/job.cc:386] Channel 42 completed
+[2021-06-24 16:53:54.226181: I sling/task/job.cc:386] Channel 43 completed
+[2021-06-24 16:53:54.226193: I sling/task/job.cc:386] Channel 44 completed
+[2021-06-24 16:53:54.226200: I sling/task/job.cc:386] Channel 45 completed
+[2021-06-24 16:53:54.226208: I sling/task/job.cc:386] Channel 46 completed
+[2021-06-24 16:53:54.226217: I sling/task/job.cc:386] Channel 47 completed
+[2021-06-24 16:53:54.226225: I sling/task/job.cc:386] Channel 48 completed
+[2021-06-24 16:53:54.226233: I sling/task/job.cc:386] Channel 49 completed
+[2021-06-24 16:53:54.226240: I sling/task/job.cc:386] Channel 50 completed
+[2021-06-24 16:53:54.226246: I sling/task/job.cc:400] Task alias-reducer done
+[2021-06-24 16:53:54.226255: I sling/task/job.cc:395] Task record-file-writer[0/10] completed
+[2021-06-24 16:53:54.226261: I sling/task/job.cc:395] Task record-file-writer[1/10] completed
+[2021-06-24 16:53:54.226267: I sling/task/job.cc:395] Task record-file-writer[2/10] completed
+[2021-06-24 16:53:54.226273: I sling/task/job.cc:395] Task record-file-writer[3/10] completed
+[2021-06-24 16:53:54.226279: I sling/task/job.cc:395] Task record-file-writer[4/10] completed
+[2021-06-24 16:53:54.226285: I sling/task/job.cc:395] Task record-file-writer[5/10] completed
+[2021-06-24 16:53:54.226290: I sling/task/job.cc:395] Task record-file-writer[6/10] completed
+[2021-06-24 16:53:54.226296: I sling/task/job.cc:395] Task record-file-writer[7/10] completed
+[2021-06-24 16:53:54.226302: I sling/task/job.cc:395] Task record-file-writer[8/10] completed
+[2021-06-24 16:53:54.226308: I sling/task/job.cc:395] Task record-file-writer[9/10] completed
+[2021-06-24 16:53:54.226926: I sling/task/job.cc:400] Task record-file-writer[6/10] done
+[2021-06-24 16:53:54.227097: I sling/task/job.cc:400] Task record-file-writer[1/10] done
+[2021-06-24 16:53:54.227115: I sling/task/job.cc:400] Task record-file-writer[2/10] done
+[2021-06-24 16:53:54.239004: I sling/task/job.cc:400] Task record-file-writer[8/10] done
+[2021-06-24 16:53:54.244015: I sling/task/job.cc:400] Task record-file-writer[7/10] done
+[2021-06-24 16:53:54.244045: I sling/task/job.cc:400] Task record-file-writer[5/10] done
+[2021-06-24 16:53:54.244067: I sling/task/job.cc:400] Task record-file-writer[4/10] done
+[2021-06-24 16:53:54.244083: I sling/task/job.cc:400] Task record-file-writer[9/10] done
+[2021-06-24 16:53:54.244095: I sling/task/job.cc:400] Task record-file-writer[3/10] done
+[2021-06-24 16:53:54.244118: I sling/task/job.cc:400] Task record-file-writer[0/10] done
+[2021-06-24 16:53:54.244125: I sling/task/job.cc:412] Stage #0 done
+[2021-06-24 16:53:54.253801: I run.py:227] Build en name table
+[2021-06-24 16:53:54.263245: I sling/task/job.cc:342] All systems GO
+[2021-06-24 16:53:54.263265: I sling/task/job.cc:62] Starting stage #0
+[2021-06-24 16:53:54.263271: I sling/task/job.cc:66] Start name-table/name-table-builder
+[2021-06-24 16:53:54.263306: I sling/task/job.cc:66] Start name-table/name-reader[9/10]
+[2021-06-24 16:53:54.263334: I sling/task/job.cc:66] Start name-table/name-reader[8/10]
+[2021-06-24 16:53:54.263357: I sling/task/job.cc:66] Start name-table/name-reader[7/10]
+[2021-06-24 16:53:54.263380: I sling/task/job.cc:66] Start name-table/name-reader[6/10]
+[2021-06-24 16:53:54.263404: I sling/task/job.cc:66] Start name-table/name-reader[5/10]
+[2021-06-24 16:53:54.263430: I sling/task/job.cc:66] Start name-table/name-reader[4/10]
+[2021-06-24 16:53:54.263455: I sling/task/job.cc:66] Start name-table/name-reader[3/10]
+[2021-06-24 16:53:54.263479: I sling/task/job.cc:66] Start name-table/name-reader[2/10]
+[2021-06-24 16:53:54.263503: I sling/task/job.cc:66] Start name-table/name-reader[1/10]
+[2021-06-24 16:53:54.263526: I sling/task/job.cc:66] Start name-table/name-reader[0/10]
+[2021-06-24 17:00:36.231902: I sling/task/job.cc:386] Channel 6 completed
+[2021-06-24 17:00:36.231963: I sling/task/job.cc:395] Task name-table/name-reader[6/10] completed
+[2021-06-24 17:00:36.232045: I sling/task/job.cc:400] Task name-table/name-reader[6/10] done
+[2021-06-24 17:00:40.534892: I sling/task/job.cc:386] Channel 0 completed
+[2021-06-24 17:00:40.534934: I sling/task/job.cc:395] Task name-table/name-reader[0/10] completed
+[2021-06-24 17:00:40.546963: I sling/task/job.cc:400] Task name-table/name-reader[0/10] done
+[2021-06-24 17:00:48.649888: I sling/task/job.cc:386] Channel 3 completed
+[2021-06-24 17:00:48.649934: I sling/task/job.cc:395] Task name-table/name-reader[3/10] completed
+[2021-06-24 17:00:48.650012: I sling/task/job.cc:400] Task name-table/name-reader[3/10] done
+[2021-06-24 17:00:49.242891: I sling/task/job.cc:386] Channel 5 completed
+[2021-06-24 17:00:49.242932: I sling/task/job.cc:395] Task name-table/name-reader[5/10] completed
+[2021-06-24 17:00:49.243007: I sling/task/job.cc:400] Task name-table/name-reader[5/10] done
+[2021-06-24 17:00:50.083891: I sling/task/job.cc:386] Channel 4 completed
+[2021-06-24 17:00:50.083931: I sling/task/job.cc:395] Task name-table/name-reader[4/10] completed
+[2021-06-24 17:00:50.084030: I sling/task/job.cc:400] Task name-table/name-reader[4/10] done
+[2021-06-24 17:00:51.844885: I sling/task/job.cc:386] Channel 9 completed
+[2021-06-24 17:00:51.844925: I sling/task/job.cc:395] Task name-table/name-reader[9/10] completed
+[2021-06-24 17:00:51.845074: I sling/task/job.cc:400] Task name-table/name-reader[9/10] done
+[2021-06-24 17:00:52.251885: I sling/task/job.cc:386] Channel 2 completed
+[2021-06-24 17:00:52.251921: I sling/task/job.cc:395] Task name-table/name-reader[2/10] completed
+[2021-06-24 17:00:52.252053: I sling/task/job.cc:400] Task name-table/name-reader[2/10] done
+[2021-06-24 17:00:53.321884: I sling/task/job.cc:386] Channel 7 completed
+[2021-06-24 17:00:53.321928: I sling/task/job.cc:395] Task name-table/name-reader[7/10] completed
+[2021-06-24 17:00:53.322015: I sling/task/job.cc:400] Task name-table/name-reader[7/10] done
+[2021-06-24 17:00:54.395884: I sling/task/job.cc:386] Channel 1 completed
+[2021-06-24 17:00:54.395925: I sling/task/job.cc:395] Task name-table/name-reader[1/10] completed
+[2021-06-24 17:00:54.396049: I sling/task/job.cc:400] Task name-table/name-reader[1/10] done
+[2021-06-24 17:00:54.534698: I sling/task/job.cc:386] Channel 8 completed
+[2021-06-24 17:00:54.534743: I sling/task/job.cc:395] Task name-table/name-reader[8/10] completed
+[2021-06-24 17:00:54.534810: I sling/task/job.cc:395] Task name-table/name-table-builder completed
+[2021-06-24 17:00:54.534891: I sling/task/job.cc:400] Task name-table/name-reader[8/10] done
+[2021-06-24 17:00:54.563953: I sling/nlp/kb/name-table-builder.cc:106] Build entity block
+[2021-06-24 17:04:45.388346: I sling/nlp/kb/name-table-builder.cc:123] Build name and index blocks
+[2021-06-24 17:12:42.328783: I sling/nlp/kb/name-table-builder.cc:156] Write name repository to local/data/e/wiki/en/name-table.repo
+[2021-06-24 17:12:59.750749: I sling/nlp/kb/name-table-builder.cc:158] Repository done
+[2021-06-24 17:14:01.981366: I sling/task/job.cc:400] Task name-table/name-table-builder done
+[2021-06-24 17:14:01.981413: I sling/task/job.cc:412] Stage #0 done
+[2021-06-24 17:14:01.991243: I run.py:235] Build en phrase table
+[2021-06-24 17:14:01.994154: I sling/task/job.cc:342] All systems GO
+[2021-06-24 17:14:01.994174: I sling/task/job.cc:62] Starting stage #0
+[2021-06-24 17:14:01.994180: I sling/task/job.cc:66] Start phrase-table/phrase-table-builder
+[2021-06-24 17:15:04.657223: I sling/task/job.cc:66] Start phrase-table/name-reader[9/10]
+[2021-06-24 17:15:04.657308: I sling/task/job.cc:66] Start phrase-table/name-reader[8/10]
+[2021-06-24 17:15:04.657381: I sling/task/job.cc:66] Start phrase-table/name-reader[7/10]
+[2021-06-24 17:15:04.657409: I sling/task/job.cc:66] Start phrase-table/name-reader[6/10]
+[2021-06-24 17:15:04.657433: I sling/task/job.cc:66] Start phrase-table/name-reader[5/10]
+[2021-06-24 17:15:04.657456: I sling/task/job.cc:66] Start phrase-table/name-reader[4/10]
+[2021-06-24 17:15:04.657481: I sling/task/job.cc:66] Start phrase-table/name-reader[3/10]
+[2021-06-24 17:15:04.657505: I sling/task/job.cc:66] Start phrase-table/name-reader[2/10]
+[2021-06-24 17:15:04.657531: I sling/task/job.cc:66] Start phrase-table/name-reader[1/10]
+[2021-06-24 17:15:04.657555: I sling/task/job.cc:66] Start phrase-table/name-reader[0/10]
+[2021-06-24 17:23:01.247898: I sling/task/job.cc:386] Channel 8 completed
+[2021-06-24 17:23:01.247963: I sling/task/job.cc:395] Task phrase-table/name-reader[8/10] completed
+[2021-06-24 17:23:01.248044: I sling/task/job.cc:400] Task phrase-table/name-reader[8/10] done
+[2021-06-24 17:23:07.211889: I sling/task/job.cc:386] Channel 4 completed
+[2021-06-24 17:23:07.211930: I sling/task/job.cc:395] Task phrase-table/name-reader[4/10] completed
+[2021-06-24 17:23:07.212006: I sling/task/job.cc:400] Task phrase-table/name-reader[4/10] done
+[2021-06-24 17:23:20.333891: I sling/task/job.cc:386] Channel 9 completed
+[2021-06-24 17:23:20.333938: I sling/task/job.cc:395] Task phrase-table/name-reader[9/10] completed
+[2021-06-24 17:23:20.334015: I sling/task/job.cc:400] Task phrase-table/name-reader[9/10] done
+[2021-06-24 17:23:26.688890: I sling/task/job.cc:386] Channel 3 completed
+[2021-06-24 17:23:26.688929: I sling/task/job.cc:395] Task phrase-table/name-reader[3/10] completed
+[2021-06-24 17:23:26.689000: I sling/task/job.cc:400] Task phrase-table/name-reader[3/10] done
+[2021-06-24 17:23:31.301910: I sling/task/job.cc:386] Channel 6 completed
+[2021-06-24 17:23:31.301945: I sling/task/job.cc:395] Task phrase-table/name-reader[6/10] completed
+[2021-06-24 17:23:31.302034: I sling/task/job.cc:400] Task phrase-table/name-reader[6/10] done
+[2021-06-24 17:23:32.091887: I sling/task/job.cc:386] Channel 7 completed
+[2021-06-24 17:23:32.091926: I sling/task/job.cc:395] Task phrase-table/name-reader[7/10] completed
+[2021-06-24 17:23:32.092265: I sling/task/job.cc:400] Task phrase-table/name-reader[7/10] done
+[2021-06-24 17:23:34.550885: I sling/task/job.cc:386] Channel 2 completed
+[2021-06-24 17:23:34.550921: I sling/task/job.cc:395] Task phrase-table/name-reader[2/10] completed
+[2021-06-24 17:23:34.551006: I sling/task/job.cc:400] Task phrase-table/name-reader[2/10] done
+[2021-06-24 17:23:34.677882: I sling/task/job.cc:386] Channel 0 completed
+[2021-06-24 17:23:34.677917: I sling/task/job.cc:395] Task phrase-table/name-reader[0/10] completed
+[2021-06-24 17:23:34.678150: I sling/task/job.cc:400] Task phrase-table/name-reader[0/10] done
+[2021-06-24 17:23:36.085886: I sling/task/job.cc:386] Channel 5 completed
+[2021-06-24 17:23:36.085924: I sling/task/job.cc:395] Task phrase-table/name-reader[5/10] completed
+[2021-06-24 17:23:36.086002: I sling/task/job.cc:400] Task phrase-table/name-reader[5/10] done
+[2021-06-24 17:23:37.289243: I sling/task/job.cc:386] Channel 1 completed
+[2021-06-24 17:23:37.289280: I sling/task/job.cc:395] Task phrase-table/name-reader[1/10] completed
+[2021-06-24 17:23:37.289345: I sling/task/job.cc:395] Task phrase-table/phrase-table-builder completed
+[2021-06-24 17:23:37.289433: I sling/task/job.cc:400] Task phrase-table/name-reader[1/10] done
+[2021-06-24 17:23:37.289446: I sling/nlp/kb/phrase-table-builder.cc:114] Transfer aliases
+[2021-06-24 17:27:57.370813: I sling/nlp/kb/phrase-table-builder.cc:126] Build entity map
+[2021-06-24 17:33:03.460108: I sling/nlp/kb/phrase-table-builder.cc:146] Build phrase map
+[2021-06-24 17:39:21.062821: I sling/nlp/kb/phrase-table-builder.cc:166] Write phrase repository to local/data/e/wiki/en/phrase-table.repo
+[2021-06-24 17:39:34.958579: I sling/nlp/kb/phrase-table-builder.cc:168] Repository done
+[2021-06-24 17:40:39.902163: I sling/task/job.cc:400] Task phrase-table/phrase-table-builder done
+[2021-06-24 17:40:39.922804: I sling/task/job.cc:412] Stage #0 done
+[2021-06-24 17:40:39.947050: I workflow.py:737] sending final status to monitor
+[2021-06-24 17:40:39.947819: I run.py:333] Done
