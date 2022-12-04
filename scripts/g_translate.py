@@ -53,5 +53,6 @@ def translate_text(text, lang, project_id="clear-beacon-364723"):
 
 text=['I have a cat']
 for lang in LANGS:
-    translate_text(text, lang, project_id="clear-beacon-364723")
+    outdata = translate_text(text, lang, project_id="clear-beacon-364723")
+    print(outdata)
 
